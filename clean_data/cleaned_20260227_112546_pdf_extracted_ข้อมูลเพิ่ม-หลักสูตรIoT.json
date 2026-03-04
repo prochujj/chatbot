@@ -1,0 +1,1262 @@
+[
+    {
+        "input": "ข้อมูลเกี่ยวกับ: คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเ...",
+        "output": "คณะวิศวกรรมศาสตร์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมระบบไอโอทีและสารสนเทศ หลักสูตรปรับปรุง พ.ศ. 2565 ชื่อหลักสูตร ชื่อภาษาไทย หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมระบบไอโอทีและสารสนเทศ ชื่อภาษาอังกฤษ Bachelor of Engineering Program in IoT System and Information Engineering ชื่อปริญญาและสาขาวิชา ชื่อเต็ม (ภาษาไทย) : วิศวกรรมศาสตรบัณฑิต (วิศวกรรมระบบไอโอทีและสารสนเทศ) (ภาษาอังกฤษ) : Bachelor of Engineering (IoT System and Information Engineering)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: (ภาษาอังกฤษ) : Bachelor of Engineering (...",
+        "output": "(ภาษาอังกฤษ) : Bachelor of Engineering (IoT System and Information Engineering) ชื่อย่อ (ภาษาไทย) : วศ.บ. (วิศวกรรมระบบไอโอทีและสารสนเทศ) (ภาษาอังกฤษ) : B.Eng. (IoT system and Information Engineering) อาชีพที่สามารถประกอบได้หลังสำเร็จการศึกษา • วิศวกรระบบไอโอที ( IoT Engineer) • วิศวกรระบบสารสนเทศ (Information Engineer) • วิศวกรระบบสมองกลฝังตัว (Embedded Engineer)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: • วิศวกรระบบสมองกลฝังตัว (Embedded Engin...",
+        "output": "• วิศวกรระบบสมองกลฝังตัว (Embedded Engineer) • นักพัฒนาแอปพลิเคชันระบบไอโอที (IoT Application Developer) • วิศวกรซอฟต์แวร์ (Software Engineer) • วิศวกรซอฟต์แวร์ระบบสมองกลฝังตัว (Embedded Software Engineer) • นักพัฒนาแอปพลิเคชัน ( Application Developer) • นักวิเคราะห์ และออกแบบระบบ (System Analyst) • วิศวกรการเรียนรู้ของเครื่อง (Machine Learning Engineer) • นักวิทยาการข้อมูล (Data Scientist) • นักวิเคราะห์ธุรกิจ (Business Analyst)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: • นักวิเคราะห์ธุรกิจ (Business Analyst) ...",
+        "output": "• นักวิเคราะห์ธุรกิจ (Business Analyst) • วิศวกรระบบคลาวด์ และเน็ตเวิร์ค (Network and Cloud Engineer) • ที่ปรึกษาทางด้านระบบไอโอที /ไอที (IoT/IT Consultant) นักวิจัย นักวิชาการที่เกี่ยวข้องกับระบบไอโอทีและสารสนเทศ (Researcher) ผลลัพธ์การเรียนรู้ระดับหลักสูตร ( Program Learning Outcome: PLOs) PLO1: สามารถประยุกต์ใช้ความรู้ทางด้านคณิตศาสตร์ วิทยาศาสตร์ และพื้นฐานทางด้านวิศวกรรม เพื่อ แก้ไขปัญหาทางด้านวิศวกรรมระบบไอโอทีและสารสนเทศได้"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แก้ไขปัญหาทางด้านวิศวกรรมระบบไอโอทีและสา...",
+        "output": "แก้ไขปัญหาทางด้านวิศวกรรมระบบไอโอทีและสารสนเทศได้ PLO2: สามารถวิเคราะห์ปัญหา ออกแบบ และแก้ปัญหาทางวิศวกรรมระบบไอโอทีและสารสนเทศ PLO3: สามารถหาคำตอบของปัญหาทางวิศวกรรมที่ซับซ้อน และออกแบบระบบงานทาวด้านระบบไอโอ ทีและสารสนเทศ หรือกระบวนการต่าง ๆทางวิศวกรรม ตามความต้องการและข้อกำหนดงานโดยคำนึงถึง ข้อกำหนดด้านสังคม ความปลอดภัยของ หรือมาตรฐานการปฏิบัติวิชาชีพ PLO4: สามารถพิจารณาตรวจสอบ วินิจฉัย ประเมินผลงานและปัญหาทางวิศวกรรมที่ซับซ้อน ซึ่ง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PLO4: สามารถพิจารณาตรวจสอบ วินิจฉัย ประเ...",
+        "output": "PLO4: สามารถพิจารณาตรวจสอบ วินิจฉัย ประเมินผลงานและปัญหาทางวิศวกรรมที่ซับซ้อน ซึ่ง ครอบคลุมถึงการ ตั้งสมมติฐานการออกแบบการทดลอง การวิเคราะห์ การแปลความหมายข้อมูล และ สังเคราะห์ข้อมูลข่าวสาร เพื่อให้ได้ผลสรุปที่ถูกต้องตามหลักเหตุผลทางด้านวิศวกรรมระบบไอโอทีและ สารสนเทศได้ PLO5: สามารถออกแบบ หรือประยุกต์ใช้เทคนิควิธี ทรัพยากร อุปกรณ์เครื่องมือทางวิศวกรรม และ เทคโนโลยีสารสนเทศที่เหมาะสมและทันสมัย และประยุกต์ใช้ให้เข้ากับงานได้อย่างเหมาะสม PLO6: สามารถทำงานร่วมกับผู้อื่นที่มีความหลากหลายในสหสาขาวิชาได้อย่างมีประสิทธิภาพ สามารถ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PLO6: สามารถทำงานร่วมกับผู้อื่นที่มีความ...",
+        "output": "PLO6: สามารถทำงานร่วมกับผู้อื่นที่มีความหลากหลายในสหสาขาวิชาได้อย่างมีประสิทธิภาพ สามารถ ทำงานในฐานะสมาชิกของกลุ่มและผู้นำกลุ่มได้ PLO7: สามารถติดต่อสื่อสารได้อย่างมีประสิทธิ สามารถสื่อสารในงานวิศวกรรมวิชาชีพอื่น และบุคคล ทั่วไปได้อย่างมีประสิทธิผลด้วยวาจา ด้วย การเขียนรายงาน การเสนอผลงาน ตลอดจนสามารถออกคำสั่ง และ รับคำสั่งงานได้อย่างชัดเจน PLO8: มีความเข้าใจและความรับผิดชอบต่อการปฏิบัติวิชาชีพวิศวกรรมต่อบริบทของสังคมและ สิ่งแวดล้อม และสามารถประเมินผลกระทบของการแก้ไขปัญหาทางวิศวกรรมที่ซับซ้อนต่อสังคม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: สิ่งแวดล้อม และสามารถประเมินผลกระทบของกา...",
+        "output": "สิ่งแวดล้อม และสามารถประเมินผลกระทบของการแก้ไขปัญหาทางวิศวกรรมที่ซับซ้อนต่อสังคม สิ่งแวดล้อม และการ พัฒนาที่ยั่งยืน PLO9: มีความเข้าใจและยึดมั่นในจรรยาบรรณแห่งวิชาชีพ และยึดถือตามกรอบมาตรฐานการปฏิบัติ วิชาชีพ PLO10: มีความรู้และความเข้าใจในด้านการบริหารงานวิศวกรรมโดยคำนึงถึง ความเสี่ยงและการ เปลี่ยนแปลง และหลักการด้านการบริหารงานทางด้านระบบไอโอทีและสารสนเทศ PLO11: มีความตระหนักถึงความจำเป็น และมีความสามารถในการเรียนรู้ด้วยตนเอง ค้นหาข้อมูลจาก แหล่งต่าง ๆ และรู้จักพัฒนาตนเองตลอดชีพ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แหล่งต่าง ๆ และรู้จักพัฒนาตนเองตลอดชีพ 3...",
+        "output": "แหล่งต่าง ๆ และรู้จักพัฒนาตนเองตลอดชีพ 3. หลักสูตรและอาจารย์ผู้สอน 3.1 หลักสูตร 3.1.1 จำนวนหน่วยกิตรวมตลอดหลักสูตร 135 หน่วยกิต 3.1.2 โครงสร้างหลักสูตร ก. หมวดวิชาศึกษาทั่วไป 30 หน่วยกิต กลุ่มวิชาพื้นฐาน 6 หน่วยกิต กลุ่มวิชาด้านภาษาและการสื่อสาร 9 หน่วยกิต กลุ่มวิชาตามเกณฑ์ของคณะ 9 หน่วยกิต เลือกในกลุ่มวิชาเลือกหมวดวิชา ศึกษาทั่วไป 6 หน่วยกิต ข. หมวดวิชาเฉพาะ 99 หน่วยกิต กลุ่มวิชาพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ 30 หน่วยกิต"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: กลุ่มวิชาพื้นฐานคณิตศาสตร์ และวิทยาศาสตร...",
+        "output": "กลุ่มวิชาพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ 30 หน่วยกิต กลุ่มวิชาวิศวกรรมพื้นฐาน 9 หน่วยกิต กลุ่มวิชาบังคับทาง วิศวกรรมระบบไอโอทีและสารสนเทศ 36 หน่วยกิต กลุ่มวิชาบังคับเลือกทาง วิศวกรรมระบบไอโอทีและสารสนเทศ 9 หน่วยกิต กลุ่มวิชาเลือกเฉพาะสาขา 9 หน่วยกิต กลุ่มวิชาการศึกษาทางเลือก 6 หน่วยกิต ค. หมวดวิชาเลือกเสรี 6 หน่วยกิต 3.1.3 รายวิชา ก. หมวดวิชาศึกษาทั่วไป 30 หน่วยกิต ในหมวดวิชาศึกษาทั่วไปนักศึกษาสามารถเลือกเรียนตามรายวิชาที่สถาบันเทคโนโลยีพระจอมเกล้าเจ้า"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ในหมวดวิชาศึกษาทั่วไปนักศึกษาสามารถเลือก...",
+        "output": "ในหมวดวิชาศึกษาทั่วไปนักศึกษาสามารถเลือกเรียนตามรายวิชาที่สถาบันเทคโนโลยีพระจอมเกล้าเจ้า คุณทหารลาดกระบังเปิดสอน ดูข้อมูลได้จาก : http://gened.kmitl.ac.th/wp -content/uploads/2021/08/GE64_KMITL_Thai_program.pdf ข. หมวดวิชาเฉพาะ กลุ่มวิชาพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ 30 หน่วยกิต วิชาบังคับเรียน พื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ 23 หน่วยกิต หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) 01006030 แคลคูลัส 1 3 (3-0-6) CALCULUS 1 01006031 แคลคูลัส 2 3 (3-0-6) CALCULUS 2 01006032 สมการอนุพันธ์และพีชคณิตเชิงเส้นพื้นฐาน 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01006032 สมการอนุพันธ์และพีชคณิตเชิงเส้น...",
+        "output": "01006032 สมการอนุพันธ์และพีชคณิตเชิงเส้นพื้นฐาน 3 (3-0-6) ELEMENTARY DIFFERENTIAL EQUATIONS AND LINEAR ALGEBRA 01236200 สถิติวิศวกรรม 3 (3-0-6) ENGINEERING STATISTICS 01006020 ฟิสิกส์ทั่วไป 1 3 (3-0-6) GENERAL PHYSICS 1 01006021 ปฏิบัติการฟิสิกส์ทั่วไป 1 1 (0-3-2) GENERAL PHYSICS LABORATORY 1 01006022 ฟิสิกส์ทั่วไป 2 3 (3-0-6) GENERAL PHYSICS 2 01006023 ปฏิบัติการฟิสิกส์ทั่วไป 2 1 (0-3-2) GENERAL PHYSICS LABORATORY 2"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: GENERAL PHYSICS LABORATORY 2 01236250 สน...",
+        "output": "GENERAL PHYSICS LABORATORY 2 01236250 สนามแม่เหล็กไฟฟ้า 3 (3-0-6) ELECTROMAGNETIC FIELDS ให้นักศึกษาเลือกเรียนเพิ่มเติมให้ครบ 30 หน่วยกิต จากรายวิชาดังนี้ (สำหรับนักศึกษาวิศวกรรมระบบไอโอทีและสารสนเทศ) 01236251 คณิตศาสตร์ดิสครีต 3 (3-0-6) DISCRETE MATHEMATICS 01236252 คณิตศาสตร์สำหรับวิทยาการข้อมูล 4 (4-0-6) MATHEMATICS FOR DATA SCIENCE (สำหรับนักศึกษาหลักสูตรสองปริญญาวิศวกรรมระบบไอโอทีและสารสนเทศและฟิสิกส์อุตสาหกรรม) 01006024 เคมีทั่วไป 3 (3-0-6) GENERAL CHEMISTRY 01006025 ปฏิบัติการเคมีทั่วไป 1 (0-3-2)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01006025 ปฏิบัติการเคมีทั่วไป 1 (0-3-2) ...",
+        "output": "01006025 ปฏิบัติการเคมีทั่วไป 1 (0-3-2) GENERAL CHEMISTRY LABORATORY 01236253 ชีววิทยาทั่วไป 3 (3-0-6) GENERAL BIOLOGY กลุ่มวิชาวิศวกรรมพื้นฐาน 9 หน่วยกิต หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) 01006012 การเขียนโปรแกรมคอมพิวเตอร์ 3 (2-2-5) COMPUTER PROGRAMMING 01236249 พื้นฐานการออกแบบระบบดิจิทัล 3 (2-2-5) FUNDAMENTAL OF DIGITAL SYSTEM DESIGN 01236254 วงจรไฟฟ้าและอิเล็กทรอนิกส์ 3 (2-2-5) CIRCUITS AND ELECTRONICS กลุ่มวิชาบังคับทางวิศวกรรมระบบไอโอทีและสารสนเทศ 36 หน่วยกิต"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: กลุ่มวิชาบังคับทางวิศวกรรมระบบไอโอทีและส...",
+        "output": "กลุ่มวิชาบังคับทางวิศวกรรมระบบไอโอทีและสารสนเทศ 36 หน่วยกิต หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) 01236255 พื้นฐานระบบไอโอที 3 (2-2-5) INTRODUCTION TO INTERNET OF THINGS 01236256 ไมโครคอนโทรลเลอร์และระบบสมองกลฝังตัว 3 (2-2-5) MICROCONTROLLER AND EMBEDDED SYSTEMS 01236257 การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล 3 (2-2-5) OBJECT -ORIENTED PROGRAMMING AND DATA STRUCTURE 01236258 การสื่อสารพื้นฐาน 3 (3-0-6) PRINCIPLES OF COMMUNICATIONS"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PRINCIPLES OF COMMUNICATIONS 01236259 ระ...",
+        "output": "PRINCIPLES OF COMMUNICATIONS 01236259 ระบบโครงข่ายไอโอทีและการสื่อสารข้อมูล 3 (3-0-6) IoT NETWORKS AND DATA COMMUNICATIONS 01236260 ระบบไซเบอร์ทางกายภาพและเซ็นเซอร์ 3 (2-2-5) CYBER -PHYSICAL SYSTEM AND SENSOR 01236261 การพัฒนาแอปพลิเคชันบนโมไบล์ 3 (2-2-5) MOBILE APPLICATION DEVELOPMENT 01236262 การออกแบบเชิงปฏิสัมพันธ์ 3 (3-0-6) INTERACTION DESIGN 01236263 ระบบไอโอทีในอุตสาหกรรม 3 (2-2-5) INDUSTRIAL INTERNET OF THINGS 01236264 ปัญญาประดิษฐ์ในทุกสรรพสิ่ง 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236264 ปัญญาประดิษฐ์ในทุกสรรพสิ่ง 3 (2...",
+        "output": "01236264 ปัญญาประดิษฐ์ในทุกสรรพสิ่ง 3 (2-2-5) ARTIFICIAL INTELLGIENCE OF THINGS 01236265 ระบบความมั่นคงทางไซเบอร์ 3 (3-0-6) CYBER SECURITY SYSTEMS 01236266 ปฏิบัติการระบบไอโอทีและสารสนเทศ 1 1 (0-3-2) IoT SYSTEM AND INFORMATION LABORATORY 1 01236267 ปฏิบัติการระบบไอโอทีและสารสนเทศ 2 1 (0-3-2) IoT SYSTEM AND INFORMATION LABORATORY 2 01236268 สัมมนากับผู้เชี่ยวชาญ 1 (0-3-2) SEMINAR WITH PROFESSIONALS 01006004 การฝึกงานอุตสาหกรรม 0 (0-45-0)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01006004 การฝึกงานอุตสาหกรรม 0 (0-45-0) ...",
+        "output": "01006004 การฝึกงานอุตสาหกรรม 0 (0-45-0) INDUSTRIAL TRAINING กลุ่มวิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ 9 หน่วยกิต หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) ให้นักศึกษาเลือกเรียนให้ครบ 9 หน่วยกิตจากรายวิชา ดังนี้ 01236330 การมองเห็นของเครื่องจักรและคอมพิวเตอร์ 3 (3-0-6) MACHINE AND COMPUTER VISION 01236331 ระบบปฏิบัติการระบบสมองกลฝังตัว 3 (2-2-5) EMBEDDED OPERATING SYSTEM 01236332 วิศวกรรมซอฟต์แวร์ 3 (3-0-6) SOFTWARE ENGINEERING 01236333 การเรียนรู้ของเครื่อง 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236333 การเรียนรู้ของเครื่อง 3 (2-2-5)...",
+        "output": "01236333 การเรียนรู้ของเครื่อง 3 (2-2-5) MACHINE LEARNING 01236334 การออกแบบและการปฏิบัติการเชื่อมโยงระบบโครงข่าย 3 (2-2-5) INTERNETWORKING DESIGN AND PRACTICE 01236335 ระบบสื่อสารไร้สายสำหรับระบบไอโอที 3 (3-0-6) WIRELESS COMMUNICATION SYSTEMS FOR IoT 01236336 การวิเคราะห์ข้อมูล 3 (3-0-6) DATA ANALYTICS 01236337 การพัฒนาแอปพลิเคชันบนเว็บ 3 (3-0-6) WEB APPLICATION DEVELOPMENT 01236338 เครือข่ายการสื่อสารโทรศัพท์เคลื่อนที่ยุคหน้า 3 (3-0-6) NEXT GENERATION MOBILE COMMUNICATION 01236339 การประมวลผลคลาวด์และเอดจ์ 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236339 การประมวลผลคลาวด์และเอดจ์ 3 (3-...",
+        "output": "01236339 การประมวลผลคลาวด์และเอดจ์ 3 (3-0-6) CLOUD AND EDGE COMPUTING 01236340 ระบบฐานข้อมูล 3 (3-0-6) DATABASE SYSTEM กลุ่มวิชาเลือกเฉพาะสาขา 9 หน่วยกิต หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) โดยมีกลุ่มวิชาเลือกเฉพาะสาขาจำนวน 7 กลุ่มวิชา ให้นักศึกษาเลือกเรียน วิชาใดก็ได้จากกลุ่มวิชาใดก็ได้ ให้ครบ 9 หน่วยกิต 1. กลุ่มระบบไอโอทีและสารสนเทศสำหรับเทคโนโลยีเชิงลึก 01236400 การออกแบบและพัฒนาอุปกรณ์ระบบไอโอที 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236400 การออกแบบและพัฒนาอุปกรณ์ระบบไอโ...",
+        "output": "01236400 การออกแบบและพัฒนาอุปกรณ์ระบบไอโอที 3 (2-2-5) IoT DEVICE DESIGN AND DEVELOPMENT 01236442 การออกแบบระบบไอโอทีและระบบสมองกลฝังตัวขั้นสูง 3 (2-2-5) ADVANCED IoT AND EMBEDDED SYSTEM DESIGN 01236443 การเรียนรู้เชิงลึก 3 (3-0-6) DEEP LEARNING 01236403 การประมวลผลควอนตัม 3 (3-0-6) QUANTUM COMPUTING 01236404 เรื่องคัดสรรทางระบบไอโอทีและสารสนเทศ 3 (3-0-6) SELECTED TOPIC IN IOT SYSTEM AND INFORMATION ENGINEERING"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: SELECTED TOPIC IN IOT SYSTEM AND INFORMA...",
+        "output": "SELECTED TOPIC IN IOT SYSTEM AND INFORMATION ENGINEERING 01236405 ระบบควบคุมสมัยใหม่สำหรับไอโอที 3 (3-0-6) MODERN CONTROL SYSTEM FOR IOT 1. กลุ่มเทคโนโลยีระบบอัจฉริยะ 01236406 โรงงานอัจฉริยะและอุตสาหกรรมอัตโนมัติ 3 (3-0-6) SMART FACTORY AND INDUSTRIAL AUTOMATION 01236407 การออกแบบอาคารและเมืองอัจฉริยะ 3 (3-0-6) SMART CITY AND SMART BUILDING DESIGN 01236408 ฟาร์มอัจฉริยะ 3 (3-0-6) SMART FARMING 01236409 เทคโนโลยีระบบสกาดา 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236409 เทคโนโลยีระบบสกาดา 3 (3-0-6) SC...",
+        "output": "01236409 เทคโนโลยีระบบสกาดา 3 (3-0-6) SCADA TECHNOLOGY 01236410 ระบบขนส่งอัจฉริยะ 3 (3-0-6) INTELLIGENCE TRANSPORTATION SYSTEM 2. กลุ่มเทคโนโลยีระบบการสื่อสาร และเครือข่าย 01236411 วิทยาการเข้ารหัสลับและเทคโนโลยีบล็อกเชน 3 (3-0-6) CRYPTOGRAPHY AND BLOCKCHAIN TECHNOLOGIES 01236412 ปฏิบัติการผู้เชี่ยวชาญระบบเครือข่าย 3 (2-2-5) PROFESSIONAL PRACTICAL NETWORKING 01236413 โครงข่ายเซ็นเซอร์ไร้สายในระบบไอโอที 3 (3-0-6) IoT WIRELESS SENSOR NETWORK 01236414 การสื่อสารด้วยแสงที่ตามองเห็น 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236414 การสื่อสารด้วยแสงที่ตามองเห็น 3...",
+        "output": "01236414 การสื่อสารด้วยแสงที่ตามองเห็น 3 (3-0-6) VISIBLE LIGHT COMMUNICATION 01236415 การรักษาความปลอดภัยในระบบสารสนเทศและเครือข่าย 3 (3-0-6) INFORMATION AND NETWORK SECURITY 01236416 เทคโนโลยีอุปกรณ์พกพา 3 (3-0-6) WEARABLE TECHNOLOGIES 01236417 เรื่องคัดสรรทางระบบการสื่อสารขั้นสูง 3 (3-0-6) SELECTED TOPIC IN ADVANCED COMMUNICATION SYSTEM 3. กลุ่มเทคโนโลยีสหวิทยการ ระบบขนส่งทางราง การแพทย์ และหุ่นยนต์ 01236418 ระบบอาณัติสัญญาณและการบริหารควบคุมรถไฟเบื้องต้น 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236418 ระบบอาณัติสัญญาณและการบริหารควบ...",
+        "output": "01236418 ระบบอาณัติสัญญาณและการบริหารควบคุมรถไฟเบื้องต้น 3 (3-0-6) INTRODUCTION TO RAILWAY SIGNALING AND OPERATION CONTROL 01236419 วิศวกรรมระบบรถไฟความเร็วสูง 3 (3-0-6) HIGH-SPEED RAILWAY SYSTEM ENGINEERING 01236420 วิศวกรรมหุ่นยนต์เบื้องต้น 3 (3-0-6) INTRODUCTION TO ROBOTICS ENGINEERING 01236421 การประมวลผลภาพทางการแพทย์ 3 (3-0-6) MEDICAL IMAGE PROCESSING 01236422 ระบบไอโอทีสำหรับการประยุกต์ใช้งานทางการแพทย์ 3 (3-0-6) IoT FOR BIOMEDICAL APPLICATIONS 01236423 เซ็นเซอร์ทางชีวภาพ 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236423 เซ็นเซอร์ทางชีวภาพ 3 (3-0-6) BI...",
+        "output": "01236423 เซ็นเซอร์ทางชีวภาพ 3 (3-0-6) BIOSENSOR 01236424 พื้นฐานระบบสารสนเทศสำหรับการดูแลสุขภาพ 3 (3-0-6) PRINCIPLES OF HEALTHCARE INFORMATION TECHNOLOGY 01236425 ระบบไอโอที และเซ็นเซอร์สำหรับเทคโนโลยีวิทยาศาสตร์การกีฬา 3 (3-0-6) IoT AND SENSOR SYSTEM FOR SPORT SCIENCE 01236426 การพัฒนาและออกแบบหุ่นยนต์ขนาดเล็ก 3 (2-2-5) MICRO ROBOT DESIGN AND DEVELOPMENT 4. กลุ่มวิทยาการข้อมูล และซอฟต์แวร์ประยุกต์ 01236427 สถาปัตยกรรมข้อมูลขนาดใหญ่ 3 (3-0-6) BIG DATA ARCHITECTURE"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: BIG DATA ARCHITECTURE 01236428 การแสดงผล...",
+        "output": "BIG DATA ARCHITECTURE 01236428 การแสดงผลและนำเสนอข้อมูล 3 (3-0-6) DATA VISUALIZATION AND PRESENTATION 01236429 เหมืองข้อมูลและการวิเคราะห์อนุกรมเวลา 3 (3-0-6) DATA MINING AND TIME -SERIES ANALYSIS 01236430 การพัฒนาแอปพลิเคชันบนเว็บและโมไบล์ขั้นสูง 3 (2-2-5) ADVANCED MOBILE AND WEB DEVELOPMENT 01236431 การทดสอบและประกันคุณภาพซอฟต์แวร์ 3 (3-0-6) SOFTWARE QUALITY AND TESTING 01236432 การออกแบบอินเตอร์เฟสและประสบการณ์ผู้ใช้งาน 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236432 การออกแบบอินเตอร์เฟสและประสบการ...",
+        "output": "01236432 การออกแบบอินเตอร์เฟสและประสบการณ์ผู้ใช้งาน 3 (3-0-6) USER EXPERIENCE AND INTERFACE DESIGN 01236433 แนวคิดระบบคลาวด์และการดำเนินการพัฒนา 3 (3-0-6) CLOUD AND DEVOPS CONCEPTS 01236434 การพัฒนาเกม กราฟฟิก และแอนิเมชัน 3 (3-0-6) GAME, GRAPHICS AND ANIMATION DEVELOPMENT 01236435 เทคโนโลยีภาพเสมือนจริง 3 (3-0-6) AUGMENT AND VIRTUAL REALITY 01236436 เรื่องคัดสรรทางการพัฒนาซอฟต์แวร์ 3 (3-0-6) SELECTED TOPIC IN SOFTWARE DEVELOPMENT"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: SELECTED TOPIC IN SOFTWARE DEVELOPMENT 0...",
+        "output": "SELECTED TOPIC IN SOFTWARE DEVELOPMENT 01236463 ปัญญาประดิษฐ์สำหรับเชิงธุรกิจ 3 (3-0-6) ARTIFICIAL INTELLIGENCE FOR BUSINESS 01236464 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6) HUMAN COMPUTER INTERACTION 01236465 กฎหมายสำหรับเทคโนโลยีสารสนเทศ 3 (3-0-6) LAW FOR INFORMATION TECHNOLOGY 01236466 การวิเคราะห์และออกแบบระบบ 3 (3-0-6) SYSTEM ANALYSIS AND DESIGN 5. กลุ่มการจัดการเทคโนโลยี 01236437 การวิเคราะห์ธุรกิจดิจิทัล 3 (3-0-6) DIGITAL BUSINESS ANALYSIS 01236438 การบริหารโครงการระบบไอที 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236438 การบริหารโครงการระบบไอที 3 (3-0...",
+        "output": "01236438 การบริหารโครงการระบบไอที 3 (3-0-6) IT PROJECT MANAGEMENT 01236439 การจัดการศูนย์ข้อมูล 3 (3-0-6) DATA CENTER MANAGEMENT 01236440 วิศวกรรมสตาร์ตอัป 3 (3-0-6) START -UP ENGINEERING 01236441 นิติวิทยาดิจิทัล 3 (3-0-6) DIGITAL FORENSIC 6. กลุ่มวิชาฟิสิกส์อุตสาหกรรมสำหรับระบบไอโอทีและสารสนเทศ 01236 450 ทรานสดิวเซอร์ในงานอุตสาหกรรม 3 (3-0-6) INDUSTRIAL TRANSDUCERS 01236 451 การวัดคุมเสมือนชั้นสูง 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236 451 การวัดคุมเสมือนชั้นสูง 3 (3-0-...",
+        "output": "01236 451 การวัดคุมเสมือนชั้นสูง 3 (3-0-6) ADVANCED VIRTUAL INSTRUMENTATION 01236 452 การวัดและทดสอบแบบไม่ทำลาย 3 (3-0-6) NON DESTRUCTIVE MEASUREMENT AND TESTING 01236 453 มาตรวิทยา 3 (3-0-6) METROLOGY 01236 454 ระบบตรวจสอบชิ้นงานด้วยภาพถ่ายแบบอัตโนมัติ 3 (3-0-6) AUTOMATED VISUAL INSPECTION SYSTEM 01236 455 กระบวนการผลิตและการทดสอบอุปกรณ์อิเล็กทรอนิกส์และอุปกรณ์ทางแสง 3 (3-0-6) MANUFACTURING AND TEST OF ELECTRONICS AND OPTICAL DEVICES"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: MANUFACTURING AND TEST OF ELECTRONICS AN...",
+        "output": "MANUFACTURING AND TEST OF ELECTRONICS AND OPTICAL DEVICES 01236 456 การตรวจสอบคุณลักษณะของวัสดุสำหรับอุตสาหกรรม 3 (3-0-6) MATERIALS CHARACTERIZATION FOR INDUSTRY 01236457 วัสดุวิศวกรรม 3 (3-0-6) ENGINEERING MATERIALS 01236 458 วัสดุแม่เหล็กและเทคโนโลยี 3 (3-0-6) MAGNETIC MATERIALS AND TECHNOLOGY 01236 459 วิศวกรรมคุณภาพ 3 (3-0-6) QUALITY ENGINEERING 01236 460 ทฤษฎีของเลเซอร์และการออกแบบ 3 (3-0-6) LASERS THEORY DESIGN AND ENGINEERING"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: LASERS THEORY DESIGN AND ENGINEERING 012...",
+        "output": "LASERS THEORY DESIGN AND ENGINEERING 01236461 ระบบการสื่อสารทางแสงและอุปกรณ์ของระบบ 3 (3-0-6) OPTICAL COMMUNICATION SYSTEMS AND DEVICES 01236 462 หัวข้อพิเศษทางฟิสิกส์อุตสาหกรรม 3 (3-0-6) SPECIAL TOPIC IN INDUSTRIAL PHYSICS กลุ่มวิชาการศึกษาทางเลือก 6 หน่วยกิต วิชาการศึกษาทางเลือกจะแบ่งออกเป็น 3 ทางเลือก เพื่อให้นักศึกษาได้เลือกแนวทางการศึกษาที่เหมาะสม สำหรับตนเอง 1 ทางเลือก จำนวน 6 หน่วยกิต ดังนี้ 1. โครงงานวิศวกรรมศาสตร์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 1. โครงงานวิศวกรรมศาสตร์ นักศึกษาที่เลือ...",
+        "output": "1. โครงงานวิศวกรรมศาสตร์ นักศึกษาที่เลือกเรียนในแผนนี้จะต้องเลือกเรียนวิชาทางวิศวกรรมที่สนใจและทำโครงการวิจัยหรือพัฒนาที่ เกี่ยวข้องกับเนื้อหาในหลักสูตร จำนวน 6 หน่วยกิต หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) 01236269 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 1 3 (0-9-0) IoT AND INFORMATION CAPSTONE PROJECT 1 01236270 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 2 3 (0-9-0) IoT AND INFORMATION CAPSTONE PROJECT 2"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: IoT AND INFORMATION CAPSTONE PROJECT 2 2...",
+        "output": "IoT AND INFORMATION CAPSTONE PROJECT 2 2. สหกิจศึกษา หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) 01236319 สหกิจศึกษา 6 (0-45-0) COOPERATIVE EDUCATION 3. การศึกษาหรือการปฏิบัติการฝึกงานต่างประเทศ การศึกษาทางเลือกนี้แบ่งเป็น 2 แนวทาง คือการศึกษาต่างประเทศ หรือการปฏิบัติการฝึกงานต่างประเทศ โดยนักศึกษาจะต้องเลือกแนวทางใดแนวทางหนึ่ง การศึกษาต่างประเทศ นักศึกษาที่เลือกเรียน การศึกษาต่างประเทศ สามารถดำเนินการเทียบโอนหน่วยกิตจากสถาบันที่ศึกษาใน ต่างประเทศได้ตามประกาศของสถาบันฯ ไม่เกิน 6 หน่วยกิต การปฏิบัติการฝึกงานต่างประเทศ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ต่างประเทศได้ตามประกาศของสถาบันฯ ไม่เกิน...",
+        "output": "ต่างประเทศได้ตามประกาศของสถาบันฯ ไม่เกิน 6 หน่วยกิต การปฏิบัติการฝึกงานต่างประเทศ หน่วยกิต (บรรยาย -ปฏิบัติ-ศึกษาด้วยตนเอง ) 01236320 การปฏิบัติการฝึกงานต่างประเทศ 6 (0-45-0) OVERSEA TRAINING 3.1.4 แผนการศึกษา ปีที่ 1 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01006030 แคลคูลัส 1 CALCULUS 1 3 (3-0-6) 01006012 การเขียนโปรแกรมคอมพิวเตอร์ COMPUTER PROGRAMMING 3 (2-2-5) 01006020 ฟิสิกส์ทั่วไป 1"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01006020 ฟิสิกส์ทั่วไป 1 GENERAL PHYSICS...",
+        "output": "01006020 ฟิสิกส์ทั่วไป 1 GENERAL PHYSICS 1 3 (3-0-6) 01006021 ปฏิบัติการฟิสิกส์ทั่วไป 1 GENERAL PHYSICS LABORATORY 1 1 (0-3-2) 01236255 พื้นฐานระบบไอโอที INTRODUCTION TO INTERNET OF THINGS 3 (2-2-5) 90642118 โปรแกรมคอมพิวเตอร์ประยุกต์ทางธุรกิจ APPLICATION SOFTWARE FOR BUSINESS วิชาเลือกหมวดวิชาศึกษาทั่วไป - (วิชาเลือกตามเกณฑ์คณะ) ELECTIVE TOPICS FOR FACULTY COURSE REQUIREMENT 2 (1-2-3) 01236254 วงจรไฟฟ้าและอิเล็กทรอนิกส์ 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236254 วงจรไฟฟ้าและอิเล็กทรอนิกส์ 3 (2...",
+        "output": "01236254 วงจรไฟฟ้าและอิเล็กทรอนิกส์ 3 (2-2-5) CIRCUITS AND ELECTRONICS 90644007 ภาษาอังกฤษพื้นฐาน 1 FOUNDATION ENGLISH 1 3 (3-0-6) รวม 21 หน่วยกิต ปีที่ 1 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01006031 แคลคูลัส 2 CALCULUS 2 3 (3-0-6) 01006022 ฟิสิกส์ทั่วไป 2 GENERAL PHYSICS 2 3 (3-0-6) 01006023 ปฏิบัติการฟิสิกส์ทั่วไป 2 GENERAL PHYSICS LABORATORY 2 1 (0-3-2)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: GENERAL PHYSICS LABORATORY 2 1 (0-3-2) 0...",
+        "output": "GENERAL PHYSICS LABORATORY 2 1 (0-3-2) 01236257 การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล OBJECT -ORIENTED PROGRAMMING AND DATA STRUCTURE 3 (2-2-5) 90642036 เตรียมความพร้อมสำหรับวิศวกร PRE-ACTIVITIES FOR ENGINEERS วิชาเลือกหมวดวิชาศึกษาทั่วไป - (วิชาเลือกตามเกณฑ์คณะ) ELECTIVE TOPICS FOR FACULTY COURSE REQUIREMENT 1 (0-3-0) 01236249 พื้นฐานการออกแบบระบบดิจิทัล FUNDAMENTAL OF DIGITAL SYSTEM DESIGN 3 (2-2-5) 90641001 โรงเรียนสร้างเสน่ห์ CHARM SCHOOL 2 (1-2-3)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: CHARM SCHOOL 2 (1-2-3) 90641003 กีฬาและน...",
+        "output": "CHARM SCHOOL 2 (1-2-3) 90641003 กีฬาและนันทนาการ SPORT AND RECREATION ACTIVITIES 1 (0-3-2) 90644008 ภาษาอังกฤษพื้นฐาน 2 FOUNDATION ENGLISH 2 3 (3-0-6) รวม 20 หน่วยกิต ปีที่ 2 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01006032 สมการอนุพันธ์และพีชคณิตเชิงเส้นพื้นฐาน ELEMENTARY DIFFERENTIAL EQUATIONS AND LINEAR ALGEBRA 3 (3-0-6) 01236200 สถิติวิศวกรรม ENGINEERING STATISTICS 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ENGINEERING STATISTICS 3 (3-0-6) 0123625...",
+        "output": "ENGINEERING STATISTICS 3 (3-0-6) 01236256 ไมโครคอนโทรลเลอร์และระบบสมองกลฝังตัว MICROCONTROLLER AND EMBEDDED SYSTEMS 3 (2-2-5) 01236258 การสื่อสารพื้นฐาน PRINCIPLES OF COMMUNICATIONS 3 (3-0-6) 01236260 ระบบไซเบอร์ทางกายภาพและเซ็นเซอร์ CYBER -PHYSICAL SYSTEM AND SENSOR 3 (2-2-5) 01236250 สนามแม่เหล็กไฟฟ้า ELECTROMAGNETIC FIELDS 3 (3-0-6) 90641002 ความฉลาดทางดิจิทัล DIGITAL INTELLIGENCE QUOTIENT 3 (3-0-6) รวม 21 หน่วยกิต ปีที่ 2 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบ...",
+        "output": "รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01xxxxxx วิชาเลือกเรียนทางพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ MATH -SCIENCE ELECTIVE 3 (x-x-x) 01236259 ระบบโครงข่าย ไอโอทีและการสื่อสาร ข้อมูล IoT NETWORKS AND DATA COMMUNICATIONS 3 (3-0-6) 01236261 การพัฒนาแอปพลิเคชันบนโมไบล์ MOBILE APPLICATION DEVELOPMENT 3 (2-2-5) 01236262 การออกแบบเชิงปฏิสัมพันธ์ INTERACTION DESIGN 3 (3-0-6) 01236265 ระบบความมั่นคงทางไซเบอร์ CYBER SECURITY SYSTEM S 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: CYBER SECURITY SYSTEM S 3 (3-0-6) 90xxxx...",
+        "output": "CYBER SECURITY SYSTEM S 3 (3-0-6) 90xxxxxx วิชาเลือก (กลุ่มวิชาตามเกณฑ์ของคณะ) GENERAL EDUCATION 3 (x-x-x) 90xxxxxx วิชาเลือก (กลุ่มวิชาด้านภาษาและการสื่อสาร) GENERAL EDUCATION 3 (x-x-x) รวม 21 หน่วยกิต ปีที่ 3 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236264 ปัญญาประดิษฐ์ในทุกสรรพสิ่ง ARTIFICIAL INTELLGIENCE OF THINGS 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ARTIFICIAL INTELLGIENCE OF THINGS 3 (2-2...",
+        "output": "ARTIFICIAL INTELLGIENCE OF THINGS 3 (2-2-5) 01xxxxxx วิชาเลือกเรียนทางพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ MATH -SCIENCE ELECTIVE 4 (x-x-x) 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ IoT AND INFORMATION MANDAROTY ELECTIVE 3 (x-x-x) 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ IoT AND INFORMATION MANDAROTY ELECTIVE 3 (x-x-x) 01236266 ปฏิบัติการระบบไอโอทีและสารสนเทศ 1 IoT SYSTEM AND INFORMATION LABORATORY 1 1 (0-3-2)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: IoT SYSTEM AND INFORMATION LABORATORY 1 ...",
+        "output": "IoT SYSTEM AND INFORMATION LABORATORY 1 1 (0-3-2) 01236268 สัมมนากับผู้เชี่ยวชาญ SEMINAR WITH PROFESSIONALS 1 (0-3-2) 90xxxxxx วิชาเลือก (กลุ่มวิชาตามเกณฑ์ของคณะ) GENERAL EDUCATION 3 (x-x-x) รวม 18 หน่วยกิต ปีที่ 3 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236263 ระบบไอโอทีในอุตสาหกรรม INDUSTRIAL INTERNET OF THINGS 3 (2-2-5) 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ...",
+        "output": "0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ IoT AND INFORMATION MANDAROTY ELECTIVE 3 (3-0-6) 01236267 ปฏิบัติการระบบไอโอทีและสารสนเทศ 2 IoT SYSTEM AND INFORMATION LABORATORY 2 1 (0-3-2) 90xxxxxx วิชาเลือก (เลือกในกลุ่มวิชาเลือกหมวดวิชาศึกษาทั่วไป) GENERAL EDUCATION 3 (x-x-x) 90xxxxxx วิชาเลือก (เลือกในกลุ่มวิชาเลือกหมวดวิชาศึกษาทั่วไป) GENERAL EDUCATION 3 (x-x-x) รวม 13 หน่วยกิต"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: รวม 13 หน่วยกิต ปีที่ 3 ภาคการศึกษาที่ 3...",
+        "output": "รวม 13 หน่วยกิต ปีที่ 3 ภาคการศึกษาที่ 3 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01006004 การฝึกงานอุตสาหกรรม INDUSTRIAL TRAINING 0 (0-45-0) ปีที่ 4 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236269 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 1 IoT AND INFORMATION CAPSTONE PROJECT 1 3 (0-9-0) 0123xxxx วิชาเลือกเฉพาะสาขา"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFO...",
+        "output": "0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) xxxxxxxx วิชาเลือกเสรี FREE ELECTIVE 3 (x-x-x) รวม 12 หน่วยกิต ปีที่ 4 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236270 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 2 IoT AND INFORMATION CAPSTONE PROJECT 2 3 (0-9-0)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: IoT AND INFORMATION CAPSTONE PROJECT 2 3...",
+        "output": "IoT AND INFORMATION CAPSTONE PROJECT 2 3 (0-9-0) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) xxxxxxxx วิชาเลือกเสรี FREE ELECTIVE x (x-x-x) รวม 9 หน่วยกิต รวมตลอดหลักสูตร 135 หน่วยกิต แผนการเรียนสำหรับนักศึกษาที่เลือกเรียนแบบสหกิจศึกษา หรือการฝึกงานต่างประเทศ ปีที่ 4 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 012363 19 / 012363 20 สหกิจศึกษา / การปฏิบัติการฝึกงานต่างประเทศ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 012363 20 สหกิจศึกษา / การปฏิบัติการฝึกง...",
+        "output": "012363 20 สหกิจศึกษา / การปฏิบัติการฝึกงานต่างประเทศ COOPERATIVE EDUCATION / OVERSEA TRAINING 6 (0-45-0) รวม 6 หน่วยกิต ปีที่ 4 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) xxxxxxxx วิชาเลือกเสรี FREE ELECTIVE 3 (x-x-x)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: FREE ELECTIVE 3 (x-x-x) 0123xxxx วิชาเลื...",
+        "output": "FREE ELECTIVE 3 (x-x-x) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) xxxxxxxx วิชาเลือกเสรี FREE ELECTIVE 3 (x-x-x) รวม 15 หน่วยกิต รวมตลอดหลักสูตร 135 หน่วยกิต แผนการเรียนสำหรับนักศึกษาที่เลือกเรียนแบบ WORK INTEGRATED LEARNING (WIL) ปีที่ 3 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236264 ปัญญาประดิษฐ์ในทุกสรรพสิ่ง ARTIFICIAL INTELLGIENCE OF THINGS 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ARTIFICIAL INTELLGIENCE OF THINGS 3 (2-2...",
+        "output": "ARTIFICIAL INTELLGIENCE OF THINGS 3 (2-2-5) 01xxxxxx วิชาเลือกเรียนทางพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ MATH -SCIENCE ELECTIVE 4 (x-x-x) 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ IoT AND INFORMATION MANDAROTY ELECTIVE 3 (x-x-x) 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ IoT AND INFORMATION MANDAROTY ELECTIVE 3 (x-x-x) 01236266 ปฏิบัติการระบบไอโอทีและสารสนเทศ 1 IoT SYSTEM AND INFORMATION LABORATORY 1 1 (0-3-2)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: IoT SYSTEM AND INFORMATION LABORATORY 1 ...",
+        "output": "IoT SYSTEM AND INFORMATION LABORATORY 1 1 (0-3-2) 01236268 สัมมนากับผู้เชี่ยวชาญ SEMINAR WITH PROFESSIONALS 1 (0-3-2) 90xxxxxx วิชาเลือก (กลุ่มวิชาตามเกณฑ์ของคณะ) GENERAL EDUCATION 3 (x-x-x) รวม 18 หน่วยกิต ปีที่ 3 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236263 ระบบไอโอทีในอุตสาหกรรม INDUSTRIAL INTERNET OF THINGS 3 (2-2-5) 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ...",
+        "output": "0123xxxx วิชาบังคับเลือกทาง วิศวกรรมระบบ ไอโอทีและสารสนเทศ IoT AND INFORMATION MANDAROTY ELECTIVE 3 (3-0-6) 01236267 ปฏิบัติการระบบไอโอทีและสารสนเทศ 2 IoT SYSTEM AND INFORMATION LABORATORY 2 1 (0-3-2) 90xxxxxx วิชาเลือก (เลือกในกลุ่มวิชาเลือกหมวดวิชาศึกษาทั่วไป) GENERAL EDUCATION 3 (x-x-x) รวม 10 หน่วยกิต ปีที่ 3 ภาคการศึกษาที่ 3 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 010060...",
+        "output": "(บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01006004 การฝึกงานอุตสาหกรรม INDUSTRIAL TRAINING 0 (0-45-0) ปีที่ 4 ภาคการศึกษาที่ 1 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236269 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 1 3 (0-9-0) IoT AND INFORMATION CAPSTONE PROJECT 1 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: IoT AND INFORMATION ELECTIVE 3 (x-x-x) x...",
+        "output": "IoT AND INFORMATION ELECTIVE 3 (x-x-x) xxxxxxxx วิชาเลือกเสรี FREE ELECTIVE 3 (x-x-x) รวม 12 หน่วยกิต ปีที่ 4 ภาคการศึกษาที่ 2 รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย -ปฏิบัติ -ศึกษาด้วยตนเอง) 01236270 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 2 IoT AND INFORMATION CAPSTONE PROJECT 2 3 (0-9-0) 0123xxxx วิชาเลือกเฉพาะสาขา IoT AND INFORMATION ELECTIVE 3 (x-x-x) xxxxxxxx วิชาเลือกเสรี FREE ELECTIVE 3 (x-x-x)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: FREE ELECTIVE 3 (x-x-x) 90xxxxxx วิชาเลื...",
+        "output": "FREE ELECTIVE 3 (x-x-x) 90xxxxxx วิชาเลือก (เลือกในกลุ่มวิชาเลือกหมวดวิชาศึกษาทั่วไป) GENERAL EDUCATION 3 (x-x-x) รวม 12 หน่วยกิต รวมตลอดหลักสูตร 135 หน่วยกิต คำอธิบายรายวิชา คำอธิบายรายวิชา ( COURSE DESCRIPTION ) หมวดวิชาเฉพาะ กลุ่มวิชาพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ 30 หน่วยกิต วิชาบังคับเรียน พื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ 23 หน่วยกิต 01006030 แคลคูลัส 1 3 (3-0-6) CALCULUS 1 PREREQUISITE: NONE ฟังก์ชัน , ลิมิต, ความต่อเนื่อง และการประยุกต์ใช้ อุปนัยเชิงคณิตศาสตร์ แนะนำอนุพันธ์ การหาอนุพันธ์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ฟังก์ชัน , ลิมิต, ความต่อเนื่อง และการปร...",
+        "output": "ฟังก์ชัน , ลิมิต, ความต่อเนื่อง และการประยุกต์ใช้ อุปนัยเชิงคณิตศาสตร์ แนะนำอนุพันธ์ การหาอนุพันธ์ การประยุกต์ใช้อนุพันธ์ ปริพันธ์จำกัดเขต การปริพันธ์ด้วยปฏิยานุพันธ์ การประยุกต์ใช้ปริพันธ์จำกัดเขต รูปแบบ ของการปริพันธ์ที่หาค่าไม่ได้ ปริพันธ์ไม่ตรงแบบ การหาปริพันธ์ด้วยวิธีเชิงตัวเลข อันดับและอนุกรมของจำนวน การกระจายอนุกรมเทเลอร์ของฟังก์ชันพื้นฐาน การวิเคราะห์เวกเตอร์ Function, Limit, Continuity and their applications, Mathematical induction, Introduction to"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Function, Limit, Continuity and their ap...",
+        "output": "Function, Limit, Continuity and their applications, Mathematical induction, Introduction to derivative, Differentiation, Applications of derivative, Definite integrals, Antiderivative integration, Application of definite integral, Indeterminate forms, Impr oper integrals, Numerical integration, Sequences and series of numbers, Taylor series expansions of elementary functions vector analysis. 01006031 แคลคูลัส 2 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01006031 แคลคูลัส 2 3 (3-0-6) CALCULUS 2...",
+        "output": "01006031 แคลคูลัส 2 3 (3-0-6) CALCULUS 2 วิชาบังคับก่อน : 01006030 แคลคูลัส 1 PREREQUISITE : 01006 030 CALCULUS 1 ฟังก์ชันหลายตัวแปรและการประยุกต์ใช้ พีชคณิตของเวกเตอร์ในสามมิติ พิกัดเชิงขั้วแคลคูลัสของฟังก์ชัน จำนวนจริงสองตัวแปร การหาอนุพันธ์และปริพันธ์ของฟังก์ชันจำนวนจริง และฟังก์ชันเวกเตอร์จำนวนจริงหลายตัว แปร แนะนำปริพันธ์เส้น เส้น ระนาบ และพื้นผิว ในปริภูมิสามมิติ แคลคูลัสของฟังก์ชันจำนวนจริงในปริภูมิสามมิติ ทฤษฎีบทหลักที่เกี่ยวกับการประยุกต์ เช่น ทฤษฎีบทของกรีน ทฤษฎีไดเวอร์เจนซ์ทฤษฎีบทของเกาส์ทฤษฎีบท"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ทฤษฎีบทหลักที่เกี่ยวกับการประยุกต์ เช่น ...",
+        "output": "ทฤษฎีบทหลักที่เกี่ยวกับการประยุกต์ เช่น ทฤษฎีบทของกรีน ทฤษฎีไดเวอร์เจนซ์ทฤษฎีบทของเกาส์ทฤษฎีบท ของสโตกส์เป็นต้น Functions of several variables and theirs applications, Vector algebra in three dimensions, Polar coordinates, Calculus of real - valued functions of two variables, Differentiation and integration of real - valued and vector - valued functions of multiple real variables, Introduction"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: integration of real - valued and vector ...",
+        "output": "integration of real - valued and vector - valued functions of multiple real variables, Introduction to line integrals, Lines, planes and surfaces in three -dimensional space, Calculus of real - valued functions in three dimensional space, Principal theory for applications such as Green’ s theorem, divergence theorem, Gauss the orem, Stokes theorem, etc."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: divergence theorem, Gauss the orem, Stok...",
+        "output": "divergence theorem, Gauss the orem, Stokes theorem, etc. 01006032 สมการอนุพันธ์และพีชคณิตเชิงเส้นพื้นฐาน 3 (3-0-6) ELEMENTARY DIFFERENTIAL EQUATIONS AND LINEAR ALGEBRA วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE ระบบสมการและการแปลงเชิงเส้น เวกเตอร์และสเปซ เมตริกซ์ผลเฉลยของสมการเชิงเส้นโดยวิธีเมตริกซ์ ฐาน ฐานตั้งฉากและการประยุกต์ใช้งาน การแปลงลาปลาซ การแปลงแซด การแปลงฟูริเยร์ฯ ฟังก์ชันเชิงซ้อนและ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ฐาน ฐานตั้งฉากและการประยุกต์ใช้งาน การแป...",
+        "output": "ฐาน ฐานตั้งฉากและการประยุกต์ใช้งาน การแปลงลาปลาซ การแปลงแซด การแปลงฟูริเยร์ฯ ฟังก์ชันเชิงซ้อนและ การแปลง แนะนําสมการเชิงอนุพันธ์และการประยุกต์ใช้ สมการอนุพันธ์เชิงเส้นและ ไม่เชิงเส้น สมการเชิงอนุพันธ์ สามัญ การประยุกต์สมการเชิงอนุพันธ์สามัญกับปัญหาทางวิศวกรรม ปัญหา ค่าเริ่มต้น Systems of linear equations and solutions. Vector and space, Matrices, Solution of linear equations by matrices, bases, orthonormal bases and applications in Fourier series, etc. Linear"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: equations by matrices, bases, orthonorma...",
+        "output": "equations by matrices, bases, orthonormal bases and applications in Fourier series, etc. Linear transformations: Laplace transformation, z -transformation Fourier tran sformation, complex function and transformation, Introduction to differential equations, linear and nonlinear differential equation, Ordinary differential equations, Application of ordinary differential equation for engineering problems, initial value prob lems."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: for engineering problems, initial value ...",
+        "output": "for engineering problems, initial value prob lems. 01236200 สถิติวิศวกรรม 3 (3-0-6) ENGINEERING STATISTICS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE แนะนําพื้นฐานด านความน าจะเป นและสถิติ การวิเคราะห์ข้อมูลเบื้องต้น ตัวแปรสุ่ม การทดสอบ สมมติฐาน การวิเคราะห การถดถอยเชิงเส นและสหสัมพันธ อนุกรมเวลาพร้อมการประยุกต์ใช้ทฤษฎีการตัดสินใจ การวิเคราะห์ระยะปลอดเหตุการณ์การทำนาย และการวิเคราะห์ค่าคลาดเคลื่อน วิธีการทางสถิติแบบหลายตัวแปร"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การวิเคราะห์ระยะปลอดเหตุการณ์การทำนาย แล...",
+        "output": "การวิเคราะห์ระยะปลอดเหตุการณ์การทำนาย และการวิเคราะห์ค่าคลาดเคลื่อน วิธีการทางสถิติแบบหลายตัวแปร การออกแบบการทดลอง วิธีการทางคณิตกรณ์เพื่อการประเมินคุณภาพ กระบวนการทางการผลิต Introduction to probability and statistics; introduction to data analysis; random variable; hypothesis testing. Linear Regression and Correlation Analysis. Time series with applications, decision theory, survival analysis, prediction and tolerance analysis , multivariate statistical"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: decision theory, survival analysis, pred...",
+        "output": "decision theory, survival analysis, prediction and tolerance analysis , multivariate statistical methods, design of experiments, computer methods for quality, manufacturing. 0100602 0 ฟิสิกส์ทั่วไป 1 3 (3-0-6) GENERAL PHYSICS 1 วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE เวกเตอร์ การเคลื่อนที่และกฎของนิวตัน สมดุลของอนุภาค สมดุลแรง สมดุลของวัตถุแข็ง จุดศูนย์กลาง แรงโน้มถ่วงและจุดเซนทรอยด์ คลื่นและการสั่น กลศาสตร์ของไหล แก๊สอุดมคติและสารบริสุทธิ์งานและความร้อน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แรงโน้มถ่วงและจุดเซนทรอยด์ คลื่นและการสั...",
+        "output": "แรงโน้มถ่วงและจุดเซนทรอยด์ คลื่นและการสั่น กลศาสตร์ของไหล แก๊สอุดมคติและสารบริสุทธิ์งานและความร้อน การนำความร้อน การพาความร้อน และการแผ่รังสีความร้อน Equilibrium of particles, equivalent system of forces, equilibrium of rigid bodies, center of gravity and centroids, vibration and wave, fluid mechanics, ideal gas and pure substances, work and heat, thermal conduction, thermal convection Thermal radiation ."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and heat, thermal conduction, thermal co...",
+        "output": "and heat, thermal conduction, thermal convection Thermal radiation . 0100602 1 ปฏิบัติการฟิสิกส์ทั่วไป 1 1 (0-3-2) GENERAL PHYSICS LABORATORY 1 วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE ปฏิบัติการที่มีเนื้อหาสัมพันธ์กับวิชา 01006020 ฟิสิกส์ทั่วไป 1 The experiments correspond to the subject in 01006020 General Physics 1 0100602 2 ฟิสิกส์ทั่วไป 2 3 (3-0-6) GENERAL PHYSICS 2"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: GENERAL PHYSICS 2 วิชาบังคับก่อน : ไม่มี...",
+        "output": "GENERAL PHYSICS 2 วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE การหักเหและการเบี่ยงเบนทางแสง โพลาไรเซซั่น เลนส์และอุปกรณ์ทางแสง ทฤษฎีสัมพัทธ์ภาพพิเศษ คุณสมบัติแบบอนุภาคของคลื่น คุณสมบัติแบบคลื่นของอนุภาค โครงสร้างของอะตอม แบบจำลองอะตอมของบอร์ สมการโชรดิงเจอร์ ทฤษฎีควอนตัมของอะตอมไฮโดรเจน อะตอมแบบมีอิเล็กตรอนหลายตัว การวิเคราะห์วงจร กระแสตรงและกระแสสลับ โครงสร้างพื้นฐานของระบบอิเล็กทรอนิกส์ คุณสมบัติเบื้องต้นของสารกึ่งตัวนำ พื้นฐาน ไดโอด ทรานซิสเตอร์ชนิดสองขั้วและชนิดสนามไฟฟ้า การใช้งานไดโอดพื้นฐาน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ไดโอด ทรานซิสเตอร์ชนิดสองขั้วและชนิดสนาม...",
+        "output": "ไดโอด ทรานซิสเตอร์ชนิดสองขั้วและชนิดสนามไฟฟ้า การใช้งานไดโอดพื้นฐาน Reflection and refraction, polarization, Plane mirrors, Lens and optical instruments, special relativity, the dual property of wave and particle, atom structure, Bohr model, Schrodinger equation, quantum theory of hydrogen atom, multielectron atom, DC and AC circuit analysis, basic configuration of electronics systems, basic characteristics of semiconductor devices diode,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: basic configuration of electronics syste...",
+        "output": "basic configuration of electronics systems, basic characteristics of semiconductor devices diode, bipolar transistors and field effect transistors, basic diode applications. 0100602 3 ปฏิบัติการฟิสิกส์ทั่วไป 2 1 (0-3-2) GENERAL PHYSICS LABORATORY 2 วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE ปฏิบัติการที่มีเนื้อหาสัมพันธ์กับวิชา 0100602 2 ฟิสิกส์ทั่วไป 2 The experiments correspond to the subject in 0100602 2 General Physics 2"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: The experiments correspond to the subjec...",
+        "output": "The experiments correspond to the subject in 0100602 2 General Physics 2 01236250 สนามแม่เหล็กไฟฟ้า 3 (3-0-6) ELECTROMAGNETIC FIELDS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE การวิเคราะห เวกเตอร าสถิตย สนามไฟฟ า ศักย า ตัวนำ สนามไฟฟ าในวัสดุ ตัวเก็บประจุ ไฟฟ เหล็กสถิตย เวกเตอร ของศักย เหล็ก สนามแม เหล็กในวัสดุ จลศาสตร า ตัวเหนี่ยวนำ สมการของแมกซ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: า ตัวเหนี่ยวนำ สมการของแมกซ เวลลการประยุ...",
+        "output": "า ตัวเหนี่ยวนำ สมการของแมกซ เวลลการประยุกตใช Vector analysis, electrostatics, electric fields, electric potentials, conductors, electric fields in matter, capacitance, magnetostatics, magnetic fields, magnetic vector potentials, magnetic fields in matter, electrodynamics, inductance, Maxwe ll’s equations , Applications. วิชาเลือกเรียนทางพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ (เลือกเรียนให้ครบ 30 หน่วยกิต)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาเลือกเรียนทางพื้นฐานคณิตศาสตร์ และวิ...",
+        "output": "วิชาเลือกเรียนทางพื้นฐานคณิตศาสตร์ และวิทยาศาสตร์ (เลือกเรียนให้ครบ 30 หน่วยกิต) 01236251 คณิตศาสตร์ดิสครีต 3 (3-0-6) DISCRETE MATHEMATICS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE เซ็ต ฟงกชันและความสัมพันธ การพิสูจนและการพิสูจน โดยอุปนัย ทฤษฎีจํานวน การนับ ความน่าจะเปน ตรรกศาสตรเชิงประพจนการอนุมานเชิงตรรกะ กราฟ การเวียนเกิด อัลกอริทึม การวิเคราะห์อัลกอริทึม การศึกษา อัลกอริทึมแบบต่าง ๆ Sets, Functions and Relation, Proofs and Induction, Number Theory, Counting, Probability,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Sets, Functions and Relation, Proofs and...",
+        "output": "Sets, Functions and Relation, Proofs and Induction, Number Theory, Counting, Probability, Propositional Logic, Logical Inference, Graphs, Recurrence, Algorithm, algorithm analysis . 01236252 คณิตศาสตร์สำหรับวิทยาการข้อมูล 4 (4-0-6) MATHEMATICS FOR DATA SCIENCE วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE แนะนําพื้นฐานด้านคณิตศาสตร์สำหรับวิทยาการข้อมูล ปริภูมิเวกเตอร์ การวิเคราะห์เชิงเรขาคณิต การ ออร์ธอร์กอนัลและออร์ธอร์นอร์มัล ค่าไอเกน ไอเกนเวกเตอร์ การแยกเมทริกซ์ เทคนิคการหาค่าที่เหมาะสมที่สุด"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ออร์ธอร์กอนัลและออร์ธอร์นอร์มัล ค่าไอเกน...",
+        "output": "ออร์ธอร์กอนัลและออร์ธอร์นอร์มัล ค่าไอเกน ไอเกนเวกเตอร์ การแยกเมทริกซ์ เทคนิคการหาค่าที่เหมาะสมที่สุด ความน าจะเป็น ตัวแปรสุ ม การแจกแจงความน าจะเป นแบบไม อเนื่องและต อเนื่อง การแจกแจงตัวอย าง การสุ มตัวอยางและการแจกแจงการสุ มตัวอย าง ทฤษฎีการประมาณค า การทดสอบสมมติฐาน การวิเคราะห การถดถอย แบบต่าง ๆ การลดมิติ พื้นฐานการจำแนกข้อมูล การจำแนกแบบเพื่อนบ้านที่ใกล้ที่สุด การจำแนกแบบเอสวีเอ็ม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แบบต่าง ๆ การลดมิติ พื้นฐานการจำแนกข้อมู...",
+        "output": "แบบต่าง ๆ การลดมิติ พื้นฐานการจำแนกข้อมูล การจำแนกแบบเพื่อนบ้านที่ใกล้ที่สุด การจำแนกแบบเอสวีเอ็ม การฝึกปฏิบัติโดยใช้การเขียนโป รแกรมคอมพิวเตอร์ด้วยเครื่องมือ เช่น ไพธอน แมทแลป Introduction to mathematical for data science; Vector space; analytic geometry; orthogonality, orthonormality, Eigenvalues, eigenvectors; matrix decomposition; vector calculus; Optimization techniques; probability; random variables; discrete and continuous probability"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Optimization techniques; probability; ra...",
+        "output": "Optimization techniques; probability; random variables; discrete and continuous probability distributions; sampling distributions; random samples and distribution; bayes’s theorem; approximation theory; hypothesis testing; analysis of regression methods; dimensionality reduction; basic classification; k -nearest neighbor, classification with SVM; Practice by using computer programming tools such as python, MATLAB."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: computer programming tools such as pytho...",
+        "output": "computer programming tools such as python, MATLAB. 01006024 เคมีทั่วไป 3 (3-0-6) GENERAL CHEMISTRY วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE พื้นฐานทฤษฎีอะตอมและปริมาณสัมพันธ์ คุณสมบัติของแก๊ส ของแข็ง ของเหลว และสารละลาย สมดุล เคมี สมดุลไอออน จลนพลศาสตร์เคมี โครงสร้างทางอิเล็กตรอนของอะตอม พันธะเคมี สมบัติตามตารางธาตุธาตุ เรพรีเซนเทรทีฟ ธาตุอโลหะ และโลหะทรานซิชัน ปฏิกิริยากรด -เบสและปฏิกิริยารีดอกซ์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เรพรีเซนเทรทีฟ ธาตุอโลหะ และโลหะทรานซิชั...",
+        "output": "เรพรีเซนเทรทีฟ ธาตุอโลหะ และโลหะทรานซิชัน ปฏิกิริยากรด -เบสและปฏิกิริยารีดอกซ์ Stoichiometry and basis of the atomic theory, properties of gases, liquids, solids and solutions, chemical equilibrium, ionic equilibrium, chemical kinetics, electronic structures of atoms, chemical bonds, periodic properties, representative elements, nonm etal and transition"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: atoms, chemical bonds, periodic properti...",
+        "output": "atoms, chemical bonds, periodic properties, representative elements, nonm etal and transition metals, acid -base reactions and redox reaction. 0100602 5 ปฏิบัติการเคมีทั่วไป 1 (0-3-2) GENERAL CHEMISTRY LABORATORY วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE ปฏิบัติการที่มีเนื้อหาสัมพันธ์กับวิชา 01006024 เคมีทั่วไป The experiments that correspond to the subject in 01006024 GENERAL CHEMISTRY."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: The experiments that correspond to the s...",
+        "output": "The experiments that correspond to the subject in 01006024 GENERAL CHEMISTRY. 01236253 ชีววิทยาทั่วไป 3 (3-0-6) GENERAL BIOLOGY วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE ระเบียบวิธีวิทยาศาสตร สมบัติของสิ่งมีชีวิต เซล ลและสวนประกอบของเซลล สารชีวโมเลกุลกับเมแทบอลิ ซึมระดับเซลล พันธุศาสตร วิวัฒนาการความหลากหลายของ จุลินทรีย พืชและสัตว สรีรวิทยาของพืชและสัตว นิเวศวิทยาและการประยุกต ใชทางชีววิทยา"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: นิเวศวิทยาและการประยุกต ใชทางชีววิทยา Sc...",
+        "output": "นิเวศวิทยาและการประยุกต ใชทางชีววิทยา Scientific methodology, organism characteristics, cells and organelles, biomolecules and cellular metabolisms, genetics, evolution, diversity of microorganisms, plans and animals, physiology of plant and animal, ecology and applications of biology. กลุ่มวิชาวิศวกรรมพื้นฐาน 10 หน่วยกิต 01006012 การเขียนโปรแกรมคอมพิวเตอร์ 3 (2-2-5) COMPUTER PROGRAMMING วิชาบังคับก่อน : ไม่มี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับก่อน : ไม่มี PREREQUISITE : NO...",
+        "output": "วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE สถาปัตยกรรมคอมพิวเตอร์เบื้องต้น องค์ประกอบของระบบคอมพิวเตอร์ การปฏิสัมพันธ์ระหว่าง ฮาร์ดแวร์และซอฟต์แวร์ การประมวลผลข้อมูล การออกแบบและขั้นตอนการพัฒนาโปรแกรม ระดับของ ภาษาคอมพิวเตอร์ ตัวแปลภาษา การเขียนโปรแกรมด้วยภาษาคอมพิวเตอร์ระดับสูง องค์ประกอบของประโยค คำสั่ง เช่น ค่าคงที่ ตัวแปร เครื่องหมายกระทำการนิพจน์ ชนิดของข้อมูลแบบต่างๆ คำสั่งแบบตามลำดับ แบบ กำหนดเงื่อนไข และแบบวนซ้ำ ก ารประยุกต์ใช้คอมพิวเตอร์ในงานต่าง ๆ การฝึกปฏิบัติเกี่ยวกับการใช้เครื่องมือใน การพัฒนาโปรแกรม การตรวจสอบ ทดสอบและแก้ไขโปรแกรม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การพัฒนาโปรแกรม การตรวจสอบ ทดสอบและแก้ไข...",
+        "output": "การพัฒนาโปรแกรม การตรวจสอบ ทดสอบและแก้ไขโปรแกรม Basic computer architecture; computer system component; hardware and software interaction; electronic data processing concepts; program design and development methodology; levels of computer languages; compiler; computer programming using high level language; component of statement e.g. constant, variable, operator, expression, data types; sequential"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: component of statement e.g. constant, va...",
+        "output": "component of statement e.g. constant, variable, operator, expression, data types; sequential statement; control statement; iteration statement; computer application; practice in using program development tools; program testing and debugging. 01236249 พื้นฐานการออกแบบระบบดิจิทัล 3 (2-2-5) FUNDAMENTAL OF DIGITAL SYSTEM DESIGN วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE แนะนําทฤษฎี และการปฏิบัติทางด้านระบบดิจิทัล ระบบเลขฐานสอง พีชคณิตแบบบูลีน และการลดรูป"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แนะนําทฤษฎี และการปฏิบัติทางด้านระบบดิจิ...",
+        "output": "แนะนําทฤษฎี และการปฏิบัติทางด้านระบบดิจิทัล ระบบเลขฐานสอง พีชคณิตแบบบูลีน และการลดรูป วงจรคอมบิเนชันองค์ประกอบของวงจรซีเควนเชียล ได้แก่ แลทช์ฟลิปฟลอป รีจิสเตอร์และเคาน์เตอร์วงจรซีเควน เชียลหน่วยประมวลผลคณิตศาสตร์และตรรกะขั้นพื้นฐาน หน่วยควบคุม ภาษาฮาร์ดแวร์ (เฮชดีแอล) Introduction to theories and practice about Digital Systems; Binary Systems; Boolean algebra and simplification; Combinational Circuit; Sequential Components i.e. latches, flip -flops,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: algebra and simplification; Combinationa...",
+        "output": "algebra and simplification; Combinational Circuit; Sequential Components i.e. latches, flip -flops, registers and counters; Sequential Circuits; Basic ALU (Arithmetic and L ogic Unit) and Control Unit; Basic Hardware Description Language (HDL). 01236254 วงจรไฟฟ้า และอิเล็กทรอนิกส์ 3 (2-2-5) CIRCUITS AND ELECTRONICS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE แนะนําอุปกรณ์อิเล็กทรอนิกส์ทั้งแบบพาสซีพ และแอกทีฟ นิยามการวัดและระบบการวัด อุปกรณ์และ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แนะนําอุปกรณ์อิเล็กทรอนิกส์ทั้งแบบพาสซีพ...",
+        "output": "แนะนําอุปกรณ์อิเล็กทรอนิกส์ทั้งแบบพาสซีพ และแอกทีฟ นิยามการวัดและระบบการวัด อุปกรณ์และ เครื่อมือวัดทางไฟฟ้าเพื่อการวัดวงจรอิเล็กทรอนิกส์หลักการวิเคราะห์วงจรไฟฟ้ากระแสตรงและวงจรไฟฟ้า กระแสสลับขั้นพื้นฐาน เช่น กระแส แรงดัน ความต้านทาน กําลังงาน กฎของเคอร์ชอฟฟ์ การ วิเคราะห์ด้วยโหนด แรงดันไฟฟ้าและกระแสของเมช อิมพีแดนซ์เรโซแนนซ์เฟสเซอร์ไดอะแกรม วงจรอันดับที่หนึ่งและวงจรอันดับที่ สอง หลักการวงจรอิเล็กทรอนิกส์พื้นฐาน เช่น วงจรเรียงกระแส วงจรตัด -ยกระดับสัญญาณ วงจรขยายด้วย"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: สอง หลักการวงจรอิเล็กทรอนิกส์พื้นฐาน เช่...",
+        "output": "สอง หลักการวงจรอิเล็กทรอนิกส์พื้นฐาน เช่น วงจรเรียงกระแส วงจรตัด -ยกระดับสัญญาณ วงจรขยายด้วย ทรานซิสเตอร์วงจรออปแอมป์และวงจรกรองความถี่ การทด ลองทางวงจรไฟฟ้า และอิเล็กทรอนิกส์ที่เกี่ยวข้องกับ เนื้อหาวิชา Introduction to electronic devices as: passive devices and active devices; Definition and system of measurement units; Electrical tool and instrumentation for electronic circuit measurement; Fundamentals to analysis in DC and AC circuits as: current, voltage, resistance,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: measurement; Fundamentals to analysis in...",
+        "output": "measurement; Fundamentals to analysis in DC and AC circuits as: current, voltage, resistance, power, Kirchoff’s laws, node voltage and mesh current analysis, impedance, resonance, phasor diagram, first and second order circuits; Principle of basics electronic circuits as: rectifiers circuit, clipper -clamp circuit, transistor amplifi er circuit, op -amp circuit, and filter circuit, experiment of"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: clipper -clamp circuit, transistor ampli...",
+        "output": "clipper -clamp circuit, transistor amplifi er circuit, op -amp circuit, and filter circuit, experiment of circuits and electronics that related to the subject contents. กลุ่มวิชาบังคับทางวิศวกรรมระบบไอโอทีและสารสนเทศ 36 หน่วยกิต 01236255 พื้นฐานระบบไอโอที 3 (2-2-5) INTRODUCTION TO INTERNET OF THINGS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE หลักการพื้นฐานภาพรวมของสหวิทยาการของระบบอินเทอร์เน็ตในทุกสรรพสิ่ง (ไอโอที) มาตรฐานและ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: หลักการพื้นฐานภาพรวมของสหวิทยาการของระบบ...",
+        "output": "หลักการพื้นฐานภาพรวมของสหวิทยาการของระบบอินเทอร์เน็ตในทุกสรรพสิ่ง (ไอโอที) มาตรฐานและ เทคโนโลยีของไอโอที สถาปัตยกรรมไอโอที การพัฒนาแพลตฟอร์มระบบไอโอที เทคโนโลยีระบบเซ็นเซอร์ของไอ โอที พื้นฐานของระบบสื่อสาร เครือข่าย และโพรโทคอลระบบไอโอที ซอฟต์แวร์ หลักการเบื้ องต้นของกระ ประมวลผลแบบกลุ่มเมฆและเอดจ์ หลักการวิเคราะห์ข้อมูล และข้อมูลขนาดใหญ่ของระบบไอโอที ปฏิบัติการ พื้นฐานการโปรแกรมและระบบสมองกลฝังตัวสำหรับระบบไอโอที การประยุกต์ใช้งานระบบไอโอทีในอุตสาหกรรม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: พื้นฐานการโปรแกรมและระบบสมองกลฝังตัวสำหร...",
+        "output": "พื้นฐานการโปรแกรมและระบบสมองกลฝังตัวสำหรับระบบไอโอที การประยุกต์ใช้งานระบบไอโอทีในอุตสาหกรรม ระบบอัจฉริยะต่าง ๆ An introductory overview of the multi -disciplinary field of Internet of Things (IoT). IoT standard and technology. IoT Architecture; IoT development platform; Sensor technology for IoT; introduction of IoT communications, networks and protocols; introducti on to cloud and edge"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: introduction of IoT communications, netw...",
+        "output": "introduction of IoT communications, networks and protocols; introducti on to cloud and edge computing; introduction to dana analytics and big data for IoT system. Practice about basic embedded system and programming for IoT. IoT application for smart system industry. 01236256 ไมโครคอนโทรลเลอร์และระบบสมองกลฝังตัว 3 (2-2-5) MICROCONTROLLER AND EMBEDDED SYSTEMS"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: MICROCONTROLLER AND EMBEDDED SYSTEMS วิช...",
+        "output": "MICROCONTROLLER AND EMBEDDED SYSTEMS วิชาบังคับก่อน : 01236249 พื้นฐานการออกแบบระบบดิจิทัล PREREQUISITE : 01236249 FUNDAMENTAL OF DIGITAL SYSTEM DESIGN พื้นฐานทางด้านอิเล็กทรอนิกส์ และคอมพิวเตอร์สำหรับไมโครคอนโทรลเลอร์และระบบสมองกลฝัง สถาปัตยกรรมไมโครคอนโทรลเลอร์ ระบบอินพุตเอาต์พุต อินเทอร์รัพท์ การอินเตอร์เฟสเชื่อมต่อ การสื่อสาร อนุกรม เอสพีไอ ไอสแควร์ซี ไทม์เมอร์ การแปลงแอนะล็อกเป็นดิจิทัล พื้นฐานการออกแบบระบบสมองกลฝังตัว ปฏิบัติการเกี่ยวกับพื้นฐานการประยุกต์ใช้งานและการโปรแกรมไมโครคอนโทรลเลอร์ เช่น การใช้งานบอร์ดอาร์ดู"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ปฏิบัติการเกี่ยวกับพื้นฐานการประยุกต์ใช้...",
+        "output": "ปฏิบัติการเกี่ยวกับพื้นฐานการประยุกต์ใช้งานและการโปรแกรมไมโครคอนโทรลเลอร์ เช่น การใช้งานบอร์ดอาร์ดู โน่ อีเอสพี 32 หรือราสเบอรรีพาย การพัฒนาเป็นโครงงานเบื้องต้น This course instructs students about basic of electronic and computer for microcontroller and embedded systems microcontroller architecture; GPIO system; interrupt; interfacing; serial communication UARTS; SPI; I2C; timers; Analog -to-Digital Convertor; principle of embedded"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: communication UARTS; SPI; I2C; timers; A...",
+        "output": "communication UARTS; SPI; I2C; timers; Analog -to-Digital Convertor; principle of embedded system design; practice about basic microcontroller application and programming such as Arduino, ESP32, or Raspberry Pi; d evelopment for preliminary project. 01236257 การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล 3 (2-2-5) OBJECT -ORIENTED PROGRAMMING AND DATA STRUCTURE วิชาบังคับก่อน : 01006012 การเขียนโปรแกรมคอมพิวเตอร์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับก่อน : 01006012 การเขียนโปรแกร...",
+        "output": "วิชาบังคับก่อน : 01006012 การเขียนโปรแกรมคอมพิวเตอร์ PREREQUISITE : 01006012 COMPUTER PROGRAMMING การศึกษาแนวคิดในการเขียนโปรแกรมเชิงวัตถุ อาทิเช่น การกําหนดคลาสและชนิดข้อมูล การปกปิด รายละเอียดในการพัฒนาวัตถุความสามารถในการนํากลับมาใช้ใหม่ การสืบทอดคุณลักษณะของคลาส ความสัมพันธ์ของคลาส การซ่อนคุณสมบัติหรือความสามารถของคลาส การกําหนดฟังก์ชันภายใต้ชื่อ เดียวกัน ความสามารถในการกําหนดให้ฟังก์ชันสามารถกระทํากับวัตถุต่างชนิดได้เป็นต้น นิยาม ความสําคัญ และบทบาท ของอัลกอริทึมและโครงสร้างข้อมูล การวิเคราะห์อัลกอริทึมขั้นพื้นฐาน โครงสร้างข้อมูลแบบพื้นฐานและแบบ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ของอัลกอริทึมและโครงสร้างข้อมูล การวิเคร...",
+        "output": "ของอัลกอริทึมและโครงสร้างข้อมูล การวิเคราะห์อัลกอริทึมขั้นพื้นฐาน โครงสร้างข้อมูลแบบพื้นฐานและแบบ ชั้นสูงบางประเภท รวมทั้งอัลกอริทึมที่ใช้ร่วมและเรียนรู้ วิธีสร้างโครงสร้างข้อมูลแบบพื้นฐานทั่วไป เช่น ซ้อนทับ แถวคอย และรายการ เป็นต้น Study of object -oriented programming concept, class and data type definition, encapsulation, reusability, inheritance, class hierarchy, overriding, overloading and polymorphism, basic data structures and their related operations as well as an introduction to the analysis of"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: basic data structures and their related ...",
+        "output": "basic data structures and their related operations as well as an introduction to the analysis of algorithms. Topics include arrays, stacks, queues, lists, hash tables, trees, heaps, graphs, time and space complexity analysis of algorithms, asymptotic notations, iterative and recursive algorithms, and algorithms for sorting and sear ching and their complexity."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and algorithms for sorting and sear chin...",
+        "output": "and algorithms for sorting and sear ching and their complexity. 01236258 การสื่อสารพื้นฐาน 3 (3-0-6) PRINCIPLES OF COMMUNICATIONS วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ศึกษาเกี่ยวกับการเข้าใช้ความถี่ การแพร่กระจายคลื่นสนามแม่เหล็กไฟฟ้า ความจุและการเข้ารหัส ช่องสัญญาณ และระบบการสื่อสารในอุดมคติระบบและสัญญาณ คุณสมบัติของสัญญาณและสัญญาณรบกวน ระบบเชิงเส้น การแทนระบบบนโดเมนเวลาและความถี่ การแปลงฟูริเยร์ สัญญาณดิจิทัลและสัญญาณพั ลส์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ระบบเชิงเส้น การแทนระบบบนโดเมนเวลาและควา...",
+        "output": "ระบบเชิงเส้น การแทนระบบบนโดเมนเวลาและความถี่ การแปลงฟูริเยร์ สัญญาณดิจิทัลและสัญญาณพั ลส์ เบสแบนด์ การมอดูเลตแอมพลิจูดพัลส์ การมอดูเลตรหัสพัลส์ ระบบการมอดูเลตแบบแอนะล็อกและแบบดิจิทัล ระบบและตัวกลางในการส่งข้อมูล การมัลติเพล็กซ์ แนะนําเทคโนโลยีการสื่อสารที่ทันสมัย Introduction to frequency allocation, propagation of electromagnetic waves, channel capacity and ideal communication systems, signal and systems: properties of signal and noise,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: capacity and ideal communication systems...",
+        "output": "capacity and ideal communication systems, signal and systems: properties of signal and noise, linear systems, time domain and frequency domain representation of a system, F ourier transform and spectra, Nyquist’s sampling theorem, pulse code modulation, baseband signaling, digital signaling, analog and digital modulations, information transmission medium and systems,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: signaling, analog and digital modulation...",
+        "output": "signaling, analog and digital modulations, information transmission medium and systems, multiplexing, modern communication technologies. 01236259 ระบบโครงข่ายไอโอทีและการสื่อสารข้อมูล 3 (3-0-6) IoT NETWORKS AND DATA COMMUNICATIONS วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE แนะนำการสื่อสารข้อมูล และเครือข่ายในระบบไอโอที แบบจําลอง OSI โพรโทคอลและมาตรฐานของ อีเทอร์เน็ต ชุดโพรโทคอล TCP/IP ชนิดของสื่อสัญญาณและอุปกรณ์เครือข่าย การควบคุมการใช้สื่อ การควบคุม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: อีเทอร์เน็ต ชุดโพรโทคอล TCP/IP ชนิดของสื...",
+        "output": "อีเทอร์เน็ต ชุดโพรโทคอล TCP/IP ชนิดของสื่อสัญญาณและอุปกรณ์เครือข่าย การควบคุมการใช้สื่อ การควบคุม ความผิดพลาดการสื่อสารข้อมูลการควบคุมการไหลของข้อมูลแบบหยุดคอย เครือข่ายแบบแลน เครือข่ายเสมือน โพรโทคอลในชั้นเครือข่ายและแอปพลิเคชันที่นิยมในระบบไอโอที เช่น CoAP, AMQP, MQTT, XMPP และ 6LoWPAN พื้นฐานโพรโทคอลสื่อสารไร้สายในระบบไอโอที เช่น WLAN, Zigbee, LoRaWAN, Bluetooth หรือ NB-IoT ความปลอดภัยในเครือข่าย Overview of the data communications and IoT Networks; OSI model; ethernet protocol"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Overview of the data communications and ...",
+        "output": "Overview of the data communications and IoT Networks; OSI model; ethernet protocol and standards; TCP/IP protocol suite; medium types and network devices; medium access controls: error controls; flow controls, some IoT application -layer and network -layer protocols including CoAP, AMQP, MQTT, XMPP and 6LoWPAN, wireless protocols relevant to Internet of"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: including CoAP, AMQP, MQTT, XMPP and 6Lo...",
+        "output": "including CoAP, AMQP, MQTT, XMPP and 6LoWPAN, wireless protocols relevant to Internet of Things (IoT) such as WLAN (IEEE 802.11), Zigbee (IEEE 802.15.4), LoRaWAN, Bluetooth, NB -IoT, network security . 01236260 ระบบไซเบอร์ทางกายภาพและเซ็นเซอร์ 3 (2-2-5) CYBER -PHYSICAL SYSTEM AND SENSOR วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE หลักการพื้นฐานของระบบไซเบอร์ทางกายภาพ การบูรณาการของโลกไซเบอร์และโลกกายภาพ และ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: หลักการพื้นฐานของระบบไซเบอร์ทางกายภาพ กา...",
+        "output": "หลักการพื้นฐานของระบบไซเบอร์ทางกายภาพ การบูรณาการของโลกไซเบอร์และโลกกายภาพ และ ระบบเซ็นเซอร์ในทุกสรรพสิ่ง พื้นฐานการวัดและควบคุมอุปกรณ์ องค์ประกอบทางกายภาพของเซ็นเซอร์ คุณลักษณะและการประยุกต์ใช้งานเซ็นเซอร์ต่าง ๆ เช่น เซ็นเซอร์เชิงกล เซ็นเซอร์แม่เหล็ก เซ็นเซอร์ความร้อน เซ็นเซอร์เคมี เซ็นเซอร์ชีวภาพ เป็นต้น การประมวลผลปลายทาง และอินเตอร์เฟสกับไมโครคอนโทรลเลอร์ การ ประยุกต์ใช้งานโมดูลเซนเซอร์กับระบบไซเบอร์ทางกายภาพ the basic knowledge of cyber -physical system, integrated of cyber word and physical"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: the basic knowledge of cyber -physical s...",
+        "output": "the basic knowledge of cyber -physical system, integrated of cyber word and physical world and sensorization of things, introduction to measurement and control devise. Physical components for sensor applications; the basic characteristics of sensors and the application areas such as mechanical sensor, magnetic sensor, heat sensor, mechanical sensor, biosensor; Ho w to"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: such as mechanical sensor, magnetic sens...",
+        "output": "such as mechanical sensor, magnetic sensor, heat sensor, mechanical sensor, biosensor; Ho w to microcontroller interface to sensor, Sensor modules applications with cyber -physical system. 01236261 การพัฒนาแอปพลิเคชันบนโมไบล์ 3 (2-2-5) MOBILE APPLICATION DEVELOPMENT วิชาบังคับก่อน : 01006012 พื้นฐานการเขียนโปรแกรม PREREQUISITE : 01006012 COMPUTER PROGRAMMING แนวคิดพื้นฐานในการการพัฒนาแอปพลิเคชันโมไบล์ แพลตฟอร์มการพัฒนาแอปพลิเคชันโมไบล์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แนวคิดพื้นฐานในการการพัฒนาแอปพลิเคชันโมไ...",
+        "output": "แนวคิดพื้นฐานในการการพัฒนาแอปพลิเคชันโมไบล์ แพลตฟอร์มการพัฒนาแอปพลิเคชันโมไบล์ ภาพรวมของสถาปัตยกรรมแอปพลิเคชันโมไบล์ การใช้งานและการออกแบบสำหรับอุปกรณ์โมไบล์ การทดสอบ แอปพลิเคชันโมไบล์องค์ประกอบการปฏิสัมพันธ์โมไบล์ วงจรชีวิตของแอปพลิเคชันบนสมาร์ตโฟน การสร้างส่วน ติดต่อผู้ใช้งาน การใช้งานส่วนติดต่อภายนอกกับแอปพลิเคชันโมไบล์ Mobile technology's historical development; Mobile application development platforms; Mobile application development roadmaps; Usability and design issues for mobile devices; Testing of mobile applications; Various mobile interface elements; Application’s life cycle; Interface for"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: of mobile applications; Various mobile i...",
+        "output": "of mobile applications; Various mobile interface elements; Application’s life cycle; Interface for different device sizes; Using external APIs and services within mobile applications. 01236262 การออกแบบเชิงปฏิสัมพันธ์ 3 (3-0-6) INTERACTION DESIGN PREREQUISITE: NONE แนะนําเกี่ยวกับการปฏิสัมพันธ์ระหว่างมนุษย์กับคอมพิวเตอร์การออกแบบส่วนปฏิสัมพันธ์อัน ประกอบด้วย การสํารวจความต้องการ การวิเคราะห์การออกแบบ การทําแบบจําลอง การประเมิน และการ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ประกอบด้วย การสํารวจความต้องการ การวิเคร...",
+        "output": "ประกอบด้วย การสํารวจความต้องการ การวิเคราะห์การออกแบบ การทําแบบจําลอง การประเมิน และการ นําไปใช้งาน โดยคํานึงถึงปัจจัยที่เกี่ยวข้องกับการรับรู้และการทําความเข้าใจ รวมถึงปฏิกริ ยาของมนุษย์การ พิจารณาเทคโนโลยีสมัยใหม่สําหรับการเชื่อมต่อระหว่างมนุษย์และคอมพิวเตอร์รวมถึงประสบการณ์ของผู้ใช้ เพื่อให้ได้ผลลัพธ์การออกแบบที่เหมาะสม Introducing Human Computer Interaction (HCI), Interaction Design composed of requirements gathering, analysis, design, prototyping, evaluation and deployment that concern to"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: requirements gathering, analysis, design...",
+        "output": "requirements gathering, analysis, design, prototyping, evaluation and deployment that concern to human factors: perception, cognition and action. Modern Human Computer Interfacing technologies and User experiences should be determined to give a proper design. 01236263 ระบบไอโอทีในอุตสาหกรรม 3 (2-2-5) INDUSTRIAL INTERNET OF THINGS วิชาบังคับก่อน : 01236255 พื้นฐานระบบไอโอที"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับก่อน : 01236255 พื้นฐานระบบไอโ...",
+        "output": "วิชาบังคับก่อน : 01236255 พื้นฐานระบบไอโอที PREREQUISITE: 01236255 INTRODUCTION TO INTERNET OF THINGS ความเข้าใจพื้นฐานเกี่ยวกับระบบไอโอทีในอุตสาหกรรม (ไอไอโอที) พื้นฐานตัวโปรแกรมควบคุมเชิง ตรรกะ (พีแอลซี) ในระบบไอไอโอที พื้นฐานระบบควบคุมเชิงลำดับ การโปรแกรมพีแอลซี การพัฒนาด้วย ภาษาแลดเดอร์ พื้นฐานการควบคุมในอุตสาหกรรม ระบบสื่อสารข้อมูลโครงข่ายในอุตสาหกรรม ร ะบบเซ็นเซอร์ใน ไอไอโอที เครือข่ายและโปรโตคอลในอุตสาหกรรมไอโอที การพัฒนาและออกแบบระบบไอไอโอที อุตสาหกรรม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ไอไอโอที เครือข่ายและโปรโตคอลในอุตสาหกรร...",
+        "output": "ไอไอโอที เครือข่ายและโปรโตคอลในอุตสาหกรรมไอโอที การพัฒนาและออกแบบระบบไอไอโอที อุตสาหกรรม 4.0 ระบบโรงงานอัจฉริยะ ระบบเมืองอัจฉริยะ และระบบอื่น ๆ โครงงานด้านไอไอโอทีโดยยกตัวอย่างการใช้งาน จริงในอุตสาหกรรม Understanding fundamental of Industrial Internet of Things (IIoT); basic of programmable logic control (PLC) in IIoT system Introduction to sequence control; basic of Industrial Automation; Industrial automation network. IIoT Sensors and Devices; IIoT Netw orks and Protocols; Security"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Industrial automation network. IIoT Sens...",
+        "output": "Industrial automation network. IIoT Sensors and Devices; IIoT Netw orks and Protocols; Security and Privacy in IIoT; Design and Development of IIoT systems; Industry 4.0: Smart Factory, Smart City and Smart System; IIoT Project based on real industry use case. 01236264 ปัญญาประดิษฐ์ในทุกสรรพสิ่ง 3 (2-2-5) ARTIFICIAL INTELLIGENCE OF THINGS"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ARTIFICIAL INTELLIGENCE OF THINGS วิชาบั...",
+        "output": "ARTIFICIAL INTELLIGENCE OF THINGS วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE พื้นฐานของปัญญาประดิษฐ์ ระบบเอเจนท์อัจฉริยะ การแก้ปัญหาผ่านการค้นหา การนำเสนอและเหตุผล หลักการพื้นฐานความรู้ที่ไม่แน่นอน การสร้างการตัดสินใจ พื้นฐานระบบการเรียนรู้ของเครื่อง การเก็บรวมรวม ข้อมูล การคำนวณแบบฟัซซี ต้นไม้ตัดสินใจ โครงข่ายประสาทเทียม ตัวอย่างการประยุกต์ใช้งานระบบ ปัญญาประดิษฐ์สำหรับระบบไอโอที ปฏิบัติการพัฒนาโปรแกรมด้านปัญญาประดิษฐ์ และการเรียนรู้ของเครื่อง สำหรับไอโอที Foundation of artificial intelligence, intelligent agents, problem -solving through search,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Foundation of artificial intelligence, i...",
+        "output": "Foundation of artificial intelligence, intelligent agents, problem -solving through search, knowledge representation and reasoning, uncertain knowledge, decision making, introduction to machine learning and knowledge acquisition, fuzzy system, decision tree , neural networks, samples of AI applications for IoT system, practice on AI,ML programming for IoT. 01236265 ระบบความมั่นคงทางไซเบอร์ 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236265 ระบบความมั่นคงทางไซเบอร์ 3 (3-0...",
+        "output": "01236265 ระบบความมั่นคงทางไซเบอร์ 3 (3-0-6) CYBER SECURITY SYSTEM S วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ภาพรวมทฤษฎี หลักการ และความรู้เบื้องต้นเกี่ยวกับการรักษาความปลอดภัยทางสารสนเทศและทางไซ เบอร์ การบริหารความเสี่ยง การเข้าและถอดรหัสลับทั้งแบบกุญแจเดี่ยวและกุญแจสาธารณะแบบต่างๆ ฟังก์ชัน แฮช ลายมือชื่อดิจิทัลและการจัดการคีย์ การเจาะระบบ การรักษาความปลอดภัยทางกายภาพ ไวรัส มั ลแวร์ ความ ปลอดภัยของแอพพลิเคชันการป้องกันในระบบปฏิบัติการและแพลตฟอร์มให้บริการ ภัยคุกคามและมัลแวร์ความ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ปลอดภัยของแอพพลิเคชันการป้องกันในระบบปฏิ...",
+        "output": "ปลอดภัยของแอพพลิเคชันการป้องกันในระบบปฏิบัติการและแพลตฟอร์มให้บริการ ภัยคุกคามและมัลแวร์ความ ปลอดภัยเครือข่ายพื้นฐาน กฎหมาย และจริยธรรมคอมพิวเตอร์เบื้องต้น Overview of theories, principles, and knowledge in cyber and information security; Risk management; Reviews of symmetric key cryptography and public key cryptography hash function digital signature and Key management; Hacking; Physical security; Virus and malware; Operating"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: digital signature and Key management; Ha...",
+        "output": "digital signature and Key management; Hacking; Physical security; Virus and malware; Operating system and Goal of information security; security policies; overview of cryptography; cipher techniques; physical protection; authentication, access control mechanism; network attack; intrusion detection system and firewall; basic conce pts of computer ethics and law."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: intrusion detection system and firewall;...",
+        "output": "intrusion detection system and firewall; basic conce pts of computer ethics and law. 01236266 ปฏิบัติการระบบไอโอทีและสารสนเทศ 1 1 (0-3-2) IoT SYSTEM and INFORMATION LABORATORY 1 วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ปฏิบัติการที่เกี่ยวข้องกับทางด้านระบบไอโอทีและสารสนเทศ ที่เกี่ยวข้องกับเนื้อหา หรือเพิ่มเติมจาก เนื้อหาในรายวิชาหลัก เพื่อเพิ่มพูนทักษะให้กับนักศึกษา The aim of this course is understanding the internet of things system by performing in"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: The aim of this course is understanding ...",
+        "output": "The aim of this course is understanding the internet of things system by performing in strictive experiments that reveal fundamental IoT principles and to attain a level of dexterity with experimental devices. 01236267 ปฏิบัติการระบบไอโอทีและสารสนเทศ 2 1 (0-3-2) IoT SYSTEM and INFORMATION LABORATORY 2 วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ปฏิบัติการที่เกี่ยวข้องกับทางด้านระบบไอโอทีและสารสนเทศขั้นสูง ที่เกี่ยวข้องกับเนื้อหา หรือเพิ่มเติม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ปฏิบัติการที่เกี่ยวข้องกับทางด้านระบบไอโ...",
+        "output": "ปฏิบัติการที่เกี่ยวข้องกับทางด้านระบบไอโอทีและสารสนเทศขั้นสูง ที่เกี่ยวข้องกับเนื้อหา หรือเพิ่มเติม จากเนื้อหาในรายวิชาหลัก เพื่อเพิ่มพูนทักษะ การปฏิบัติการทดลองอุปกรณ์ และประสบการณ์ให้กับนักศึกษา The aim of this course is understanding the advanced internet of things system by performing in strictive experiments that reveal advanced IoT principles and to attain a level of dexterity with experimental devices."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: dexterity with experimental devices. 012...",
+        "output": "dexterity with experimental devices. 01236268 สัมมนากับผู้เชี่ยวชาญ 1 (0-3-2) SEMINAR WITH PROFESSIONAL S วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE การจัดสัมมนาเพื่อฟังบรรยายจากมืออาชีพที่ประสบความสําเร็จ ที่มีทักษะและประสบการณ์ในด้านต่างๆ และการแลกเปลี่ยนข้อคิดเห็นระหว่างผู้บรรยาย นักศึกษา และคณาจารย์เพื่อให้นักศึกษาเข้าใจถึงทักษะที่จําเป็น ต่อการทํางานอย่างมืออาชีพ ปัจจัยที่จําเป็นต่อการประสบความสําเ ร็จในการประกอบอาชีพ และการมีธุรกิจเป็น"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ต่อการทํางานอย่างมืออาชีพ ปัจจัยที่จําเป...",
+        "output": "ต่อการทํางานอย่างมืออาชีพ ปัจจัยที่จําเป็นต่อการประสบความสําเ ร็จในการประกอบอาชีพ และการมีธุรกิจเป็น ของตนเอง Purposes of seminars are to encourage students in professional’s working skills, factors of success and entrepreneurship ideas through lecturing and discussing with the success professionals; Fundamental knowledge about research in IoT and information engi neering."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: professionals; Fundamental knowledge abo...",
+        "output": "professionals; Fundamental knowledge about research in IoT and information engi neering. 01006004 การฝึกงานอุตสาหกรรม 0 (0-45-0) INDUSTRIAL TRAINING วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE เป็นการฝึกงานภาคปฎิบัติที่จัดขึ้นตามสาขาวิชา โดยการฝึกงานในโรงงานอุตสาหกรรม หรือบริษัทเอกชน ทั้งในประเทศและต่างประเทศ ทั้งนี้เพื่อเป็นการเสริมสร้างประสบการณ์นักศึกษาทุกคนจะต้องผ่านการฝึกงาน ในช่วงของการศึกษาฤดูร้อน พร้อมทั้งเขียนรายงานเสนอ During their four -year selected studies, students are required to complete a short term"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: During their four -year selected studies...",
+        "output": "During their four -year selected studies, students are required to complete a short term industrial placement within professional selected environments. It takes place during a summer period. This course allows students to put into practice under conditions reflecting their future activities and responsibilities. The work, carried out under the responsibility of the firm involved,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: activities and responsibilities. The wor...",
+        "output": "activities and responsibilities. The work, carried out under the responsibility of the firm involved, is presented in a written report. กลุ่มวิชาบังคับเลือกทางวิศวกรรมระบบไอโอทีและสารสนเทศ 9 หน่วยกิต 01236330 การมองเห็นของเครื่องจักรและคอมพิวเตอร์ 3 (3-0-6) MACHINE AND COMPUTER VISION วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE ความรู้เบื้องต้นเกี่ยวกับการมองเห็นของเครื่องจักร และคอมพิวเตอร์ กระบวนการประมวลผลภาพ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ความรู้เบื้องต้นเกี่ยวกับการมองเห็นของเค...",
+        "output": "ความรู้เบื้องต้นเกี่ยวกับการมองเห็นของเครื่องจักร และคอมพิวเตอร์ กระบวนการประมวลผลภาพ วิธีการจัดแสงและการมองเห็น การอัดวิดีโอ เทคนิคการประมวลผลภาพ พื้นผิวสะท้อน และเทคนิคการจัดแสง การแปลงภาพและการหาคุณลักษณะเด่นของภาพ การหาขอบภาพ การแยกส่วนภาพ การรู้จำวัตถุ การโปรแกรม ทัศนจักรด้วยระบบสมองกลฝังตัว แนวโน้มของเทคโนโลยีการมองเห็นของเครื่อง การประยุกต์ใช้งานกับระบบไอ Introduction to machine and computer vision; image processing methods; Lighting and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Introduction to machine and computer vis...",
+        "output": "Introduction to machine and computer vision; image processing methods; Lighting and Viewing methods, Cameras and video recorders capture, Image processing technique, reflected surfaces and lighting techniques, image transformation and feature extraction, i mage reconstruction, edge detection, segmentation, object recognition, computer vision programming with embedded system, and trends in machine vision. IoT application of machine vision"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: with embedded system, and trends in mach...",
+        "output": "with embedded system, and trends in machine vision. IoT application of machine vision 01236331 ระบบปฏิบัติการระบบสมองกลฝังตัว 3 (2-2-5) EMBEDDED OPERATING SYSTEM วิชาบังคับก่อน : 01236256 ไ มโครคอนโทรลเลอร์ และระบบสมองกลฝังตัว PREREQUISITE : 01236256 MICROCONTROLLER AND EMBEDDED SYSTEMS ทฤษฎี การออกแบบ และการวิเคราะห์เกี่ยวกับระบบปฏิบัติการคอมพิวเตอร์ทรัพยากรต่ำสำหรับการ ประยุกต์ใช้งานด้านระบบไอโอที พื้นฐานด้านคอนเคอเรนซี การประมวลผลจัดการ อัลกอริทึมการจัดการงาน การ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ประยุกต์ใช้งานด้านระบบไอโอที พื้นฐานด้าน...",
+        "output": "ประยุกต์ใช้งานด้านระบบไอโอที พื้นฐานด้านคอนเคอเรนซี การประมวลผลจัดการ อัลกอริทึมการจัดการงาน การ จัดการหน่วยความจำ อุปกรณ์อินพุต เอาต์พุต ระบบไฟล์ ระบบปฏิบัติการเวลาจริง ฮา ร์ดแวร์ระบบสมองกลฝังตัว ระบบปฏิบัติการที่เหมาะสมกับระบบสมองกลฝังตัว เช่น ลินุกซ์ วินโดว์ 10 ศึกษาเกี่ยวกับการเขียนโปรแกรมและ ติดตั้งระบบปฏิบัติการระบบสมองกลฝังตัว การพัฒนาระบบสมองกลฝังตัวบนระบบปฏิบัติการต่าง ๆ Theory, design, implementation and analysis of low -resource computer operating systems"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Theory, design, implementation and analy...",
+        "output": "Theory, design, implementation and analysis of low -resource computer operating systems for IoT applications. fundamentals of concurrency, process management, interprocess communication and synchronization, job scheduling algorithms, memory management, inpu t- output devices, file systems, and real -time operating systems. embedded system hardware, the operating system that suited for embedded system such as Linux, Windows 10 etc. Study of"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: operating system that suited for embedde...",
+        "output": "operating system that suited for embedded system such as Linux, Windows 10 etc. Study of operating system programming and installation. Development of embedded s ystem applications onto those operating systems. 01236332 วิศวกรรมซอฟต์แวร์ 3 (3-0-6) SOFTWARE ENGINEERING วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE หลักการ และพื้นฐานของวิศวกรรมซอฟต์แวร์ ภาพรวมของการดำเนินการพัฒนาซอฟต์แวร์ หัวข้อรวมถึง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: หลักการ และพื้นฐานของวิศวกรรมซอฟต์แวร์ ภ...",
+        "output": "หลักการ และพื้นฐานของวิศวกรรมซอฟต์แวร์ ภาพรวมของการดำเนินการพัฒนาซอฟต์แวร์ หัวข้อรวมถึง ขั้นตอนในการพัฒนาซอฟต์แวร์ ความต้องการ และการระบุคุณลักษณะของซอฟต์แวร์ พื้นฐานของการวิเคราะห์ กระบวนการทางธุรกิจ และการทำแบบจำลอง โครงสร้าง และการวิเคราะห์ซอฟต์แวร์เชิงวั ตถุ การออกแบบ การ หาแบบจำลอง การยืนยันความถูกต้องของซอฟต์แวร์ การบริหารจัดการโครงการซอฟต์แวร์ การบำรุงรักษา และ พัฒนาซอฟต์แวร์ การใช้เครื่องมือทางคอมพิวเตอร์สำหรับวิศวกรรมซอฟต์แวร์ Principles and concepts of software engineering, overview of software development"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Principles and concepts of software engi...",
+        "output": "Principles and concepts of software engineering, overview of software development processes. The topics include software development processes, requirement and specification of software, introduction to business process analysis and modelling, structured a nd object -oriented software analysis, design, and modelling, software verification and validation, software project management, software evolution and maintenance, and computer -aided software engineering"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: management, software evolution and maint...",
+        "output": "management, software evolution and maintenance, and computer -aided software engineering (CASE) tools. 01236333 การเรียนรู้ของเครื่อง 3 (2-2-5) MACHINE LEARNING วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE พื้นฐานการเรียนรู้ของเครื่องและคณิตศาสตร์สำหรับการเรียนรู้ของเครื่อง เรียนรู้เรื่องการถดถอยเชิงเส้น จนเข้าใจถึงการทำงานของโครงข่ายประสาทเทียม พื้นฐานการหาค่าเหมาะสมที่สุดด้วยเกรเดียนต์เดสเซนต์ การ แพร่กลับของพารามิเตอร์ การทำงานของแบล็กพร็อพเพเคชั่นและฟอร์เ วิร์ดพร็อพเพเคชั่น การเปลี่ยนแปลงของ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แพร่กลับของพารามิเตอร์ การทำงานของแบล็กพ...",
+        "output": "แพร่กลับของพารามิเตอร์ การทำงานของแบล็กพร็อพเพเคชั่นและฟอร์เ วิร์ดพร็อพเพเคชั่น การเปลี่ยนแปลงของ พารามิเตอร์ การปรับไฮเปอร์พารามิเตอร์ให้เหมาะสม พื้นฐานการจำแนกข้อมูล หรือ การทำนายข้อมูล การ จำแนกภาพด้วยคอนโวลูชันโครงข่ายประสาทเทียม This course provides a broad introduction to machine learning and mathematical modeling for machine learning, to study about linear regression to neural network, basic optimization using"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: for machine learning, to study about lin...",
+        "output": "for machine learning, to study about linear regression to neural network, basic optimization using gradient descent, back propagation of parameter, back propagation and forward propagation, differential of parameter, hyper -parameter optimization, basic knowledge about classification, data prediction, image classification by using convolutional neural network. 01236334 การออกแบบและการปฏิบัติการเชื่อมโยงระบบโครงข่าย 3 (2-2-5)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236334 การออกแบบและการปฏิบัติการเชื่อม...",
+        "output": "01236334 การออกแบบและการปฏิบัติการเชื่อมโยงระบบโครงข่าย 3 (2-2-5) INTERNETWORKING DESIGN AND PRACTICE วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE การกําหนดความต้องการ เป้าหมาย และข้อจํากัดขององค์กร ในการใช้ประโยชน์ระบบเครือข่าย คุณลักษณะของการเชื่อมต่อเครือข่ายที่มีอยู่และทราฟฟิก การออกแบบโทโพโลยีของระบบเครือข่ายข้อพิจารณา เกี่ยวกับเทคโนโลยีเครือข่ายระยะไกลสําหรับการออกแบบการเชื่อมต่อหน่วยงานหรือสาขาร วมทั้งการเชื่อมต่อกับ ระบบอินเทอร์เน็ต แนวคิดในการกําหนดที่อยู่และโพรโทคอลที่เกี่ยวข้อง เช่น DHCP NAT โพรโทคอลสําหรับการ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ระบบอินเทอร์เน็ต แนวคิดในการกําหนดที่อยู...",
+        "output": "ระบบอินเทอร์เน็ต แนวคิดในการกําหนดที่อยู่และโพรโทคอลที่เกี่ยวข้อง เช่น DHCP NAT โพรโทคอลสําหรับการ หาเส้นทางสําหรับเครือข่ายบนพื้นฐานไอพี เช่น BGP OSPF IGRP และ RIPv2 เป็นต้น การเชื่อมต่อโครงข่ายขั้นสูง VLANs MPLS VPNs การพัฒนากลยุทธ์สํ าหรับความปลอดภัยระบบ กลยุทธ์การจัดการระบบเครือข่าย การ กำหนดโทโพโลยีและอุปกรณ์ การตั้งค่า ทดสอบ ทำให้เหมาะสมที่สุด และการทำเอกสารการออกแบบเครือข่าย Identify organization’s needs, goals and constraints; characterizing the existing"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Identify organization’s needs, goals and...",
+        "output": "Identify organization’s needs, goals and constraints; characterizing the existing internetworking and traffic; designing a network topology; WAN technology considerations for designing remote connectivity and the internet access; addressing and numbering c oncept and related protocols: DHCP, NAT; routing protocols for IP -based networks: BGP, OSPF, IGRP, and RIPv2,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: related protocols: DHCP, NAT; routing pr...",
+        "output": "related protocols: DHCP, NAT; routing protocols for IP -based networks: BGP, OSPF, IGRP, and RIPv2, etc.; advanced internetworking: VLANs, MPLS, VPNs developing network security strategies, network management strategies; selecting technologies an d devices, configuration, testing, optimizing, and documenting the network design. 01236335 ระบบสื่อสารไร้สายสำหรับระบบไอโอที"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236335 ระบบสื่อสารไร้สายสำหรับระบบไอโอ...",
+        "output": "01236335 ระบบสื่อสารไร้สายสำหรับระบบไอโอที WIRELESS COMMUNICATION SYSTEMS FOR IoT 3 (3-0-6) วิชาบังคับก่อน : 01236258 พื้นฐานการสื่อสาร PREREQUISITE : 01236258 PRINCIPLES OF COMMUNICATIONS แนะนําเกี่ยวกับสเปกตรัมความถี่ สนามแม่เหล็กไฟฟ้าและการแพร่กระจายคลื่น ช่องสัญญาณไร้สายและ ระบบการส่งสัญญาณไร้สาย การเข้าถึงหลายทาง พื้นฐานเกี่ยวกับเซลลูลาร์เทคนิคการแผ่ออกทางความถี่ โอเอฟดี เอ็ม เครือข่ายไร้สาย มาตรฐานของเครือข่ายไว -ไฟ ไวแมกซ์ ระบบเครือข่ายท้องถิ่นไร้สาย ระบบการสื่อสารในยุค"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เอ็ม เครือข่ายไร้สาย มาตรฐานของเครือข่าย...",
+        "output": "เอ็ม เครือข่ายไร้สาย มาตรฐานของเครือข่ายไว -ไฟ ไวแมกซ์ ระบบเครือข่ายท้องถิ่นไร้สาย ระบบการสื่อสารในยุค ที่ 4 ยุคที่ 5 และเทคโนโลยีไร้สายสำหรับระบบไอโอที เช่น LTE, NB -IoT, LoRa, Zigbee, เทคนิคสําหรับการ สื่อสารระยะใกล้สำหรับระบบไอโอที อาทิเช่น อาร์เอฟไอดี เอ็นเอฟซี บีแอลอี เทคโนโลยีสื่อสารแถบกว้างยิ่งยวด (ยูดับบลิวบี) เครือข่ายเซนเซอร์ไร้สาย (ดับบลิวเอสเอ็น )"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: (ยูดับบลิวบี) เครือข่ายเซนเซอร์ไร้สาย (ด...",
+        "output": "(ยูดับบลิวบี) เครือข่ายเซนเซอร์ไร้สาย (ดับบลิวเอสเอ็น ) Introduction to frequency spectrum, electromagnetic and wave propagation; wireless channels and transmission system; multiple accesses; cellular fundamentals; spread spectrum techniques; orthogonal frequency division multiplex (OFDM); wireless networks and standards, Wi - Fi (IEEE 802.11), WiMAX (IEEE 802.16), wireless local area networks (WLAN), fourth generation (4G)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Fi (IEEE 802.11), WiMAX (IEEE 802.16), w...",
+        "output": "Fi (IEEE 802.11), WiMAX (IEEE 802.16), wireless local area networks (WLAN), fourth generation (4G) systems, fifth generation (5G) and new wireless technologies; cellular access technologies for IoT – LTE, NB -IoT, LoRa, ZigBEE; decentralized trust -architectures for IoT, Short -range communication for IoT such as RFID, NFC, BLE, UWB and WSN technology. Techniques for short range"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: for IoT such as RFID, NFC, BLE, UWB and ...",
+        "output": "for IoT such as RFID, NFC, BLE, UWB and WSN technology. Techniques for short range communication: multiple input multipl e-output (MIMO) system, ultra -wideband (UWB) technology, wireless sensor networks (WSN); 01236336 การวิเคราะห์ข้อมูล 3 (3-0-6) DATA ANALYTICS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE วิชานี้จะกล่าวถึงกระบวนการวิเคราะห์ข้อมูลบนพื้นฐานของการเก็บรวบรวม ตรวจสอบ การคลีนนิ่ง การ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชานี้จะกล่าวถึงกระบวนการวิเคราะห์ข้อมู...",
+        "output": "วิชานี้จะกล่าวถึงกระบวนการวิเคราะห์ข้อมูลบนพื้นฐานของการเก็บรวบรวม ตรวจสอบ การคลีนนิ่ง การ แปลง การรวม และการทำแบบจำลองข้อมูลโดยมีผลลัพธ์ของการค้นหาสารสนเทศที่ใช้ประโยชน์ได้ และแนะนำ ข้อสรุปไปยังการสนับสนุนการตัดสินใจ เทคนิคการวิเคราะห์ข้อมูล รวมถึงการวิเคราะห์การคาดเดา และการ วิเคราะห์แบบเดสคริพทีฟบนข้อมูลแบบมีโครงสร้างและไร้โครงสร้าง การประยุกต์ใช้การวิเครา ะห์ข้อมูลในระบบ ไอโอที The course describes data analysis process on collecting, inspecting, cleaning,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: The course describes data analysis proce...",
+        "output": "The course describes data analysis process on collecting, inspecting, cleaning, transforming, integrating and modeling data with the goal of discovering useful information and suggesting conclusions as to support decision -making. Data analysis techniques i nclude Predictive analytics and descriptive analytics on structured and unstructured data. Application of data analytics in IoT System."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: analytics in IoT System. 01236337 การพัฒ...",
+        "output": "analytics in IoT System. 01236337 การพัฒนาแอปพลิเคชันบนเว็บ 3 (3-0-6) WEB APPLICATION DEVELOPMENT วิชาบังคับก่อน : 01006012 การเขียนโปรแกรมคอมพิวเตอร์ PREREQUISITE : 01 006012 COMPUTER PROGRAMMING แนะนําเกี่ยวกับเว็บเทคโนโลยีหัวเรื่องเกี่ยวกับ การประมวลผลเอ็กซ์เอ็มแอล การประมวลผลอาร์ดีเอฟ เทคโนโลยีมิดเดิลแวร์ต่าง ๆ ( CORBA, IIOP), RMI, RPC แทกซ์โซโนมีและ ออนโทโลยีสําหรับเว็บแอปพลิเคชัน ภาษาสําหรับการนําเสนอออนโทโลยีบนเว็บ กฏและการอ้างถึง สถาปัตยกรรมเว็บเซิร์ฟเวอร์ กราฟฟิกยูเซอร์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ภาษาสําหรับการนําเสนอออนโทโลยีบนเว็บ กฏแ...",
+        "output": "ภาษาสําหรับการนําเสนอออนโทโลยีบนเว็บ กฏและการอ้างถึง สถาปัตยกรรมเว็บเซิร์ฟเวอร์ กราฟฟิกยูเซอร์ อินเตอร์เฟส การติดต่อเชื่อมโยงแอปพลิเคชันบนมือถือเข้ากับฐานข้อมูลและโปรแกรมบนเว็ป Introduction to web technology, technological issues: XML processing, RDF processing, middleware technologies (CORBA, IIOP), RMI, RPC; taxonomies and ontologies for web applications: Ontology modeling, Languages for representing ontologies on the web, Rule s and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: applications: Ontology modeling, Languag...",
+        "output": "applications: Ontology modeling, Languages for representing ontologies on the web, Rule s and inferences; multithreaded web server architecture; mobile application; Introduction to mobile technology, Graphic User interface, connection between mobile application and web application. 01236338 เครือข่ายการสื่อสารโทรศัพท์เคลื่อนที่ยุคหน้า NEXT GENERATION MOBILE COMMUNICATION 3 (3-0-6) วิชาบังคับก่อน : 01236258 พื้นฐานการสื่อสาร"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับก่อน : 01236258 พื้นฐานการสื่อ...",
+        "output": "วิชาบังคับก่อน : 01236258 พื้นฐานการสื่อสาร PREREQUISITE : 01236258 PRINCIPLES OF COMMUNICATIONS ทฤษฎีและหลักการเบื้องต้นของระบบโทรศัพท์เคลื่อนที่ เทคนิคการมอดูเลต ความจุของช่องสัญญาณไร้สาย ความจุในการรองรับผู้ใช้บริการหลากหลายและการจัดการการแทรกสอด ระบบหลายอินพุทและเอาท์พุท มาตรฐานการ สื่อสารในยุคต่าง ๆ ตั้งแต่ 1G ถึง 4G, 5G และในยุคต่อไป สถาปัตยกรรมของเครือข่ายยุคหน้า การเข้าถึงระบบไอพีความเร็ว สูงด้วยบรอดแบนด์ยุคหน้า การเข้าถึงแบบไร้สายในยุคหน้า โครงข่ายการเข้าถึงวิทยุ หลักการของซอฟต์แวร์กำหนดเครือข่าย"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: สูงด้วยบรอดแบนด์ยุคหน้า การเข้าถึงแบบไร้...",
+        "output": "สูงด้วยบรอดแบนด์ยุคหน้า การเข้าถึงแบบไร้สายในยุคหน้า โครงข่ายการเข้าถึงวิทยุ หลักการของซอฟต์แวร์กำหนดเครือข่าย เครือข่ายยุคหน้ากับเทคโนโลยีไอโอที Theory and principles of mobile communication; modulation techniques; ; modulation techniques; multiplexing technique; multiple input multiple output (MIMO) system; standards of mobile communication generation system from 1G to 4G, 5G and next generation; next generation of wireless"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: communication generation system from 1G ...",
+        "output": "communication generation system from 1G to 4G, 5G and next generation; next generation of wireless accessing; next generation of IP -based high -speed broadband; next generation architecture; radio access network (RAN); concepts of software defined network; Next generation network of IoT technologies. 01236339 การประมวลผลคลาวด์และเอดจ์ 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236339 การประมวลผลคลาวด์และเอดจ์ 3 (3-...",
+        "output": "01236339 การประมวลผลคลาวด์และเอดจ์ 3 (3-0-6) CLOUD AND EDGE COMPUTING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE พื้นฐานระบบปฏิบัติการ แนวคิดพื้นฐานและคุณลักษณะของการประมวลผลคลาวด์และเอดจ์ เทคโนโลยี การให้บริการแพลตฟอร์มและโครงสร้างพื้นฐานคลาวด์ การพัฒนาซอฟต์แวร์เพื่อรองรับระบบคลาวด์ การบริหาร จัดการคลาวด์ การประมวลจากคลาวด์สู่เอดจ์ การรักษาความปลอดภัยบนคลาวด์และเอดจ์ การใช้เครื่องมือและ ซอฟต์แวร์ที่เกี่ยวกับการประมวลผลคลาวด์และเอดจ์ เฟรมเวิร์คสำหรับการประมวลผลบนอุปกรณ์เอดจ์และ คลาวด์ Fundamentals of operating system; Basic concepts of cloud and edge computing"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Fundamentals of operating system; Basic ...",
+        "output": "Fundamentals of operating system; Basic concepts of cloud and edge computing characteristics; Service platform and Infrastructure technologies for cloud; Cloud -native application development; Cloud Management; from cloud to edge computing; cloud and edge Security; Tools and software concerning cloud and edge computing; frameworks for computing over edge devices and cloud."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: over edge devices and cloud. 01236340 ระ...",
+        "output": "over edge devices and cloud. 01236340 ระบบฐานข้อมูล 3 (3-0-6) DATABASE SYSTEM PREREQUISITE: NONE แนวคิดของระบบฐานข้อมูล สถาปัตยกรรมของระบบฐานข้อมูล แบบจําลองข้อมูลระดับแนวความคิด แบบจําลองข้อมูลเชิงตรรกะ และแบบจําลองข้อมูลเชิงกายภาพ เครื่องมือการสร้างแบบจําลองข้อมูลเชิงสัมพันธ์ แผนภาพอีอาร์วิธีนอร์มัลไลเซชัน โออาร์เอ็ม แนวทางการออกแบบและแบบจําลองสําหรั บฐานข้อมูลเชิงวัตถุ พจนานุกรมข้อมูล โครงสร้างแบบโนเอสคิวแอล ข้อมูลรูปแบบ JSON และการเก็บข้อมูล เช่น SQLite และ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: พจนานุกรมข้อมูล โครงสร้างแบบโนเอสคิวแอล ...",
+        "output": "พจนานุกรมข้อมูล โครงสร้างแบบโนเอสคิวแอล ข้อมูลรูปแบบ JSON และการเก็บข้อมูล เช่น SQLite และ ฐานข้อมูลแบบมองโก Database system concepts; database system architecture; conceptual model, logical model, and physical model; data modeling tools: Entity -Relationship and normalization technique, Object -Role Model (ORM) diagram; Object -Oriented database modeling and design approaches; data dictionaries. Introduction to Relational; noSQL structure; JSON data format and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: approaches; data dictionaries. Introduct...",
+        "output": "approaches; data dictionaries. Introduction to Relational; noSQL structure; JSON data format and storage; such as, SQLite and Mongo database, กลุ่มวิชาเลือกเฉพาะสาขา 9 หน่วยกิต 1. กลุ่มระบบไอโอทีและสารสนเทศสำหรับเทคโนโลยีเชิงลึก 01236400 การออกแบบและพัฒนาอุปกรณ์ระบบไอโอที 3 (2-2-5) IoT DEVICE DESIGN AND DEVELOPMENT วิชาบังคับก่อน : 01236255 พื้นฐานระบบไอโอที PREREQUISITE : 01236255 INTRODUCTION TO INTERNET OF THINGS"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PREREQUISITE : 01236255 INTRODUCTION TO ...",
+        "output": "PREREQUISITE : 01236255 INTRODUCTION TO INTERNET OF THINGS วิชานี้นำเสนอหลักการออกแบบอุปกรณ์ไอโอที พื้นฐานการวาดภาพสามมิติ และเทคโนโลยีเครื่องพิมพ์สามมิติ เทคโนโลยีซีเอ็นซี การออกแบบแผ่นวงจรพิมพ์ และวิธีการสร้าง พื้นฐานการคิดเชิงออกแบบ และวิธีการ กระบวนการ ออกแบบ การออกแบบโลโก้ของงาน ทรัพย์สินทางปัญญา การจดสิทธิบัต ร ลิขสิทธิ์ กระบวนการย้อนกลับทางวิศวกรรม This course instructs how to design the IoT device; Basic 3D drawing and 3D printer technology;"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: This course instructs how to design the ...",
+        "output": "This course instructs how to design the IoT device; Basic 3D drawing and 3D printer technology; CNC technology; Print circuit board design technology and how to assemble. principles of creative thinking and methods, design process, Logo design, User oriented design, intellectual property, patent, copyrights, reversed"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: methods, design process, Logo design, Us...",
+        "output": "methods, design process, Logo design, User oriented design, intellectual property, patent, copyrights, reversed engineering . 01236442 การออกแบบระบบไอโอทีและระบบสมองกลฝังตัวขั้นสูง 3 (2-2-5) ADVANCED IoT AND EMBEDDED SYSTEM DESIGN วิชาบังคับก่อน : 01236256 ไ มโครคอนโทรลเลอร์และระบบสมองกลฝังตัว PREREQUISITE : 01236256 MICROCONTROLLER AND EMBEDDED SYSTEMS พื้นฐานระบบสมองกลฝังตัว และระบบเวลาจริง สถาปัตยกรรมหน่วยประมวลผลสมองกลฝังตัว"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: พื้นฐานระบบสมองกลฝังตัว และระบบเวลาจริง ...",
+        "output": "พื้นฐานระบบสมองกลฝังตัว และระบบเวลาจริง สถาปัตยกรรมหน่วยประมวลผลสมองกลฝังตัว ระบบปฏิบัติการแบบเรียลไทม์ การออกแบบร่วมกันระหว่างฮาร์ดแวร์ ซอฟต์แวร์ และ การโปรแกรมบนชิป การประยุกต์ใช้ งานระบบสมองกลฝังตัวสำหรับระบบอัจฉริยะ เครื่องมือในการพัฒนาซอฟต์แวร์ที่ใช้ใน ห้องปฏิบัติการสำหรับการกำหนด คุณลักษณะ ออกแบบ ยืนยันตัวตน และทดสอบวงจร ซอฟต์แวร์ และระบบ การออกแบบ FPGA รวมถึงการทดสอบ และการ ทำเอกสารคู่มือ Introduction to Embedded and Real -time Systems; Embedded Processor Architecture; RTOS: Real"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Introduction to Embedded and Real -time ...",
+        "output": "Introduction to Embedded and Real -time Systems; Embedded Processor Architecture; RTOS: Real time Operating Systems Pre -emptive and Non -preemptive Scheduling; Hardware Software Co -design and Embedded SoPC (System on Programmable Chips). Embedded System app lications for smart system. tools and software available in the laboratory for specification, design, verification, and testing of circuits, software and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and software available in the laboratory...",
+        "output": "and software available in the laboratory for specification, design, verification, and testing of circuits, software and systems. FPGA design, testing, verification, and documentation. 01236443 การเรียนรู้เชิงลึก 3 (3-0-6) DEEP LEARNING วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE การประยุกต์ใช้งานจริงของการเรียนของเครื่องเชิงลึก เรียนรู้การจำแนกภาพหรือตรวจจับวัตถุในภาพ วิเคราะห์ความผิดปกติของวัตถุในภาพต่อเนื่อง การใช้งานรีเคอเรนต์นิวรอนเน็ตเวิร์ก การเรียนรู้การประยุกต์การใช้งานของ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิเคราะห์ความผิดปกติของวัตถุในภาพต่อเนื่...",
+        "output": "วิเคราะห์ความผิดปกติของวัตถุในภาพต่อเนื่อง การใช้งานรีเคอเรนต์นิวรอนเน็ตเวิร์ก การเรียนรู้การประยุกต์การใช้งานของ เรนฟอร์ทเมนต์ใช้ในการคอนโทรลฮาร์ดแวร์ การพัฒนาและออป ติไมซ์โมเดลเพื่อให้ใช้งานในคอมพิวเตอร์ระดับเอดจ์ This course introduces about real -world applications of deep learning, image classification or object detection methods, correction analysis of continuous image, recurrence neural network, application of reinforcement learning in hardware control, developm ent and optimization of model for edge computing."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: reinforcement learning in hardware contr...",
+        "output": "reinforcement learning in hardware control, developm ent and optimization of model for edge computing. 01236403 การประมวลผลควอนตัม 3 (3-0-6) QUANTUM COMPUTING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE พื้นฐานการประมวลผลสารสนเทศควอนตัม พื้นฐานกลศาสตร์ควอนตัม เพื่อให้เข้าใจถึงการประมวลผล สารสนเทศควอนตัม เกตและวงจรควอนตัม การคำนวณพื้นฐานกับการคำนวณเชิงควอนตัม อัลกอริทึมทางควอนตัม อัลกอริทึมดิสครีต และแฟ็กเตอริง การค้นหาแบบเร็ว การจำลองทางควอนตัม และสารสนเทศ การเข้ารหัสลับทางควอนตัม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: อัลกอริทึมดิสครีต และแฟ็กเตอริง การค้นหา...",
+        "output": "อัลกอริทึมดิสครีต และแฟ็กเตอริง การค้นหาแบบเร็ว การจำลองทางควอนตัม และสารสนเทศ การเข้ารหัสลับทางควอนตัม การเทเลพอร์ท Fundamentals of quantum information processing, Basic principles of quantum mechanics (just enough to understand quantum information processing) Quantum gates and circuits Classical computation versus quantum computation Quantum algorithms: factoring and discrete logarithm; fast search; simulation"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: versus quantum computation Quantum algor...",
+        "output": "versus quantum computation Quantum algorithms: factoring and discrete logarithm; fast search; simulation Classical and quantum information theory, quantum cryptography, teleportation . 01236404 เรื่องคัดสรรทางระบบไอโอทีและสารสนเทศ 3 (3-0-6) SELECTED TOPIC IN IOT SYSTEM AND INFORMATION ENGINEERING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ศึกษาหัวข้อที่คัดสรรทางวิศวกรรมระบบไอโอทีสมัยใหม่ ระบบสมองกลฝังตัว เครือข่ายและโพรโทคอล"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ศึกษาหัวข้อที่คัดสรรทางวิศวกรรมระบบไอโอท...",
+        "output": "ศึกษาหัวข้อที่คัดสรรทางวิศวกรรมระบบไอโอทีสมัยใหม่ ระบบสมองกลฝังตัว เครือข่ายและโพรโทคอล ทางด้านไอโอที การวิเคราะห์ข้อมูลทางไอโอที หรือกรณีศึกษา หัวข้อที่เกี่ยวข้อง โดยหัวข้อในแต่ละภาคการศึกษาจะ เปลี่ยนแปลงตามความเหมาะสม A study of selected topics in modern iot system engineering, embedded systems, IoT networks and protocols, IoT data analytics and related case studies or topics. Topics are subject to change each semester."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and protocols, IoT data analytics and re...",
+        "output": "and protocols, IoT data analytics and related case studies or topics. Topics are subject to change each semester. 01236405 ระบบควบคุมสมัยใหม่สำหรับไอโอที MODERN CONTROL SYSTEM FOR IOT 3 (3-0-6) วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE พื้นฐานเทคโนโลยีระบบควบคุม การป้อนกลับ ฟังก์ชันถ่ายโอน สำหรับเฟรมเวิร์กไอโอที และการสร้าง แบบจำลองระบบไอโอที พื้นฐานระบบฟีล บัสควบควบคุม เช่น Ethernet/IP, ControlNet, LonWorks และ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แบบจำลองระบบไอโอที พื้นฐานระบบฟีล บัสควบ...",
+        "output": "แบบจำลองระบบไอโอที พื้นฐานระบบฟีล บัสควบควบคุม เช่น Ethernet/IP, ControlNet, LonWorks และ Controller Arean Network (CAN) เทคโนโลยี และวิธีการควบคุม การควบคุมแบบพีไอดี การควบคุมเวลา ต่อเนื่อง การควบคุมเวลาแบบดิสครีต การออกแบบตัวควบคุมแบบพีไอดี การควบคุมโครงข่าย การประยุกต์ใช้ งานกับระบบไอโอที Introduction to control technologies; feedback control, transfer function; control system for IoT framework and IoT modeling; fundamental of fields buses control system e.g. Ethernet/IP,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: for IoT framework and IoT modeling; fund...",
+        "output": "for IoT framework and IoT modeling; fundamental of fields buses control system e.g. Ethernet/IP, ControlNet, LonWorks, and Controller Area Network (CAN); Control theo ries and methods; PID control; continuous time control; discrete time control; PID controller system design; network control; control application in IoT. 2. กลุ่มเทคโนโลยีระบบอัจฉริยะ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 2. กลุ่มเทคโนโลยีระบบอัจฉริยะ 01236406 โ...",
+        "output": "2. กลุ่มเทคโนโลยีระบบอัจฉริยะ 01236406 โรงงานอัจฉริยะและอุตสาหกรรมอัตโนมัติ 3 (3-0-6) SMART FACTORY AND INDUSTRIAL AUTOMATION วิชาบังคับก่อน : 01236263 ระบบไอโอทีในอุตสาหกรรม PREREQUISITE : 01236263 INDUSTRIAL INTERNET OF THINGS ความรู้พื้นฐานทางเทคโนโลยีโรงงานอัจฉริยะ พื้นฐานการสื่อสารข้อมูลในอุตสาหกรรม โมเดล ISO/OSI เทคนิค การสื่อสารการวัดข้อมูลและควบคุม พื้นฐานการประมวลผลอัตโนมัติ การจัดการโครงการทางวิศวกรรม ประเภทของเครือข่าย อัตโนมัติทางอุตสาหกรรม เช่น CIP, CC -Link, Profibus, HART และ Foundation Fieldbus เทคโนโลยีการสื่อสารไร้สายใน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: อัตโนมัติทางอุตสาหกรรม เช่น CIP, CC -Lin...",
+        "output": "อัตโนมัติทางอุตสาหกรรม เช่น CIP, CC -Link, Profibus, HART และ Foundation Fieldbus เทคโนโลยีการสื่อสารไร้สายใน อุตสาหกรรมอัตโนมัติ เช่น WirelessHART และ ISA100.11A คอนเซ็ปต์ความปลอดภัยสำหรับอุตสาหกรรมดิสครีตและโพ รเซส โรงงานอัตมัติและอาคารอัตโนมัติ เทคโนโลยีอุตสาหกรรม 4.0 การประยุกต์ใช้งานระบบไอโอทีสำหรับโรงงาน อัจฉริยะ Introduction to smart factory technologies; fundamentals of industrial data communications; ISO/OSI reference model; data transmission techniques Measurement and control basics for process"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ISO/OSI reference model; data transmissi...",
+        "output": "ISO/OSI reference model; data transmission techniques Measurement and control basics for process automation; engineering project management; Types of industrial aut omation networks; industrial network technologies such as CIP, CC -Link, Profibus, HART, and Foundation Fieldbus; industrial wireless technologies such as WirelessHART and ISA100.11a; security concepts for discrete and process industries. factory automation ,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: such as WirelessHART and ISA100.11a; sec...",
+        "output": "such as WirelessHART and ISA100.11a; security concepts for discrete and process industries. factory automation , and building automation; Industry 4.0 technologies;. IoT applications for smart factory. 01236407 การออกแบบอาคารและเมืองอัจฉริยะ 3 (3-0-6) SMART CITY AND SMART BUILDING DESIGN วิชาบังคับก่อน : 01236255 พื้นฐานระบบไอโอที PREREQUISITE : 01236255 INTRODUCTION TO INTERNET OF THINGS"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PREREQUISITE : 01236255 INTRODUCTION TO ...",
+        "output": "PREREQUISITE : 01236255 INTRODUCTION TO INTERNET OF THINGS หลักการเบื้องต้นของเมืองอัจฉริยะ การออกแบบระบบเมืองอัจฉริยะ การวางแผนและโครงข่ายเมือง การจัด การพลังงาน การจัดการของเสีย ประสิทธิภาพของเมืองอัจฉริยะ การออกแบบอาคารอัจฉริยะ แอปพลิเคชันสมาร์ตโฮม โครงข่ายไฟฟ้า และโครงข่าย อุปกรณ์ระบบไอโอที และการประยุกต์ใช้งาน ในเมืองอัจฉริยะ อนาคตของเมืองอัจฉริยะ กรณีศึกษาของเมืองอัจฉริยะที่มีการใช้งานจริง Introduction to smart city; smart city designing; urban network and planning; energy management;"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Introduction to smart city; smart city d...",
+        "output": "Introduction to smart city; smart city designing; urban network and planning; energy management; waste management; cohesion and efficiency of smart city; intelligence building design; smart home applications; grids and networks; IoT device and applications in smart city; future of smart city; case study of smart city in"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: grids and networks; IoT device and appli...",
+        "output": "grids and networks; IoT device and applications in smart city; future of smart city; case study of smart city in real world. 01236408 ฟาร์มอัจฉริยะ 3 (3-0-6) SMART FARMING วิชาบังคับก่อน : 01236255 พื้นฐานระบบไอโอที PREREQUISITE : 01236255 INTRODUCTION TO INTERNET OF THINGS ภาพรวมของเทคโนโลยีฟาร์มอัจฉริยะ องค์ประกอบของฟาร์มอัจฉริยะ การออกแบบฟาร์มอัจฉริยะ อุปกรณ์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ภาพรวมของเทคโนโลยีฟาร์มอัจฉริยะ องค์ประก...",
+        "output": "ภาพรวมของเทคโนโลยีฟาร์มอัจฉริยะ องค์ประกอบของฟาร์มอัจฉริยะ การออกแบบฟาร์มอัจฉริยะ อุปกรณ์ และระบบการสื่อสารไอโอทีในฟาร์มอัจฉริยะ เทคโนโลยีโรงเรือน การทำฟาร์มในแนวตั้ง ระบบการสนับสนุนการตัดสินใจใน ระบบฟาร์มอัจฉริยะ การประยุกต์ใช้งานระบบฟาร์มอัจฉริยะ ตัวอย่างก รณีศึกษาที่ใช้งานจริงของระบบฟาร์มอัจฉริยะ Overview of smart farm technology; components of smart farm; smart farm design; IoT device and communication system in smart farm; Greenhouse technology; vertical farming; Decision system in smart"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and communication system in smart farm; ...",
+        "output": "and communication system in smart farm; Greenhouse technology; vertical farming; Decision system in smart farm applications; IoT applications in smart farm; Case st udies of real -world smart farm. 01236409 เทคโนโลยีระบบสกาดา 3 (3-0-6) SCADA TECHNOLOGY วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ความรู้เบื้องต้นของระบบสกาดา ( Supervisory Control and Data Acquisition) โครงสร้างและสถาปัตยกรรม"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ความรู้เบื้องต้นของระบบสกาดา ( Superviso...",
+        "output": "ความรู้เบื้องต้นของระบบสกาดา ( Supervisory Control and Data Acquisition) โครงสร้างและสถาปัตยกรรม การเขียนโปรแกรมควบคุมเชิงตรรกะและตัวควบคุมระยะไกล การเชื่อมต่อกับผู้ใช้งานเครือข่ายและโปรโตคอลการสื่อสาร การศึกษาและประยุกต์ใช้งานสกาดาสําหรับระบบต่าง ๆ เช่น ระบบขนส่งทางราง , ระบบบริหารจัดการภายในอาคาร โรงไฟฟ้า สนามบิน โรงงาน และการประยุกต์ใช้งานระบบไอโอทีสำหรับระบบสกาดา Introduction of SCADA (Supervisory Control and Data Acquisition) Terminology; SCADA architecture"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Introduction of SCADA (Supervisory Contr...",
+        "output": "Introduction of SCADA (Supervisory Control and Data Acquisition) Terminology; SCADA architecture and concepts; SCADA Communication; Programmable Logic Control and Remote Terminal Units; Human Machine Interface; Network and Protocol for SCADA; SCADA applica tions with study case such as railway system Building management system, Airport, Factory and IoT Application with SCADA systems."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Building management system, Airport, Fac...",
+        "output": "Building management system, Airport, Factory and IoT Application with SCADA systems. 01236410 ระบบขนส่งอัจฉริยะ 3 (3-0-6) INTELLIGENCE TRANSPORTATION SYSTEM วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE พื้นฐานของระบบขนส่งอัจฉริยะ เทคโนโลยีระบบขนส่งอัจฉริยะ ระบบสารสนเทศของระบบขนส่งอัจฉริยะ การ บริหารจัดการโครงการข่ายการขนส่ง การบริหารจัดการระบบยานพาหนะ การประยุกต์ใช้กับระบบขนส่งสาธารณะ การใช้ ประโยชน์ของระบบขนส่งอัจฉริยะ ระบบความปลอดภัยในระบบขนส่งอัจฉริยะ การจัดการความต้องการเดินทาง การจำลอง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ประโยชน์ของระบบขนส่งอัจฉริยะ ระบบความปลอ...",
+        "output": "ประโยชน์ของระบบขนส่งอัจฉริยะ ระบบความปลอดภัยในระบบขนส่งอัจฉริยะ การจัดการความต้องการเดินทาง การจำลอง ระบบขนส่งอัจฉริยะ การใช้ประโยชน์ของระบบขนส่งอัจฉริยะ การวิจัย และพัฒนาโมเดลทางธุรกิจ ระบบการจัดเก็บค่า โดยสาร กรณีศึก ษาที่มีการใช้งานจริง Basic elements of intelligent transportation systems (ITS); focusing on technological; systems and institutional aspects; Topics include advanced traveler information systems; transportation network operations;"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: institutional aspects; Topics include ad...",
+        "output": "institutional aspects; Topics include advanced traveler information systems; transportation network operations; commercial vehicle operations; public transp ortation applications; ITS and regional strategic transportation planning; ITS and safety, ITS and security, ITS as a technology deployment program, research, development and business models; ITS and sustainable mobility, travel demand management, electron ic toll collection; and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and business models; ITS and sustainable...",
+        "output": "and business models; ITS and sustainable mobility, travel demand management, electron ic toll collection; and ITS and road -pricing; Case studies of ITS. 3. กลุ่มเทคโนโลยีระบบการสื่อสารและเครือข่าย 01236411 วิทยาการเข้ารหัสลับและเทคโนโลยีบล็อกเชน 3 (3-0-6) CRYPTOGRAPHY AND BLOCKCHAIN TECHNOLOGIES วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE แนวคิดของวิทยาการเข้ารหัส และความปลอดภัย พื้นฐานการออกแบบ คุณลักษณะและประเภทของไซเฟอร์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แนวคิดของวิทยาการเข้ารหัส และความปลอดภัย...",
+        "output": "แนวคิดของวิทยาการเข้ารหัส และความปลอดภัย พื้นฐานการออกแบบ คุณลักษณะและประเภทของไซเฟอร์ แฮชฟังก์ชัน โพรโทคอลซีโรโนวเลดจ์ การเข้ารหัสแบบโฮโมมอร์ฟิค ลายเซ็นดิจิทัล การจัดการคีย์ รวมถึงยุค การกระจาย การ เก็บข้อมูล พีเคไอและใบรับรอง เทคโนโลยีบล็อกเชน การประยุกต์ ใช้งานของเทคโนโลยีบล็อกเชน Introduction to Cryptographic services; Design principles; Cipher types and characteristics; Hash functions, zero -knowledge protocols, homomorphic encryption; Digital Signatures; Key management, including"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: functions, zero -knowledge protocols, ho...",
+        "output": "functions, zero -knowledge protocols, homomorphic encryption; Digital Signatures; Key management, including generation, distribution, storage, PKI and certifi cates; Blockchain technology. Application of blockchain technology. 01236412 ปฏิบัติการผู้เชี่ยวชาญระบบเครือข่าย 3 (2-2-5) PROFESSIONAL PRACTICAL NETWORKING วิชาบังคับก่อน : 01236334 การออกแบบและปฏิบัติการเชื่อมโยงระบบโครงข่าย PREREQUISITE: 01236334 INTENETWORKING DESIGN AND PRACTICE หลักการและปฏิบัติการผู้เชี่ยวชาญระบบเครือข่าย โดยเนื้อหาจะครอบคลุมเพื่อการฝึกปฏิบัติระบบเครือข่าย"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: หลักการและปฏิบัติการผู้เชี่ยวชาญระบบเครื...",
+        "output": "หลักการและปฏิบัติการผู้เชี่ยวชาญระบบเครือข่าย โดยเนื้อหาจะครอบคลุมเพื่อการฝึกปฏิบัติระบบเครือข่าย ในระดับกลาง และระดับสูง ได้แก่ การติดตั้ง การดำเนินการ การแก้ไขปัญหาโครงข่ายขนาดเล็ก และขนาดกลาง ระบบ เครือข่าย บริการระบบไอพี ความปลอดภัย เครือข่ายแบบแลน และแวน ระบบวีแลน โดยให้ครอบคลุมเนื้อหาเพื่อให้นักศึ กษา สามารถสอบใบรอบรองของบริษัททางด้านระบบเครือข่าย This course instructs concepts to practice for professional networks administration; The topic"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: This course instructs concepts to practi...",
+        "output": "This course instructs concepts to practice for professional networks administration; The topic includes medium to high level such as install, operate, troubleshoot a small to medium size enterprise branch network; IP connectivity and services, security, LA N, WAN, VLAN. Including topics for students to give the certificate by network companies."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: certificate by network companies. 012364...",
+        "output": "certificate by network companies. 01236413 โครงข่ายเซ็นเซอร์ไร้สายในระบบไอโอที 3 (3-0-6) IoT WIRELESS SENSOR NETWORK วิชาบังคับก่อน : 01236335 ระบบสื่อสารไร้สายสำหรับระบบไอโอที PREREQUISITE: 01236335 WIRELESS COMMUNICATION SYSTEMS FOR IOT พื้นฐานระบบเครือข่ายเซ็นเซอร์ไร้สาย ระบบพลังงานต่ำสำหรับเครือข่ายเซ็นเซอร์ไร้สาย การเก็บข้อมูลและ ส่งผ่านข้อมูลโดยใช้เครือข่ายเซ็นเซอร์ไร้สายสำหรับควบคุมและมอนิเตอร์ การปฏิบัติการเครือข่ายไร้สายในระบบไอโอที เช่น บลูทูธ ลอรา เอ็นบีไอโอที ซิกบี หรือเทคโนโลยีก ารสื่อสารที่เกี่ยวข้อง ศึกษาโพรโทคอลที่เกี่ยวข้องกับระบบสื่อสารไร้สายไอโอ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: บลูทูธ ลอรา เอ็นบีไอโอที ซิกบี หรือเทคโน...",
+        "output": "บลูทูธ ลอรา เอ็นบีไอโอที ซิกบี หรือเทคโนโลยีก ารสื่อสารที่เกี่ยวข้อง ศึกษาโพรโทคอลที่เกี่ยวข้องกับระบบสื่อสารไร้สายไอโอ ที การประยุกต์ใช้งานระบบไอโอทีของเครือข่ายเซ็นเซอร์ไร้สาย Introduction to wireless sensor networks, low -power wireless sensor network which collect information and pass the information via wireless networks for monitoring and control applications. Practice in wireless"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and pass the information via wireless ne...",
+        "output": "and pass the information via wireless networks for monitoring and control applications. Practice in wireless network for IoT such as Bluetooth, LoRa, NB -IoT, ZigBee, or r elated communication technology. Study protocol for IoT wireless network (HTTP, MQTT, CoAP). IoT applications of wireless sensor networks. 01236414 การสื่อสารด้วยแสงที่ตามองเห็น 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236414 การสื่อสารด้วยแสงที่ตามองเห็น 3...",
+        "output": "01236414 การสื่อสารด้วยแสงที่ตามองเห็น 3 (3-0-6) VISIBLE LIGHT COMMUNICATION วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ความรู้เบื้องต้นเกี่ยวกับการสื่อสารด้วยแสงที่ตามองเห็น (วีแอลซี) ช่องสัญญาณ และความจุ การมอดูเลตแบบ พาหะเดี่ยวและไร้พาหะ การเข้ารหัสในวีแอลซี การมอดูเลตหลายพาหะ การมอดูเลตหลากหลายสี ออปติคัลไมโม การ ประมวลผลสัญญาณวีแอลซี และการหาค่าเหมาะสมที่สุด กตารใช้กล้อง สำหรับการสื่อสารด้วยแสงที่ตามองเห็นเบื้องต้น การ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ประมวลผลสัญญาณวีแอลซี และการหาค่าเหมาะสม...",
+        "output": "ประมวลผลสัญญาณวีแอลซี และการหาค่าเหมาะสมที่สุด กตารใช้กล้อง สำหรับการสื่อสารด้วยแสงที่ตามองเห็นเบื้องต้น การ ประยุกต์ใช้ในระบบไอโอทีกับวีแอลซี Introduction to Visible Light Communications (VLC); channel and capacity; single carrier/carrierless modulating and coding in VLC, multi carrier modulation, multi color modulation, optical MIMO, VLC signal processing and optimization, optical camera commu nications fundamentals, IoT application in VLC."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: processing and optimization, optical cam...",
+        "output": "processing and optimization, optical camera commu nications fundamentals, IoT application in VLC. 01236415 การรักษาความปลอดภัยในระบบสารสนเทศและเครือข่าย 3 (3-0-6) INFORMATION AND NETWORK SECURITY วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ทฤษฎีและพื้นฐานที่เกี่ยวข้องกับมั่นคงปลอดภัยในระบบสารสนเทศ และเครือข่าย หลักการพื้นฐานความ มั่นคงปลอดภัยในระบบสารสนเทศ การบริหารจัดการความเสี่ยง การควบคุมการเข้าถึง การเข้ารหัส ความมั่นคงทางกายภาพ การออกแบบสถาปัตยกรรมความมั่นคงปลอดภัย การวางแผนดำเนินการในทา งธุรกิจ แผนการฟื้นฟู ความมั่นคงปลอดภัยใน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การออกแบบสถาปัตยกรรมความมั่นคงปลอดภัย กา...",
+        "output": "การออกแบบสถาปัตยกรรมความมั่นคงปลอดภัย การวางแผนดำเนินการในทา งธุรกิจ แผนการฟื้นฟู ความมั่นคงปลอดภัยใน เครือข่าย กฎหมายความมั่นคงปลอดภัย Theory and knowledge related to information and network security; Information security principles; Risk management; Access control; Encryption; Physical security; Security architecture design; Business continuity plan; Disaster recovery plan; Network secu rity; Secure software development; Security in any"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: continuity plan; Disaster recovery plan;...",
+        "output": "continuity plan; Disaster recovery plan; Network secu rity; Secure software development; Security in any operations; Security laws. 01236416 เทคโนโลยีอุปกรณ์พกพา 3 (3-0-6) WEARABLE TECHNOLOGIES วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE เทคโนโลยีอุปกรณ์พกพาที่เกี่ยวข้องกับการประยุกต์ใช้งานในทางการแพทย์ ทางการกีฬา การออกกำลังกาย ความบันเทิง ระบบไอโอทีที่ทำงานร่วมกับซอฟต์แวร์ และเซ็นเซอร์ในเทคโนโลยีอุปกรณ์พกพา การสื่อสารโครงข่ายสามารถ จัดเก็บข้อมูลแลกเปลี่ยนข้อมูลอุปกรณ์พกพา Wearable technologies field has been experiencing explosive growth with exciting applications in"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Wearable technologies field has been exp...",
+        "output": "Wearable technologies field has been experiencing explosive growth with exciting applications in the fields of medicine, sports, fitness, entertainment, as well as new ways for people to interact, communicate, and experience the environment around them. In ternet of Things (IoT) works with sensors and software in wearable technologies to provide a communications network that allows data collection and information"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: wearable technologies to provide a commu...",
+        "output": "wearable technologies to provide a communications network that allows data collection and information exchange for wearable devices. 01236417 เรื่องคัดสรรทางระบบการสื่อสารขั้นสูง 3 (3-0-6) SELECTED TOPIC IN ADVANCE COMMUNICATION SYSTEM วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ศึกษาเรื่องคัดสรรทางระบบการสื่อสาร เครือข่ายและโพรโทคอล ระบบสื่อสารโทรคมนาคมสมัยใหม่ การ สื่อสารยุคหน้า หรือประเด็นหัวข้อที่เกี่ยวข้อง โดยหัวข้อจะเปลี่ยนแปลงตามความเหมาะสมในแต่ละภาคการศึกษา"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: สื่อสารยุคหน้า หรือประเด็นหัวข้อที่เกี่ย...",
+        "output": "สื่อสารยุคหน้า หรือประเด็นหัวข้อที่เกี่ยวข้อง โดยหัวข้อจะเปลี่ยนแปลงตามความเหมาะสมในแต่ละภาคการศึกษา A study of selected topics in communication system, networks and protocols, modern telecommunication, next generation communication, or case studies or topics. Topics are subject to change each semester. 4. กลุ่มเทคโนโลยีสหวิทยาการ ระบบขนส่งทางราง การแพทย์ และหุ่นยนต์ 01236418 ระบบอาณัติสัญญาณและการบริหารควบคุมรถไฟเบื้องต้น 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236418 ระบบอาณัติสัญญาณและการบริหารควบ...",
+        "output": "01236418 ระบบอาณัติสัญญาณและการบริหารควบคุมรถไฟเบื้องต้น 3 (3-0-6) INTRODUCTION TO RAILWAY SIGNALING AND OPERATION CONTROL วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ความรู้เบื้องต้นทางด้านระบบขนส่งทางราง และระบบอาณัติสัญญาณ การสื่อสารในระบบราง ความปลอดภัย ความน่าเชื่อในในระบบอาณัติสัญญาณ ระบบอาณัติสัญญาณสมัยใหม่ การคำนวณระยะห่างระหว่างขบวนรถไฟ การเคลื่อนที่ ของรถไฟ และสัญญาณ ระบบบังคับสัมพันธ์ ระบบป้องกันรถไฟ การประมาณเวลาในการเดินรถไฟ ระบบตรวจจับตำแหน่ง รถไฟ ระบบอาณัติสัญญาณสำหรับรถไฟเมโทร พื้นฐานความรู้ระบบควบคุมรถไฟทางไกล หรืออีทีซีเอส ระบบบริหารและ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: รถไฟ ระบบอาณัติสัญญาณสำหรับรถไฟเมโทร พื้...",
+        "output": "รถไฟ ระบบอาณัติสัญญาณสำหรับรถไฟเมโทร พื้นฐานความรู้ระบบควบคุมรถไฟทางไกล หรืออีทีซีเอส ระบบบริหารและ ควบคุมการเดินรถไฟ การควบคุมการเดินรถไฟจากศูนย์กลาง การจัดตา รางการเดินรถไฟ การพัฒนาซอฟต์แวร์ระบบอาณัติ สัญญาณ และการสื่อสาร Introduction to railway system and railway signaling, communication in railway system; safety and reliability in signaling system, modern railway signaling, train separation calculation, movement with railway"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: reliability in signaling system, modern ...",
+        "output": "reliability in signaling system, modern railway signaling, train separation calculation, movement with railway vehicles and signals, interlocking system, trai n protection, running time estimation, train detection, Signaling for metro. Principles of ETCS system, railway operation and control, centralized traffic control, Train timetabling and scheduling. Software development for railway signaling and communicat ions."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and scheduling. Software development for...",
+        "output": "and scheduling. Software development for railway signaling and communicat ions. 01236419 วิศวกรรมระบบรถไฟความเร็วสูง 3 (3-0-6) HIGH-SPEED RAILWAY SYSTEM ENGINEERING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ระบบรถไฟความเร็วสูง พื้นฐานโครงสร้าง และระบบล้อเลื่อนระบบรถไฟความเร็วสูง ระบบอาณัติสัญญาณ การ ควบคุมการเดินรถไฟสำหรับรถไฟความเร็วสูง การวางแผนการขนส่งระบบรถไฟความเร็วสูง การประยุกต์ใช้เทคนิคการหาค่าที่ เหมาะสมที่สุด การจัดตารางการเดินรถไฟความเร็วสูง การวางแผนการหมุนเวียนขบวนรถไฟความเร็วสูง ตัวอย่างกรณีศึกษา"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เหมาะสมที่สุด การจัดตารางการเดินรถไฟความ...",
+        "output": "เหมาะสมที่สุด การจัดตารางการเดินรถไฟความเร็วสูง การวางแผนการหมุนเวียนขบวนรถไฟความเร็วสูง ตัวอย่างกรณีศึกษา เทคโนโลยีรถไฟความเร็วสูง High-Speed railway system; basic knowledge about high -speed railway infrastructure and rolling stock; signaling and train control system; high -speed railway planning; optimization techniques for high -speed railway applications; high -speed railway timetabli ng; high -speed train circulation and utilization; study cases of"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: railway applications; high -speed railwa...",
+        "output": "railway applications; high -speed railway timetabli ng; high -speed train circulation and utilization; study cases of high-speed railway system. 01236420 วิศวกรรมหุ่นยนต์เบื้องต้น 3 (3-0-6) INTRODUCTION TO ROBOTICS ENGINEERING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ภาพรวมถึงเทคโนโลยีของหุ่นยนต์ พื้นการแนวคิดของการตั้งค่าปริภูมิ พลศาสตร์ของหุ่นยนต์ ระบบปฏิบัติการหุ่นยนต์ การรับรู้ และควบคุม การโปรแกรมหุ่นยนต์ การวางแผนการเคลื่อนที่ของหุ่นยนต์ หุ่นยนต์โมบายล์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ระบบปฏิบัติการหุ่นยนต์ การรับรู้ และควบค...",
+        "output": "ระบบปฏิบัติการหุ่นยนต์ การรับรู้ และควบคุม การโปรแกรมหุ่นยนต์ การวางแผนการเคลื่อนที่ของหุ่นยนต์ หุ่นยนต์โมบายล์ การประยุกต์ใช้งานหุ่นยนต์ An overview of robotics technology; introduction to the configuration space concept; robot kinematics; robot operating system; sensing and control; robot programming; mobile robot; robot motion planning and applications . 01236421 การประมวลผลภาพทางการแพทย์ 3 (3-0-6) MEDICAL IMAGE PROCESSING"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: MEDICAL IMAGE PROCESSING วิชาบังคับก่อน ...",
+        "output": "MEDICAL IMAGE PROCESSING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ศึกษาเกี่ยวกับอัลกอริทึมในการสร้างภาพตัดขวางจากข้อมูลโปรเจกชัน เช่น อัลกอริทึมฟิลเตอร์ แบ็คโปร เจก ชัน อัลกอริทึมฟูริเยร์ เป็นต้น รวมถึงอัลกอริทึมในการสร้างภาพตัดขวางจาก ข้อมูลโปรเจกชันที่ใช้ลักษณะทางเรขาคณิตของ แนวรังสีที่ต่างกัน เช่นแนวรังสีแบบขนาน แบบพัด แบบกรวย เป็นต้น นอกจากนี้ยังศึกษาเกี่ยวกับการทำทะเบียนภาพ และ การสร้างรูป 3 มิติจากภาพตัดขวางทางการแพทย์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การสร้างรูป 3 มิติจากภาพตัดขวางทางการแพท...",
+        "output": "การสร้างรูป 3 มิติจากภาพตัดขวางทางการแพทย์ The study of algorithm in image reconstruction from projection such as algorithms filtered back projection, algorithm Fourier algorithms etc. including algorithms of cross -section Image made from projection for by using geometry of different beams such as parallel beams, fan beams, cone beam, etc. The other topics"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: for by using geometry of different beams...",
+        "output": "for by using geometry of different beams such as parallel beams, fan beams, cone beam, etc. The other topics include image registration and 3D modeling from medical slices. 01236422 ระบบไอโอทีสำหรับการประยุกต์ใช้งานทางการแพทย์ 3 (3-0-6) IOT FOR BIOMEDICAL APPLICATIONS วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ศึกษาเกี่ยวกับหัวข้อระบบไอโอทีและการสื่อสาร สถาปัตยกรรม บริการและโพรโทคอล ความเป็นส่วนตัวและ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ศึกษาเกี่ยวกับหัวข้อระบบไอโอทีและการสื่อ...",
+        "output": "ศึกษาเกี่ยวกับหัวข้อระบบไอโอทีและการสื่อสาร สถาปัตยกรรม บริการและโพรโทคอล ความเป็นส่วนตัวและ ความปลอดภัย ในระบบไอโอที การออกแบบเมืองอัจฉริยะ โรงพยาบาลอัจฉริยะ การขนส่งและการเคลื่อนอย่างอย่างชาญ ฉลาด บ้านและอาคารอัจฉริยะ สุขภาพและแอปพลิเคชันที่ทันสมัย เครือข่ ายสิ่งที่ชาญฉลาดสำหรับการจัดการข้อมูล มาตรฐานที่เกี่ยวข้องกับ IoT This course covers the topics of smart things network and communication: architectures, services and protocols; privacy and security; enabling technologies of IoT; IoT and smart system for Biomedical"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and protocols; privacy and security; ena...",
+        "output": "and protocols; privacy and security; enabling technologies of IoT; IoT and smart system for Biomedical applications: smart cities, smart hospital, smart trans portation and mobility, smart home and building, smart health and up -to-date applications; smart things networks for data management; IoT related standardization. 01236423 เซ็นเซอร์ทางชีวภาพ 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236423 เซ็นเซอร์ทางชีวภาพ 3 (3-0-6) BI...",
+        "output": "01236423 เซ็นเซอร์ทางชีวภาพ 3 (3-0-6) BIOSENSOR วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE แนะนำเกี่ยวกับกายภาพของไบโอเซ็นเซอร์ชนิดต่าง ๆ กระบวนการประดิษฐ์ คุณสมบัติ เทคนิคและระบบ อิเล็กทรอนิกส์ การใช้งานบางอย่างในการวัดทางชีวการแพทย์ The course introduces to physics of various kinds of biosensor, fabrication process, properties, driving techniques, and electronic system. Some applications in biomedical measurement are also provided."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: driving techniques, and electronic syste...",
+        "output": "driving techniques, and electronic system. Some applications in biomedical measurement are also provided. 01236424 พื้นฐานระบบสารสนเทศสำหรับการดูแลสุขภาพ 3 (3-0-6) PRINCIPLE OF HEALTHCARE INFORMATION TECHNOLOGY วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ภาพรวมเบื้องต้นของสาขาวิศวกรรมชีวการแพทย์ การประยุกต์ใช้หลักการทางวิศวกรรมเบื้องต้นในการ วิเคราะห์ระบบทางสรีรวิทยา รวมถึงความรู้เบื้องต้นเกี่ยวกับการใช้คอมพิวเตอร์เป็นเครื่องมือในการแก้ปัญหาทางวิศวกรรม ได้แก่ ชีวกลศาสตร์ วิศวกรรมเซลล์และเนื้อเยื่อ เครื่องมื อทางการแพทย์ การถ่ายภาพทางการแพทย์ วิศวกรรมคลินิก"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ได้แก่ ชีวกลศาสตร์ วิศวกรรมเซลล์และเนื้อ...",
+        "output": "ได้แก่ ชีวกลศาสตร์ วิศวกรรมเซลล์และเนื้อเยื่อ เครื่องมื อทางการแพทย์ การถ่ายภาพทางการแพทย์ วิศวกรรมคลินิก วิศวกรรมการฟื้นฟู เทคโนโลยีชีวภาพ ไบโอเซ็นเซอร์ วัสดุชีวภาพและอวัยวะเทียม An introductory overview of the multi -disciplinary field of biomedical engineering. Application of elementary engineering principles to the analysis of physiological systems. Includes basic introduction to the use of computers as tools for solving enginee ring problems. Course topics include biomechanics, cell and tissue"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: use of computers as tools for solving en...",
+        "output": "use of computers as tools for solving enginee ring problems. Course topics include biomechanics, cell and tissue engineering, biomedical instrumentation, medical imaging, clinical engineering, rehabilitation engineering, biotechnology, biosensors, biomaterial and artificial organ 01236425 ระบบไอโอทีและเซ็นเซอร์สำหรับเทคโนโลยีวิทยาศาสตร์การกีฬา 3 (3-0-6) IoT AND SENSOR SYSTEM FOR SPORT SCIENCE วิชาบังคับก่อน : ไม่มี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับก่อน : ไม่มี PREREQUISITE: NON...",
+        "output": "วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE วิชานี้เป็นการศึกษาการนำเทคโนโลยีระบบไอโอทีและสารสนเทศ มาประยุกต์ใช้กับเทคโนโลยีทางด้านการ กีฬา เช่น การออกแบบพัฒนาอุปกรณ์การกีฬา เซนเซอร์ และการแสดงผลสำหรับทางด้านการกีฬา อุปกรณ์ฝึกซ้อม เทคโนโลยีสำหรับสนับสนุนการตัดสินกีฬา การรักษาหลังอาการบาดเจ็บ การวิเคราะห์ข้อมูลในทางวิทยาศาสตร์การกีฬา The course concerns a study of modern technologies applied to sports such as design of competitive sport equipment, sensor and visualization, training equipment technology for sporting judgement"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: competitive sport equipment, sensor and ...",
+        "output": "competitive sport equipment, sensor and visualization, training equipment technology for sporting judgement and decision support, treatment after injury in sports, data analytics in sport science. 01236426 การพัฒนาและออกแบบหุ่นยนต์ขนาดเล็ก 3 (2-2-5) MICRO ROBOT DESIGN AND DEVELOPMENT วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ความรู้พื้นฐานเกี่ยวกับหุ่นยนต์ขนาดเล็ก การออกแบบหุ่นยนต์ขนาดเล็กมาก และการพัฒนา การออกแบบพีซี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ความรู้พื้นฐานเกี่ยวกับหุ่นยนต์ขนาดเล็ก ...",
+        "output": "ความรู้พื้นฐานเกี่ยวกับหุ่นยนต์ขนาดเล็ก การออกแบบหุ่นยนต์ขนาดเล็กมาก และการพัฒนา การออกแบบพีซี บี และการพัฒนาสำหรับหุ่นยนต์ขนาดเล็ก กลศาสตร์ การควบคุม การแสดงผล การเคลื่อนที่ การตรวจจับตำแหน่ง การเขียน โปรแกรมภาษาซี หรือที่เกี่ยวข้องในการควบคุมหุ่นยนต์ขนาดเล็ ก แอปพลิเคชันของอุปกรณ์อินพุตและเอาต์พุต การประกอบ หุ่นยนต์ไมโครโรบอท การทดสอบ และการดีบัก กรณีศึกษา เช่น การแข่งขันหุ่นยนต์ไมโครเมาส์ หรือหุ่นยนต์ไมโครเมซ Introduction to micro robotic basic; very small robot design and development; pcb design and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Introduction to micro robotic basic; ver...",
+        "output": "Introduction to micro robotic basic; very small robot design and development; pcb design and development in micro robot: mechanic, control, display, movement, detector systems; C programming in micro robot control; Application of input and output devices: micro robot assembling, testing and debugging. Case studies in micro development such as micro -mouse robot competition or micro robot maze contest."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: studies in micro development such as mic...",
+        "output": "studies in micro development such as micro -mouse robot competition or micro robot maze contest. 5. กลุ่มวิทยาการข้อมูล และซอฟต์แวร์ประยุกต์ 01236427 สถาปัตยกรรมข้อมูลขนาดใหญ่ 3 (3-0-6) BIG DATA ARCHITECTURE วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE หลักการของการประมวลผลข้อมูลขนาดใหญ่คลัสเตอร์ของฮาดูป YARN ระบบไฟล์แบบกระจายของฮา ดูปแมปรีดิวส์การประมวลผลแบบแบตช์การประมวลผลในหน่วยความจําการประมวลผลแบบเวลาจริงแหล่งข้อมูล และการนําข้อมูลเข้าตัวอย่างการประยุกต์ใช้"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: และการนําข้อมูลเข้าตัวอย่างการประยุกต์ใช...",
+        "output": "และการนําข้อมูลเข้าตัวอย่างการประยุกต์ใช้ Big data concept; Hadoop cluster; YARN; Hadoop Distributed File System (HDFS); Map/Reduce; Batch processing; In -memory processing; Real -time processing; Data sources and data ingestion; Big data analytics in IoT System, Big data system platform in IoT env ironment and system. 01236428 การแสดงผลและนำเสนอข้อมูล 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236428 การแสดงผลและนำเสนอข้อมูล 3 (3-0...",
+        "output": "01236428 การแสดงผลและนำเสนอข้อมูล 3 (3-0-6) DATA VISUALIZATION AND PRESENTATION วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE หลักการการแสดงข้อมูลด้วยแผนภาพ การออกแบบการแสดงข้อมูลด้วยแผนภาพ เครื่องมือที่ใช้ การแสดง ข้อมูลด้วยแผนภาพ การได้มาซึ่งข้อมูล การจัดระเบียบข้อมูล การเลือกแผนภูมิต่างๆ ที่เหมาะสม เช่น ฮีทโตรแกรม แผนภูมิ การกระจาย แผนภูมิเส้น แผนภูมิแท่ง แผนภูมิวงกลม แผนภูมิต้น ไม้ แผนภูมิแบบเครือข่าย กราฟสตรีม แผนภูมิตัวชี้วัด"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การกระจาย แผนภูมิเส้น แผนภูมิแท่ง แผนภูม...",
+        "output": "การกระจาย แผนภูมิเส้น แผนภูมิแท่ง แผนภูมิวงกลม แผนภูมิต้น ไม้ แผนภูมิแบบเครือข่าย กราฟสตรีม แผนภูมิตัวชี้วัด ผลงาน แผนที่ แผนภูมิแบบปฏิสัมพันธ์ การอธิบายแผนภูมิ Principles of data visualization; data visualization design; data visualization tools; data acquisition; data organization; choosing the appropriate chart type, e.g., histogram, scatter plot, line chart, bar chart, pie"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: data organization; choosing the appropri...",
+        "output": "data organization; choosing the appropriate chart type, e.g., histogram, scatter plot, line chart, bar chart, pie chart, tree diagram, network chart, s tream graph, KPI Chart, map, interaction chart; chart description. 01236429 เหมืองข้อมูลและการวิเคราะห์อนุกรมเวลา 3 (3-0-6) DATA MINING AND TIME SERIES ANALYSIS วิชาบังคับก่อน : ไม่มี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับก่อน : ไม่มี PREREQUISITE: NON...",
+        "output": "วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE แนวคิดและเทคนิคต่าง ๆ ในการทําเหมืองข้อมูล ประสิทธิภาพและข้อดีข้อเสียของอัลกอริทึมต่าง ๆ ที่ใช้ใน การทําเหมืองข้อมูล กระบวนการเตรียมข้อมูล การหารูปแบบที่เกิดขึ้นบ่อย การวิเคราะห์ ความสัมพันธ์การหากฎ ความสัมพันธ์การจําแนกประเภท การทํานาย การวิเคราะห์กลุ่ม การวิเคราะห์อนุกรมเวลา การหาค่าที่เหมาะสมที่สุด การทํา เหมืองข้อมูลกับข้อมูลพิเศษ ข้อมูลสื่อผสม ข้อมูลเครือข่ายสังคม ข้อมูลเชิงพื้นที่การประยุกต์ใช้และทิศทางของการทํา"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เหมืองข้อมูลกับข้อมูลพิเศษ ข้อมูลสื่อผสม...",
+        "output": "เหมืองข้อมูลกับข้อมูลพิเศษ ข้อมูลสื่อผสม ข้อมูลเครือข่ายสังคม ข้อมูลเชิงพื้นที่การประยุกต์ใช้และทิศทางของการทํา เหมืองข้อมูล คลั งข้อมูล Data mining concepts and techniques; Efficiency, pros and cons of data mining algorithms; Data preprocessing; Frequent pattern mining; Association rules; Classification; Prediction; Cluster analysis; time -series analysis; optimization; Mining special data : multimedia data, social network data, and spatial data; Data mining"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: analysis; optimization; Mining special d...",
+        "output": "analysis; optimization; Mining special data : multimedia data, social network data, and spatial data; Data mining applications and trends; Data warehousing 01236430 การพัฒนาแอปพลิเคชันบนเว็บและโมไบล์ขั้นสูง 3 (2-2-5) ADVANCED MOBILE AND WEB DEVELOPMENT วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE การประยุกต์ใช้งานการออกแบบและพัฒนาโปรแกรมบนเว็ปแอปพลิเคชัน การสร้างฐานข้อมูลโครงสร้างแบบ เชิงสัมพันธ์และไม่มีความสัมพันธ์การทดสอบความปลอดภัยบนเวปแอปพลิเคชัน การสร้างแอปพลิเคชัน บนสมาร์ตโฟนโดยมี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เชิงสัมพันธ์และไม่มีความสัมพันธ์การทดสอบ...",
+        "output": "เชิงสัมพันธ์และไม่มีความสัมพันธ์การทดสอบความปลอดภัยบนเวปแอปพลิเคชัน การสร้างแอปพลิเคชัน บนสมาร์ตโฟนโดยมี การติดต่อฐานข้อมูลภายในสมาร์ตโฟนและติดต่อฐานข้อมูลบนเว็ปแอปพลิเคชัน การระบุพิกัดของผู้ใช้และการแสดงแผนที่ วิธีการพัฒนาแอปพลิเคชัน เพื่อขายจริงในตลาด เฟรมเวิร์กที่น่าสนใจสำหรับการพัฒนาเว็บ และโมไบล์แอปพลิเคชัน Design and development program on web application; Introduction to Relational database and noSQL; Web application penetrate test. Design and development Smartphone application; Connection to"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: noSQL; Web application penetrate test. D...",
+        "output": "noSQL; Web application penetrate test. Design and development Smartphone application; Connection to RDBMS and noSQL such as, SQLite and Mongo database, GPS and Map m odule, Mobile application building and selling strategy. essential framework for web and mobile application development. 01236431 การทดสอบและประกันคุณภาพซอฟต์แวร์ 3 (3-0-6) SOFTWARE QUALITY AND TESTING"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: SOFTWARE QUALITY AND TESTING วิชาบังคับก...",
+        "output": "SOFTWARE QUALITY AND TESTING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE หลักการพื้นฐาน และหลักการเกี่ยวกับการออกแบบซอฟต์แวร์ และสถาปัตยกรรมซอฟต์แวร์ ประเด็นใมนการ ออกแบบซอฟต์แวร์ รวมถึงรูปแบบในการออกแบบ ภาพรวมของสถาปัตยกรรมโครงสร้าง และสไตล์ วิธีดำเนินการสำหรับการ สร้าง แลวิเคราะห์สถาปัตยกรรมซอฟต์แวร์ พื้นฐานหลักการของการทดสอบซอฟต์แวร์ การดำเนิ นการทดสอบซอฟต์แวร์ การ ยืนยันความมั่นใจในความถูกต้องของการทดสอบซอฟต์แวร์ Basic concepts and principles about software design and software architecture. It starts with"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Basic concepts and principles about soft...",
+        "output": "Basic concepts and principles about software design and software architecture. It starts with discussion on design issues, followed by coverage on design patterns. It then gives an overview of architectural structures and styles. Practical approaches and m ethods for creating and analyzing software architecture are presented. Fundamental principles of software testing, implementing software testing practices, ensuring the"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: presented. Fundamental principles of sof...",
+        "output": "presented. Fundamental principles of software testing, implementing software testing practices, ensuring the thoroughness of testing to gain confidence in the correctness of the software. 01236432 การออกแบบอินเตอร์เฟสและประสบการณ์ผู้ใช้งาน 3 (3-0-6) USER EXPERIENCE AND INTERFACE DESIGN วิชาบังคับก่อน : 01236262 การออกแบบเชิงปฏิสัมพันธ์ PREREQUISITE: 01236262 INTERACTION DESIGN ขั้นตอนของการออกแบบประสบการณ และการออกแบบส"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ขั้นตอนของการออกแบบประสบการณ และการออกแบ...",
+        "output": "ขั้นตอนของการออกแบบประสบการณ และการออกแบบส วนติดตอผูใชงาน โดยจะมีจุดมุ งหมายใหนักศึกษาได นเคยกับแนวคิด วิธีปฏิบัติ และเทคนิคที่จําเป นในการสร างประสบการณ ของผู งาน ซึ่งเป วนหนึ่งของการพัฒนาการ เชื่อมโยงข าวสาร วิชานี้จะให นักศึกษาไดมีโอกาสในการค นหาทรัพยากร พัฒนาทักษะและฝ กปฏิบัติที่จําเป อการออกแบบ พัฒนา และประเมินส วนติดตอขอมูลจากมุมมองของผู ใชงาน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: พัฒนา และประเมินส วนติดตอขอมูลจากมุมมองข...",
+        "output": "พัฒนา และประเมินส วนติดตอขอมูลจากมุมมองของผู ใชงาน This course provides a comprehensive overview of the user experience and user interface design process, and is intended to familiarize students with the methods, concepts, and techniques necessary to make user experience design an integral part of develop ing information interfaces. The course provides students with"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: user experience design an integral part ...",
+        "output": "user experience design an integral part of develop ing information interfaces. The course provides students with an opportunity to acquire the resources, skills, and hands -on experience they need to design, develop, and evaluate information interfaces from a user -centered design perspective. 01236433 แนวคิดระบบคลาวด์และการดำเนินการพัฒนา 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236433 แนวคิดระบบคลาวด์และการดำเนินการ...",
+        "output": "01236433 แนวคิดระบบคลาวด์และการดำเนินการพัฒนา 3 (3-0-6) CLOUD AND DEVOPS CONCEPTS วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE แนวคิดของการดำเนินการพัฒนา หรือเดพออพส์ แนวคิดการจัดเก็บเวอร์ชัน หลักการพื้นฐานของระบบกิต ฝึก การใช้งานกิตขั้นพื้นฐาน การใช้งานกิตร่วมกับแอพพลิเคชัน หรือเอพีไอต่าง ๆ การปรับแก้ขณะใช้งานกิต แนวคิดของกิตบ รานชิง การจัดการกิตบรานช์เบื้องต้น แนวคิดของ Docker Container การใช้ Docker file Basic concepts of development operation or DevOps, concepts of version acquisition, GIT version"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Basic concepts of development operation ...",
+        "output": "Basic concepts of development operation or DevOps, concepts of version acquisition, GIT version control, practice git, git application or API, git configuration, git branching, git branching management, docker container, docker files. 01236434 การพัฒนาเกม กราฟฟิก และแอนิเมชัน 3 (3-0-6) GAME, GRAPHICS AND ANIMATION DEVELOPMENT วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PREREQUISITE: NONE พื้นฐานหลักการเบื้องต...",
+        "output": "PREREQUISITE: NONE พื้นฐานหลักการเบื้องต้นของเกม และแอนิเมชัน เวกเตอร์กราฟฟิก การนำเสนอวัตถุสองมิติ และสามมิติ หลักการแอนิเมชันคอมพิวเตอร์ เทคนิคการจัดแสง และเงา พื้นฐานและเทคนิคสำหรับการออกแบบตัวละครและแอนิเมชัน หลักการออกแบบเกมและไกด์ไลน์ การดำเนินการพัฒนาเกม การเล่าเรื่อง การออกแบบเกม การออกแบบอินเตอร์เฟสผู้ใช้งาน การใช้งานคอมพิวเตอร์กราฟฟิกสามมิติซอฟต์แวร์สำหรับเกมและแอนิเมชันเบื้องต้น Fundamental principles of game and animation; Raster and vector graphics; 2D and 3D object"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Fundamental principles of game and anima...",
+        "output": "Fundamental principles of game and animation; Raster and vector graphics; 2D and 3D object representations; computer animation concepts; lighting and shading techniques; concepts and techniques for character modeling and animation; game design concepts and guidelines; game development process. storytelling design; gameplay design; user interface design; use of 3D computer graphics application software"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: storytelling design; gameplay design; us...",
+        "output": "storytelling design; gameplay design; user interface design; use of 3D computer graphics application software for basic game and animation. 01236435 เทคโนโลยีภาพเสมือนจริง 3 (3-0-6) AUGMENT AND VIRTUAL REALITY วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE เทคโนโลยีผสมสำหรับการออกแบบส่วนหน้า การปฏิสัมพันธ์ และการพัฒนาซอฟต์แวร์สำหรับการประยุกต์ใช้ งานเทคโนโลยีภาพเสมือนจริง พื้นฐานของการออกแบบ และประสบการณ์ในระบบภาพเสมือนจริง การเล่าเรื่อง การสร้างคอน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: งานเทคโนโลยีภาพเสมือนจริง พื้นฐานของการอ...",
+        "output": "งานเทคโนโลยีภาพเสมือนจริง พื้นฐานของการออกแบบ และประสบการณ์ในระบบภาพเสมือนจริง การเล่าเรื่อง การสร้างคอน เทนต์ การปฏิบัติงานเกี่ยวกับมาตรฐานเฟรมเวิร์กระบบภาพเสมือนจริ ง The emerging technologies that fuel the frontier of design, interaction and software development using augmented reality and virtual reality. Fundamentals of design and experience in the context of virtual and augmented reality, storytelling, and content creation. Students will work with standard virtual reality"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: and augmented reality, storytelling, and...",
+        "output": "and augmented reality, storytelling, and content creation. Students will work with standard virtual reality framework. 01236436 เรื่องคัดสรรทางการพัฒนาซอฟต์แวร์ 3 (3-0-6) SELECTED TOPIC IN SOFTWARE DEVELOPMENT วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE การศึกษาครอบคลุมเนื้อหาด้านการพัฒนาซอฟต์แวร์ที่น่าสนใจในปัจจุบัน หัวข้อต่าง ๆ อาจเปลี่ยนแปลงตาม ความเหมาะสมในแต่ละภาคการศึกษา A study of selected topics in software development and related case studies. Topics are subject"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: A study of selected topics in software d...",
+        "output": "A study of selected topics in software development and related case studies. Topics are subject to change each semester. 01236463 ปัญญาประดิษฐ์สำหรับเชิงธุรกิจ 3 (3-0-6) ARTIFICIAL INTELLIGENCE FOR BUSINESS แนวคิดและหลักการเบื้องต้นของเทคโนโลยีข้อมูลมหัต การวิเคราะห์ข้อมูล ปัญญาประดิษฐ์และการเรียนรู้ ของเครื่องจักร อธิบายเกี่ยวกับกรณีศึกษาต่างๆ ที่เกิดขึ้นจริง มีการสาธิตการนำเทคโนโลยีดังกล่าวมาประยุกต์ใช้งานจริงเพื่อ พัฒนาธุรกิจให้มีประสิทธิภาพมากขึ้น Basic concept of Big Data, Data Analytic, Artificial Intelligence, and Machine Learning, as well as"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Basic concept of Big Data, Data Analytic...",
+        "output": "Basic concept of Big Data, Data Analytic, Artificial Intelligence, and Machine Learning, as well as how to use these technologies to gain a better understanding of the business world through real -life scenarios. 01236464 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6) HUMAN COMPUTER INTERACTION ปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ ปัจจัยมนุษย์ จิตวิทยา การวิเคราะห์งาน การออกแบบโดยผู้ใช้เป็น"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ ป...",
+        "output": "ปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ ปัจจัยมนุษย์ จิตวิทยา การวิเคราะห์งาน การออกแบบโดยผู้ใช้เป็น ศูนย์กลาง ประโยชน์ใช้งานด้านวิศวกรรม การออกแบบอินเตอร์เฟซและการประเมินผล คอมพิวเตอร์ในทุกหนแห่ง สภาพแวดล้อมร่วมกัน และสภาพแวดล้อมเสมือนจริง Human computer interaction, human factors, psychology, task analysis, user -centered design, usability engineering, interface design and evaluation, ubiquitous computing, collaborative and virtual environment 01236465 กฎหมายสำหรับเทคโนโลยีสารสนเทศ 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236465 กฎหมายสำหรับเทคโนโลยีสารสนเทศ 3...",
+        "output": "01236465 กฎหมายสำหรับเทคโนโลยีสารสนเทศ 3 (3-0-6) LAW FOR INFORMATION TECHNOLOGY หลักการพื้นฐานของวิธีการเกี่ยวกับนิติวิทยาดิจิทัล และเทคนิคการตรวจสอบแบบสมัยใหม่ การระบุตัวตน และการเก็บรักษาข้อมูลดิจิทัลที่เป็นหลักฐานที่เก็บได้จากที่เกิดเหตุ หลักการทางกฎหมายพื้นฐานที่เกี่ยวข้องกับกฎหมาย อิเล็กทรอนิกส์ และแหล่งข้อมูลทางอิเล็กทรอนิกส์ที่ส ามารถนำมาประยุกต์ใช้กับคอมพิวเตอร์และมีผลทางกฎหมาย รวมถึง การศึกษาเกี่ยวกับ ทรัพย์สินทางปัญญา สิทธิบัตร ลิขสิทธิ์ สิทธิมนุษยชน การคุ้มครองข้อมูลส่วนบุคคล และจริยธรรมใน มนุษย์ The fundamental principles of digital forensics methodology and emerging investigation"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: The fundamental principles of digital fo...",
+        "output": "The fundamental principles of digital forensics methodology and emerging investigation techniques, identification, collection and preservation of digital crime scene evidence, basic criminal law concepts, related national electronic laws, and sources of el ectronic information in computer forensics. Including intellectual property, patent copyrights, human rights, personal data protection act (PDPA) and ethical"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Including intellectual property, patent ...",
+        "output": "Including intellectual property, patent copyrights, human rights, personal data protection act (PDPA) and ethical issues. 01236466 การวิเคราะห์และออกแบบระบบ 3 (3-0-6) SYSTEM ANALYSIS AND DESIGN เป็นการศึกษาแนวคิด ขั้นตอนกระบวนการ และเครื่องมือที่ใช้ในการวางแผนและพัฒนาระบบ สารสนเทศ สำหรับระบบงานธุรกิจ ผู้เรียนจะได้เรียนรู้เกี่ยวกับวัฏจักรการพัฒนาระบบงานซอฟท์แวร์ ขั้นตอนการเก็บข้อมูล การ วิเคราะห์ความต้องการ การสร้างแบบจำลองการทำงานของระบบ การสร้าง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิเคราะห์ความต้องการ การสร้างแบบจำลองการ...",
+        "output": "วิเคราะห์ความต้องการ การสร้างแบบจำลองการทำงานของระบบ การสร้าง แบบจำลองข้อมูล และการบริหารจัดการโครงการเบื้องต้น Information System Analysis and Design is the study of concepts, processes and tools that professionals use to plan and develop information systems. Students learn the concepts of Software Development Life Cycle, how to collect necessary information of the system, requirement analysis, process"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Development Life Cycle, how to collect n...",
+        "output": "Development Life Cycle, how to collect necessary information of the system, requirement analysis, process modeling, data modeling and an introduction to project management. 6. กลุ่มวิชาการจัดการเทคโนโลยี 01236437 การวิเคราะห์ธุรกิจดิจิทัล 3 (3-0-6) DIGITAL BUSINESS ANALYSIS วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE แนะนำการวิเคราะทางธุรกิจดิจิทัล และการตัดสินใจ การเก็บรวบรวมข้อมูล การสํารวจข้อมูลและการสรุป"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แนะนำการวิเคราะทางธุรกิจดิจิทัล และการตั...",
+        "output": "แนะนำการวิเคราะทางธุรกิจดิจิทัล และการตัดสินใจ การเก็บรวบรวมข้อมูล การสํารวจข้อมูลและการสรุป ข้อมูลการประมาณค่าแนวโน้มและความเบี่ยงเบนของข้อมูลการอนุมานเชิงสถิติการวิเคราะห์เชิงถดถอยการ พยากรณ์ และ อนุกรมเวลาการหาค่าที่เหมาะสมที่สุด การสร้างแบบจําลองสถานการณ์ Introduction to digital business analysis and decision making; gathering data, exploring data, and summarizing data; estimation of data tendency and variance; statistical inference; regression analysis; forecasting"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: summarizing data; estimation of data ten...",
+        "output": "summarizing data; estimation of data tendency and variance; statistical inference; regression analysis; forecasting and time series; optimization; simulation modeling; advanced data analysis; statistical programming 01236438 การบริหารโครงการระบบไอที 3 (3-0-6) IT PROJECT MANAGEMENT วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ธรรมชาติและวงจรชีวิตของโครงการ การศึกษาความเป็นไปได้ของโครงการเทคนิคการเลือกโครงการ องค์ ความรู้สําหรับการบริหารโครงการการจัดทีมงาน การจัดการขอบเขตของโครงการการประมาณการโครงการ การจัดการ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ความรู้สําหรับการบริหารโครงการการจัดทีมง...",
+        "output": "ความรู้สําหรับการบริหารโครงการการจัดทีมงาน การจัดการขอบเขตของโครงการการประมาณการโครงการ การจัดการ ตารางเวลาการจัดการคุณภาพ การจัดการความเสี่ยง การควบคุมโครงการและประเมิน ผลโครงการ A study of roles and concepts of information technology for business management, Nature and life cycle of information technology (IT) projects; project feasibility; project selection techniques; project management body of knowledge; team management; project scope management; project estimation; project"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: management body of knowledge; team manag...",
+        "output": "management body of knowledge; team management; project scope management; project estimation; project scheduling; quality management; change management; project controlling; project evaluation. 01236439 การจัดการศูนย์ข้อมูล 3 (3-0-6) DATA CENTER MANAGEMENT วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE องค์ประกอบสําคัญในการออกแบบและจัดการศูนย์ข้อมูลอธิบายถึงแนวทางการปฏิบัติที่ดีเลิศในการ ออกแบบ สร้างและการใช้งานห้องคอมพิวเตอร์และสิ่งอํานวยความสะดวกอื่น ๆ อาทิเช่น ระบบจ่ายไฟฟ้าแบบกระจายระบบ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ออกแบบ สร้างและการใช้งานห้องคอมพิวเตอร์แ...",
+        "output": "ออกแบบ สร้างและการใช้งานห้องคอมพิวเตอร์และสิ่งอํานวยความสะดวกอื่น ๆ อาทิเช่น ระบบจ่ายไฟฟ้าแบบกระจายระบบ ปรับอากาศ สถาปัตยกรรมระบบคอมพิวเตอร์ประสิทธิภาพสูงระบบเครือข่ายความเร็วสูง ระบบทนทานต่อความผิดพลาด และระบบสํารองการจัดวางและการเดินสายการฝึกออกแบบศูนย์ข้อมูลเพื่อความเข้าใจที่ดียิ่งขึ้นที่ครอบคลุมความต้องการ ทางธุรกิจตามขั้นตอนการออกแบบไปจนถึงระยะการนําไปใช้ The key elements associated with designing and management of a Data Centre. Describe on the"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: The key elements associated with designi...",
+        "output": "The key elements associated with designing and management of a Data Centre. Describe on the best practice of design, construction and operation of computer rooms and Data Centre facilities include electrical distribution systems, air -conditioning, high pe rformance computer architecture, high -speed network, fault-tolerance and redundant system, racking and cabling. It concludes with a comprehensive case study"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: fault-tolerance and redundant system, ra...",
+        "output": "fault-tolerance and redundant system, racking and cabling. It concludes with a comprehensive case study exercise cover the business requirement, design steps through the implementation phases. 01236440 วิศวกรรมสตาร์ตอัป 3 (3-0-6) START UP ENGINEERING วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE ความรู้เบื้องต้นเกี่ยวกับการเป็นผู้ประกอบการสตาร์ทอัปบริษัทฐานเทคโนโลยี ปฏิกิริยาสัมพันธ์ ระหว่างการ ผลิต วิศวกรรมและการตลาด คุณลักษณะของผู้ประกอบการสตาร์ทอัปทางเทคโนโลยี การเริ่มต้นดาเนินธุรกิจและปัจจัยของ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ผลิต วิศวกรรมและการตลาด คุณลักษณะของผู้ป...",
+        "output": "ผลิต วิศวกรรมและการตลาด คุณลักษณะของผู้ประกอบการสตาร์ทอัปทางเทคโนโลยี การเริ่มต้นดาเนินธุรกิจและปัจจัยของ ความสาเร็จในทางธุรกิจ กระบวนการสร้างบริษัทเชิงเทคโนโลยีแบบใหม่ การเติบโตของบริษัทเชิงกลยุทธ์ การพัฒนากลยุทธ์ สาหรับการดาเนินธุรกิจในอุตสาหกรรม ฐานเทคโนโลยี การพัฒนาผลิตภัณฑ์และบริการใหม่ในบริษัทฐานเทคโนโลยีขนาด ย่อมและขนาดกลาง การลงทุนใหม่ด้านเทคโนโลยี การทำตลาดของสินค้าที่เป็นนวัตกรรม และการประเมินมูลคําเทค โนโลยี และทรัพย์สินทางปัญญา ตัวอย่างกรณีศึกษาของธุรกิจสตาร์ทอัปที่ประสบความสำเร็จ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: และทรัพย์สินทางปัญญา ตัวอย่างกรณีศึกษาขอ...",
+        "output": "และทรัพย์สินทางปัญญา ตัวอย่างกรณีศึกษาของธุรกิจสตาร์ทอัปที่ประสบความสำเร็จ Introduction to Entrepreneurship in Technology -Based Firms, Interactions between the Manufacturing, Engineering, and Marketing Functions, Business Start -Up and Factors for Business Success, Process of Formulating a New Technological Enterprise, Strategic Enterprise Growth, Strategy Development for Technology -based Industry, New Product and Service Development, Entrepreneurship in Technological Small -"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Technology -based Industry, New Product ...",
+        "output": "Technology -based Industry, New Product and Service Development, Entrepreneurship in Technological Small - and Medium -sized Businesses, New Ventures on Technology, Product Development and Management Issues in Technology Markets, Marketing of Innovation, Technology and Intellectual Property Evaluation. Case studies of successful startup business. 01236441 นิติวิทยาดิจิทัล 3 (3-0-6) DIGITAL FORENSIC"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: DIGITAL FORENSIC วิชาบังคับก่อน : ไม่มี ...",
+        "output": "DIGITAL FORENSIC วิชาบังคับก่อน : ไม่มี PREREQUISITE: NONE หลักการพื้นฐานของวิธีการเกี่ยวกับนิติวิทยาดิจิทัล และเทคนิคการตรวจสอบแบบสมัยใหม่การระบุตัวตน และการเก็บรักษาข้อมูลดิจิทัลที่เป็นหลักฐานที่เก็บได้จากที่เกิดเหตุ หลักการทางกฎหมาย พื้นฐานที่เกี่ยวข้องกับกฎหมาย อิเล็กทรอนิกส์ระดับชาติและแหล่งข้อมูลทางอิเล็กทรอนิคส์ที่สามารถนํามาประยุกต์ใช้กับคอมพิวเตอร์และมีผลทาง กฎหมาย The fundamental principles of digital forensics methodology and emerging investigation techniques, identification, collection and preservation of digital crime scene evidence, basic criminal law"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: techniques, identification, collection a...",
+        "output": "techniques, identification, collection and preservation of digital crime scene evidence, basic criminal law concepts, related national electronic laws, and sources of e lectronic information in computer forensics. 7. กลุ่มวิชาฟิสิกส์อุตสาหกรรมสำหรับระบบไอโอทีและสารสนเทศ 01236450 ทรานสดิวเซอร์ในงานอุตสาหกรรม 3 (3-0-6) INDUSTRIAL TRANSDUCERS วิชาบังคับกอน : ไมมี PREREQUISITE : NONE"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: PREREQUISITE : NONE ศึกษาเกี่ยวกับอุปกรณ...",
+        "output": "PREREQUISITE : NONE ศึกษาเกี่ยวกับอุปกรณ์สารกึ่งตัวนําแบบพิเศษต่าง ๆ อุปกรณ์ตรวจจับอุณหภูมิ อุปกรณ์ตรวจจับแสง การตรวจจับพฤติกรรมการหน่วงเวลา การประยุกต์ใช้ไทริสเตอร์ในอุตสาหกรรม ตัวตรวจจับแบบเหนี่ยวนําและ แบบประจุ ศึกษาทําความเข้าใจเกี่ยวกับการประยุกต์ใช้ตัวตรวจจับในย่านไมโครเวฟ วิธีการเลือกและกำหนดตัว ตรวจจับอย่างถูกต้อง เ พื่อให้ใช้ในการควบคุมได้อย่างราบรื่น มีประสิทธิภาพ และปราศจากค่าผิดพลาดในการ ทํางานการผลิตต่าง ๆ ระบบโครงข่ายของตัวตรวจจับในงานควบคุมการผลิต บทบาทของตัวตรวจจับ และ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ทํางานการผลิตต่าง ๆ ระบบโครงข่ายของตัวตร...",
+        "output": "ทํางานการผลิตต่าง ๆ ระบบโครงข่ายของตัวตรวจจับในงานควบคุมการผลิต บทบาทของตัวตรวจจับ และ เทคโนโลยีการควบคุมในการประยุกต์ร่วมกับเทคโนโลยี คอมพิวเตอร์ เทคโนโลยีชั้นสูงของตัวตรวจจับและการ ประยุกต์ใช้ในงานการผลิต และการเลือกใช้ทรานสดิวเซอร์ให้เหมาะสมสำหรับงานต่าง ๆ ในอุตสาหกรรม Special solid state devices; temperature sensing devices; photo sensing devices; sensing of delay actions; thyristor applications in industries; inductive and capacitive sensors;"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: sensing of delay actions; thyristor appl...",
+        "output": "sensing of delay actions; thyristor applications in industries; inductive and capacitive sensors; understanding of microwave sensing applications; how to select and implement the right sensors and control to achieve smooth, efficient and error -free operation of any manufacturing system; networking of sensors and control manufacturing; roles of sensors and control technology in"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: networking of sensors and control manufa...",
+        "output": "networking of sensors and control manufacturing; roles of sensors and control technology in computer integrated technology; advanced sensor technology in manufac turing applications, and transducer selection for appropriate works in industries. 01236451 การวัดคุมเสมือนชั้นสูง 3 (3-0-6) ADVANCED VIRTUAL INSTRUMENTATION วิชาบังคับกอน : ไมมี PREREQUISITE : NONE ศึกษาและวิเคราะห์เกี่ยวกับการวัดคุมเสมือนขั้นสูง การโปรแกรมภาษากราฟิค เช่น บทนำเครื่องมือ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ศึกษาและวิเคราะห์เกี่ยวกับการวัดคุมเสมือ...",
+        "output": "ศึกษาและวิเคราะห์เกี่ยวกับการวัดคุมเสมือนขั้นสูง การโปรแกรมภาษากราฟิค เช่น บทนำเครื่องมือ เสมือนจริง พื้นฐานการโปรแกรมเชิงรูปภาพ การออกแบบพาเนลส่วนหน้าและบล็อกไดอะแกรมสำหรับเครื่องมือ เสมือน การสร้างไอคอนและส่วนเชื่อมต่อ ชนิดข้อมูล การแก้ไขจุดบกพร่องของโปรแก รม การโปรแกรมแบบทำซ้ำ อาร์เรย์ คลัสเตอร์ กราฟ แผนภูมิ โครงสร้างในการโปรแกรม สตริงและการบันทึกข้อมูล การรับเข้าข้อมูล และการ เชื่อมต่อและควบคุมเครื่องมือ การควบคุมกระบวนการโดยใช้เครื่องมือวัดแบบเสมือน การควบคุมแบบพีไอดี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เชื่อมต่อและควบคุมเครื่องมือ การควบคุมกร...",
+        "output": "เชื่อมต่อและควบคุมเครื่องมือ การควบคุมกระบวนการโดยใช้เครื่องมือวัดแบบเสมือน การควบคุมแบบพีไอดี This course is relevant to the education and analysis of advanced virtual instrumentation, G -programming ; introduction to virtual instruments, fundamental of graphical programming, design of front panel and block diagram for virtual instruments, icon and connector pane creation, data types, program debugging, loops programming, arrays, clusters, charts, graphs,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: pane creation, data types, program debug...",
+        "output": "pane creation, data types, program debugging, loops programming, arrays, clusters, charts, graphs, structures in programming, string and data storage, data acquisition, instrument interface and control. process control using virtual instrument, automatic instrument, PID control. 01236452 การวัดและทดสอบแบบไม่ทำลาย 3 (3-0-6) NON DESTRUCTIVE MEASUREMENT AND TESTING"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: NON DESTRUCTIVE MEASUREMENT AND TESTING ...",
+        "output": "NON DESTRUCTIVE MEASUREMENT AND TESTING วิชาบังคับกอน : ไมมี PREREQUISITE : NONE ทฤษฎีและการประยุกต์ใช้สําหรับ ขั้นตอนในการตรวจสอบชิ้นงาน การประยุกต์ใช้ของการวัดและ ทดสอบวัสดุแบบไม่ทําลายตัวอย่างในการควบคุมคุณภาพในการผลิตการซ่อมบํารุง การทดสอบด้วยวิธีคลื่นอุลตร้า โซนิค การทดสอบด้วยวิธีกระแสไหลวน การทดสอบด้วยวิธีอนุภาคแม่เหล็กการสอบเทียบเครื่องมือวัดแบบไม่ สัมผัส ภาพความร้อนอินฟราเรด อินฟราเรดสเปคโทรสโกปี อินเตอร์เฟอโรมิเตอร์"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: สัมผัส ภาพความร้อนอินฟราเรด อินฟราเรดสเป...",
+        "output": "สัมผัส ภาพความร้อนอินฟราเรด อินฟราเรดสเปคโทรสโกปี อินเตอร์เฟอโรมิเตอร์ Theory and application of inspection procedures, application of non -destructive testing of materials for quality control and maintenance, ultrasonic testing, eddy current testing, magnetic particle testing, non contact instrument calibration, infrared ther mography, infrared spectroscopy, interferometer technique. 01236453 มาตรวิทยา 3 (3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236453 มาตรวิทยา 3 (3-0-6) METROLOGY ว...",
+        "output": "01236453 มาตรวิทยา 3 (3-0-6) METROLOGY วิชาบังคับกอน : ไมมี PREREQUISITE : NONE มาตรวิทยาพื้นฐาน นิยามของมาตรวิทยา ระบบหน่วยและมาตรฐาน หลักการวัด การสอบกลับได้ สถิติเบื้องต้นสำหรับมาตรวิทยา การประเมินค่าความไม่แน่นอนในการวัด การสอบเทียบเครื่องมือวัดเครื่องมือวัด เชิงกล ทางไฟฟ้า อุณหภูมิ มวลและมิติ การรายงานผลการสอบเทียบ Introduction to metrology, definitions of metrology, system of units and standard, principle of measurement, traceability, statistical methods for metrology, estimating uncertainties"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: principle of measurement, traceability, ...",
+        "output": "principle of measurement, traceability, statistical methods for metrology, estimating uncertainties of measurement, calibration of: mechanical instruments, electrical instru ments, temperature instrument, weight and dimension, report of calibration 01236454 ระบบตรวจสอบชิ้นงานด้วยภาพถ่ายแบบอัตโนมัติ 3 (3-0-6) AUTOMATED VISUAL INSPECTION SYSTEM วิชาบังคับกอน : ไมมี PREREQUISITE : NONE เนื้อหาครอบคลุมระบบตรวจสอบชิ้นงานด้วยภาพถายแบบอัตโนมัติ ประกอบด้วยเนื้อหาดังต่อไปนี้"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เนื้อหาครอบคลุมระบบตรวจสอบชิ้นงานด้วยภาพ...",
+        "output": "เนื้อหาครอบคลุมระบบตรวจสอบชิ้นงานด้วยภาพถายแบบอัตโนมัติ ประกอบด้วยเนื้อหาดังต่อไปนี้ ภาพถ่ายเชิงเฟส ระบบตรวจสอบชิ้นงานด้วยภาพถ่ายแบบอัตโนมัติเบื้องต้น การเรียนรู้เกี่ยวกับความสามารถและ วิธีการใช้งานโปรแกรม Vision Builder ศึกษาและเรียนรู้วิธีการใช้งาน Match pattern Measure intensity และ Coordinate system ศึกษาและเรียนรู้วิธีการใช้งานการตรวจวัดพื้นที่ ขนาด มุม การนับจํานวน การมีหรือไม่มี ของ วัตถุโดยการรู้จํา การสร้างจุดอ้างอิงของภาพ การตัดสินผลการตรวจวัดโดยอาศัยการคํานวณ ทางคณิตศาสตร"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ของ วัตถุโดยการรู้จํา การสร้างจุดอ้างอิง...",
+        "output": "ของ วัตถุโดยการรู้จํา การสร้างจุดอ้างอิงของภาพ การตัดสินผลการตรวจวัดโดยอาศัยการคํานวณ ทางคณิตศาสตร และตรรกศาสตร์ การเชื่อมต่อ กับอุปกรณ์ภายนอกผ่านการสื่อสารแบบอนุกรมและนําเสนอผลงานตามที่ได้รับ มอบหมาย This course includes the following topics: phase imaging, machine vision, vision builder software, match pattern, intensity measurement, coordinate system, area measurement, dimension measurement, angular measurement, counter, present/absent of"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: measurement, dimension measurement, angu...",
+        "output": "measurement, dimension measurement, angular measurement, counter, present/absent of object, Inspection status, making logical PASS/FAIL decisions, state transition, RS 232 interfacing and mini project. 01236455 กระบวนการผลิตและการทดสอบอุปกรณ์อิเล็กทรอนิกส์และอุปกรณ์ทางแสง 3 (3-0-6) MANUFACTURING AND TEST OF ELECTRONICS AND OPTICAL DEVICES วิชาบังคับกอน : ไมมี PREREQUISITE : NONE การประกอบวงจรรวม กระบวนการผลิตส่วนหน้า กระบวนการผลิตส่วนหลัง การประกอบ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การประกอบวงจรรวม กระบวนการผลิตส่วนหน้า ก...",
+        "output": "การประกอบวงจรรวม กระบวนการผลิตส่วนหน้า กระบวนการผลิตส่วนหลัง การประกอบ แผ่นวงจรพิมพ์ เทคโนโลยีการผลิตด้วยการวางอุปกรณ์อิเล็กทรอนิกส์ผ่านรู เทคโนโลยีการผลิตด้วยการวาง อุปกรณ์อิเล็กทรอนิกส์ลงบนผิวงาน การทดสอบโดยการใช้เครื่องวัดกราฟ การตรวจสอบแบบสามมิติด้วยรังสีเอกซ์ การตรวจสอบโดยการกระเจิงของรังสีเอกซ์ กล้องจุลทรรศน์คลื่นเสียงแบบส่องกราด กระบวนการผลิตและทดสอบ ฮาร์ดดิสก์ไดรฟ์ กระบวนการผลิตและทดสอบเส้นใยแก้วนำแสง Integrated circuit assembly, front of line manufacturing, end of line manufacturing,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Integrated circuit assembly, front of li...",
+        "output": "Integrated circuit assembly, front of line manufacturing, end of line manufacturing, printed circuit board assembly, through -hole mount technology, surface mount technology, curve tracer, 3D X-ray inspection, energy dispersive X -ray, scanning acoustic microscopy, hard disc drive manufacturing and test, optical fiber manufacturing and test ."
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: manufacturing and test, optical fiber ma...",
+        "output": "manufacturing and test, optical fiber manufacturing and test . 01236456 การตรวจสอบคุณลักษณะของวัสดุสำหรับอุตสาหกรรม 3 (3-0-6) MATERIALS CHARACTERIZATION FOR INDUSTRY วิชาบังคับกอน : ไมมี PREREQUISITE : NONE การวัดสมบัติของสารกึ่งตัวนำ การตรวจสอบลักษณะภายนอก การประยุกต์ใช้เครื่องมือวัดในการ ตรวจสอบสมบัติของอุปกรณ์สารกึ่งตัวนำในภาคอุตสาหกรรม ได้แก่ เครื่องวิเคราะห์การเลี้ยวเบนรังสีเอกซ์ เครื่อง วิเคราะห์ มวลไอออนทุติยภูมิ อีลิปโซมิเตอร์ เครื่องวัดแบบเข็มวัดสี่จุด เครื่องวัดปรากฏการณ์ฮอลล์ กล้อง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิเคราะห์ มวลไอออนทุติยภูมิ อีลิปโซมิเตอ...",
+        "output": "วิเคราะห์ มวลไอออนทุติยภูมิ อีลิปโซมิเตอร์ เครื่องวัดแบบเข็มวัดสี่จุด เครื่องวัดปรากฏการณ์ฮอลล์ กล้อง จุลทรรศน์อิเล็กตรอนแบบส่องกราด กล้องจุลทรรศน์อิเล็กตรอนแบบส่องผ่าน กล้องจุลทรรศน์แบบแรงอะตอม เครื่องโฟกัสลำอนุภาคไอออน เครื่องวัดการเรืองรังสีเอกซ์ Properties of semiconductor measurements, external visual inspection, application of semiconductor inspections in semiconductor manufacturing processes including X -ray diffractometer (XRD), secondary ion mass spectrometry (SIMS), Ellipsometer, four -point p robe"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: diffractometer (XRD), secondary ion mass...",
+        "output": "diffractometer (XRD), secondary ion mass spectrometry (SIMS), Ellipsometer, four -point p robe meter, Hall effect meter, scanning electron microscope (SEM), transmission electron microscope (TEM), atomic force microscope (AFM), focused ion beam microscope (FIB), X -ray fluorescence spectrometer (XRF) 01236457 วัสดุวิศวกรรม 3 (3-0-6) ENGINEERING MATERIALS วิชาบังคับกอน : ไมมี PREREQUISITE : NONE แผนภูมิสมดุลของเฟส การจำแนกประเภทของวัสดุได้แก่ โลหะ เซรามิก พอลิเมอร์ และวัสดุเชิง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แผนภูมิสมดุลของเฟส การจำแนกประเภทของวัสด...",
+        "output": "แผนภูมิสมดุลของเฟส การจำแนกประเภทของวัสดุได้แก่ โลหะ เซรามิก พอลิเมอร์ และวัสดุเชิง ประกอบ ความสัมพันธ์ระหว่างโครงสร้างและสมบัติของวัสดุได้แก่ เชิงกล เชิงความร้อน เชิงเคมี เชิงไฟฟ้า เชิงแสง กระบวนการผลิตวัสดุวิศวกรรม การตรวจสอบโครงสร้างวัสดุ การทดสอบและวิเค ราะห์สมบัติของวัสดุ การ เสื่อมสภาพของวัสดุ วัสดุวิศวกรรมขั้นสูงและการประยุกต์ใช้งาน Phase equilibrium diagram, classification of materials i.e., metals, ceramics, polymers,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: Phase equilibrium diagram, classificatio...",
+        "output": "Phase equilibrium diagram, classification of materials i.e., metals, ceramics, polymers, and composites, relationship between structure and properties of materials, i.e. mechanical, thermal, chemical, electrical, optical, processing of engineering materia ls, investigation of material structures, material properties testing and analysis, materials degradation, advanced engineering materials and applications"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: materials and applications 01236458 วัสด...",
+        "output": "materials and applications 01236458 วัสดุแม่เหล็กและเทคโนโลยี 3(3-0-6) MAGNETIC MATERIALS AND TECHNOLOGY วิชาบังคับกอน : ไมมี PREREQUISITE : NONE การทบทวนแนวคิดพื้นฐานของสถิตยศาสตร์แม่เหล็ก ต้นกําเนิดในระดับอะตอมของสภาพแม่เหล็ก สภาพแม่เหล็กแบบไดอะ สภาพการนำยิ่งยวด สภาพแม่เหล็กแบบพารา สภาพแม่เหล็กแบบเฟอร์โร โดเมน แม่เหล็กและฮิสเทอรีซิส สภาพแม่เหล็กแบบแอนตีเฟอร์โรและแบบเฟอร์ริ แอนไอโซโทรปีแม่เหล็กและแม่ เหล็ก"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: แม่เหล็กและฮิสเทอรีซิส สภาพแม่เหล็กแบบแอ...",
+        "output": "แม่เหล็กและฮิสเทอรีซิส สภาพแม่เหล็กแบบแอนตีเฟอร์โรและแบบเฟอร์ริ แอนไอโซโทรปีแม่เหล็กและแม่ เหล็ก ระดับนาโน การเก็บข้อมูลด้วยแม่เหล็ก เทคโนโลยีแมกนีโตรีซิสทีฟ วิธีการถ่ายภาพด้วยแม่เหล็ก สปินทรอนิกส์ สารกึ่งตัวนำแม่เหล็ก A basic review of magneto -statics, atomic origins of magnetism, diamagnetism, superconductivity, paramagnetism, ferromagnetism, magnetic domains and hysteresis,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: superconductivity, paramagnetism, ferrom...",
+        "output": "superconductivity, paramagnetism, ferromagnetism, magnetic domains and hysteresis, antiferromagnetism and ferrimagnetism, magnetic anisotropy and nanomagnetics, magnetic data storage, magneto -resistive technologies, magnetic -imaging approaches, spintronics, magnetic semiconductors 01236459 วิศวกรรมคุณภาพ 3(3-0-6) QUALITY ENGINEERING วิชาบังคับกอน : ไมมี PREREQUISITE : NONE แนวคิดทางคุณภาพในอุตสาหกรรม การควบคุมคุณภาพโดยสถิติ เครื่องมือควบคุมคุณภาพ 7 ชนิด การสอบเทียบ มาตรฐานของคุณภาพระหว่างประเทศ มาตรฐานอุตสาหกรรมของไทย ซิกส์ซิกม่า ระบบลีน"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: การสอบเทียบ มาตรฐานของคุณภาพระหว่างประเท...",
+        "output": "การสอบเทียบ มาตรฐานของคุณภาพระหว่างประเทศ มาตรฐานอุตสาหกรรมของไทย ซิกส์ซิกม่า ระบบลีน Quality concepts for the process industry, statistical quality control, 7 quality control tools, metrology system and calibration, international standardization and organization, Thai industrial standards, Six Sigma, LEAN. 01236460 ทฤษฎีของเลเซอร์และการออกแบบ 3(3-0-6) LASERS THEORY DESIGN AND ENGINEERING วิชาบังคับกอน : ไมมี"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: วิชาบังคับกอน : ไมมี PREREQUISITE : NONE...",
+        "output": "วิชาบังคับกอน : ไมมี PREREQUISITE : NONE ศึกษาหลักการพื้นฐานและทฤษฎีของเลเซอร์ เลเซอร์ การดูดกลืนและการเปล่งแสงแบบไม่ถูกกระตุ้น และกระตุ้น สมการอัตราเปลี่ยนของอะตอม เงื่อนไขของการแกว่งกวัดในโพรงเลเซอร์ แสงแบบต่อเนื่องและแบบ พัลส์ คิวสวิตชิ่ง การเลือกโหมด การทำความถี่ค่าเดียว การแจกแจงประชากรในระบบที่ อยู่ในสภาพสมดุลทาง อุณหพลศาสตร์ การวกกลับของประชากร สัมประสิทธิ์ของไอสไตน์ เลเซอร์ชนิดต่าง ๆ เช่น ก๊าซ ของแข็ง"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: อุณหพลศาสตร์ การวกกลับของประชากร สัมประส...",
+        "output": "อุณหพลศาสตร์ การวกกลับของประชากร สัมประสิทธิ์ของไอสไตน์ เลเซอร์ชนิดต่าง ๆ เช่น ก๊าซ ของแข็ง ของเหลว รามานเลเซอร์ ทีอีเอเลเซอร์ ก๊าซพลศาสตร์ เงื่อนไขการออกแบบสำหรับเลเซอร์ชนิดต่าง ๆ เช่น เซมิ คอนดัคเตอร์ อาร์กอน ฮีเลียม คาร์บอนไดออกไซด์ นีโอดีเมียมแย็ก และเลเซอร์ทับทิมแบบพัลส์ An introductory course to the theory of lasers; treatment of spontaneous and stimulated emission, atomic rate equations, laser oscillation conditions, power output and"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: stimulated emission, atomic rate equatio...",
+        "output": "stimulated emission, atomic rate equations, laser oscillation conditions, power output and optimum output coupling; CW and pulsed operation, Q switching, mode selection, and frequ ency stabilization; excitation of lasers, inversion mechanisms, and typical efficiencies; detailed examination of principal types of lasers, gaseous, solid state, and liquid; chemical lasers, dye"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: examination of principal types of lasers...",
+        "output": "examination of principal types of lasers, gaseous, solid state, and liquid; chemical lasers, dye lasers, Raman lasers, high power lasers, TEA lasers, gas dy namic lasers. Design considerations for GaAlAs, argon ion, helium neon, carbon dioxide, neodymium YAG and pulsed ruby lasers. 01236461 ระบบการสื่อสารทางแสงและอุปกรณ์ของระบบ 3(3-0-6)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236461 ระบบการสื่อสารทางแสงและอุปกรณ์ข...",
+        "output": "01236461 ระบบการสื่อสารทางแสงและอุปกรณ์ของระบบ 3(3-0-6) OPTICAL COMMUNICATION SYSTEMS AND DEVICES วิชาบังคับกอน : ไมมี PREREQUISITE : NONE หลักการทางฟิสิกส์ของระบบสื่อสารทางแสงสมัยใหม่ที่มีอัตราการส่งข้อมูลสูง ทฤษฎีข้อมูลและการ เคลื่อนที่ของแสงในช่องท่อนำแสง เซมิคอนดัคเตอร์เลเซอร์และตัวตรวจจับ การเชื่อมต่อทางแสงแบบดิจิทัล ความเร็วสูง หลักการและอุปกรณ์การรวมคลื่นแสงแบบหนาแน่น ทฤษฎีการส่งผ่านข้อมูลแสงแบบควอนตัม ระบบ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: ความเร็วสูง หลักการและอุปกรณ์การรวมคลื่น...",
+        "output": "ความเร็วสูง หลักการและอุปกรณ์การรวมคลื่นแสงแบบหนาแน่น ทฤษฎีการส่งผ่านข้อมูลแสงแบบควอนตัม ระบบ แบบอาพันธ์ ควอนตัมสหสัมพันธ์ แสงแบบบีบและขีดจำกัดความรบกวน การลดเฟสและการลดอาพันธ์ การส่งต่อ และต้นแบบของระบบสื่อสารที่มีความปลอดภัยและ การเข้ารหัสทางแสง และแสงไร้ระเบียบ This course explains the physics behind modern optical communication systems at high data rates. The first half of this course covers information theory and light propagation over"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: high data rates. The first half of this ...",
+        "output": "high data rates. The first half of this course covers information theory and light propagation over fiber optic waveguide channels; semiconductor laser sources and detectors; high speed digital optic links; and dense wavelength division multiplexing methods and devices. The second half of this course covers quantum optical information theory; coherent systems and quantum"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: this course covers quantum optical infor...",
+        "output": "this course covers quantum optical information theory; coherent systems and quantum correlations; optical solution based communication; squee zed light and noise limitations; de - phasing and de -coherence; teleportation and secure communication system protocols; and cryptography and chaotic optics. 01236462 หัวข้อพิเศษทางฟิสิกส์อุตสาหกรรม 3(3-0-6) SPECIAL TOPIC IN INDUSTRIAL PHYSICS"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: SPECIAL TOPIC IN INDUSTRIAL PHYSICS วิชา...",
+        "output": "SPECIAL TOPIC IN INDUSTRIAL PHYSICS วิชาบังคับก่อน : ไม่มี PREREQUISITE : NONE การศึกษาหรือวิจัยตามคำแนะนํา ในหัวข้อที่เกี่ยวกับฟิสิกส์ประยุกต์หรือฟิสิกส์อุตสาหกรรม Study or research with consultation in selected topics of various fields in applied physics or industrial physics. กลุ่มวิชาการศึกษาทางเลือก 6 หน่วยกิต 01236269 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 1 3 (0-9-0) IoT AND INFORMATION CAPSTONE PROJECT 1"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: IoT AND INFORMATION CAPSTONE PROJECT 1 ว...",
+        "output": "IoT AND INFORMATION CAPSTONE PROJECT 1 วิชาบังคับก่อน: ไม่มี PREREQUISITE: NONE การทําโครงงานหรืองานวิจัยในหัวข้อที่เกี่ยวข้องกับวิศวกรรมระบบไอโอทีและสารสนเทศภายใต้การดูแลของ อาจารย์ที่ปรึกษา ในระหว่างภาคการศึกษามีการเสนอรายงานความคบหน้าของงานอย่างสม่ำเสมอ เมื่อสิ้นภาคการศึกษา นักศึกษาจะต้องส่งรายงานที่ประกอบด้วย ความสําคัญและที่มาของโครงงาน แนวคิดในการออกแบบโครงงาน ทฤษฎีที่ เกี่ยวข้อง สถาปัตยกรรมของโครงงาน และผลการออกแบบในรูปแบบของแบบจําลองต่าง ๆ พร้อมทั้งการนําเสนอต่อ"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: เกี่ยวข้อง สถาปัตยกรรมของโครงงาน และผลกา...",
+        "output": "เกี่ยวข้อง สถาปัตยกรรมของโครงงาน และผลการออกแบบในรูปแบบของแบบจําลองต่าง ๆ พร้อมทั้งการนําเสนอต่อ คณะกรรมการสอบ An IoT system and Information engineering project or a research topic in the related field is carried out under supervision. Progress of works has to be reported regularly throughout semester. At the end of the semester, student is required to submit a report composed of the following topics: the important of the project,"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: semester, student is required to submit ...",
+        "output": "semester, student is required to submit a report composed of the following topics: the important of the project, project design concept and the related theories, system architecture and designed models. And they are required to give an oral presentation of works to the examination committees. 01236270 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 2 3 (0-9-0)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236270 โครงงานวิศวกรรมระบบไอโอทีและสาร...",
+        "output": "01236270 โครงงานวิศวกรรมระบบไอโอทีและสารสนเทศ 2 3 (0-9-0) IoT AND INFORMATION CAPSTONE PROJECT 2 วิชาบังคับก่อน: ไม่มี PREREQUISITE: NONE การทําโครงงานหรืองานวิจัยที่ต่อเนื่องจากเทอมที่ผ่านมาให้สําเร็จ ในระหว่างภาคการศึกษามีการรายงาน ความคืบหน้าของงานอย่างสม่ำเสมอ เมื่อสิ้นภาคการศึกษานักศึกษาจะต้องส่งผลงานที่สําเร็จและปริญญานิพนธ์ฉบับ สมบูรณ์พร้อมทั้งนําเสนอผลงานต่อคณะกรรมการสอบ To make a completion of work in previous semester . Progress of works has to be reported"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: To make a completion of work in previous...",
+        "output": "To make a completion of work in previous semester . Progress of works has to be reported regularly throughout semester. At the end of the semester, the completed work and full report are required in submission. Oral presentation and demonstration of works are presented to the examination committee. 01236319 สหกิจศึกษา 6 (0-45-0)"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: 01236319 สหกิจศึกษา 6 (0-45-0) COOPERATI...",
+        "output": "01236319 สหกิจศึกษา 6 (0-45-0) COOPERATIVE EDUCATION PREREQUISITE: NONE นักศึกษาร่วมทํางาน กับภาคอุตสาหกรรม เป็นระยะเวลาไม่น้อยกว่า 16 สัปดาห์และมีการคัดเลือกและ การประเมินจากคณะกรรมการของภาควิชาฯ The students participate in the cooperative work industrial partners at least 16 weeks. The approval and evaluation by the department committee is required. 01236320 การฝึกปฏิบัติการฝึกงานต่างประเทศ 6 (0-45-0) STUDY ABROAD"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: STUDY ABROAD PREREQUISITE: NONE นักศึกษา...",
+        "output": "STUDY ABROAD PREREQUISITE: NONE นักศึกษาสามารถเลือกรายวิชาการปฏิบัติการฝึกงานต่างประเทศ เพื่อฝึกงานและทําโครงงานพิเศษที่ เกี่ยวข้องกับสาขาที่เรียน ในสถานศึกษาหรือสถานประกอบการ ซึ่งเป็นหน่วยงานภาครัฐหรือเอกชนโดยมีการ ปฏิบัติตามเงื่อนไขตามประกาศของคณะวิศวกรรมศาสตร์หรือของสถาบันฯ ที่เกี่ยวข้อง Students enroll in the oversea training course to train and conduct special projects relating to their academic background. The training may occur in an institute or an industry"
+    },
+    {
+        "input": "ข้อมูลเกี่ยวกับ: relating to their academic background. T...",
+        "output": "relating to their academic background. The training may occur in an institute or an industry that can be either public or private. Any relating issue should conform to the proclamation from the School of Engineering."
+    }
+]

@@ -1,0 +1,52 @@
+/* ======================================= */
+/* ไฟล์: chatbot.css (หน้าตาของแชทบอท) */
+/* ======================================= */
+
+.chat-btn {
+    position: fixed; bottom: 20px; right: 20px;
+    background-color: #f39c12; color: white;
+    border: none; border-radius: 50%;
+    width: 60px; height: 60px; font-size: 30px;
+    cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 3000;
+}
+.chat-window {
+    display: none; 
+    position: fixed; bottom: 90px; right: 20px;
+    width: 320px; height: 450px;
+    background-color: white; border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 3000; flex-direction: column; overflow: hidden;
+    font-family: 'Sarabun', sans-serif;
+}
+.chat-header {
+    background-color: #f39c12; color: white;
+    padding: 15px; text-align: center; font-weight: bold;
+}
+.chat-body {
+    flex-grow: 1; padding: 15px; overflow-y: auto;
+    background-color: #f9f9f9; font-size: 0.9rem;
+}
+.bot-msg { background-color: #e1f5fe; padding: 10px; border-radius: 8px; margin-bottom: 10px; text-align: left; }
+.user-msg { background-color: #c8e6c9; padding: 10px; border-radius: 8px; margin-bottom: 10px; text-align: right; }
+.chat-input-area { display: flex; padding: 10px; border-top: 1px solid #ddd; background-color: white; }
+.chat-input-area input { flex-grow: 1; padding: 8px; border: 1px solid #ccc; border-radius: 5px; outline: none; }
+.chat-input-area button { margin-left: 5px; padding: 8px 15px; background-color: #f39c12; color: white; border: none; border-radius: 5px; cursor: pointer; }
+
+/* เมื่อหน้าจอขนาดเล็กกว่า 480px (ขนาดมือถือทั่วไป) */
+@media screen and (max-width: 480px) {
+    .chat-window {
+        width: 90vw; /* กว้าง 90% ของหน้าจอมือถือ */
+        height: 75vh; /* สูง 75% ของหน้าจอมือถือ */
+        right: 5vw; /* ขยับให้อยู่ตรงกลางจอ (เหลือขอบซ้ายขวาฝั่งละ 5%) */
+        bottom: 85px; /* ขยับหนีปุ่มเปิดแชท */
+    }
+    
+    .chat-btn {
+        width: 50px; /* ลดขนาดปุ่มลงนิดหน่อยไม่ให้บังเนื้อหาเว็บ */
+        height: 50px; 
+        font-size: 25px; 
+        bottom: 15px; 
+        right: 15px;
+    }
+}

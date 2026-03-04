@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysIoT AI Assistant</title>
+    <style>
+        /* --- CSS จัดหน้าตา (เหมือนเดิมครับ) --- */
+        body { margin: 0; font-family: 'Sarabun', sans-serif; background-color: #000000; display: flex; flex-direction: column; height: 100vh; }
+        .chat-header { background-color: rgb(184, 41, 255); color: rgb(255, 255, 255); padding: 15px 20px; display: flex; align-items: center; font-size: 1.2rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 10; }
+        .back-btn { color: rgb(255, 255, 255); text-decoration: none; margin-right: 15px; font-weight: bold; }
+        .chat-container { flex-grow: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; max-width: 800px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+        .msg-box { max-width: 80%; padding: 12px 16px; border-radius: 15px; margin-bottom: 15px; line-height: 1.5; word-wrap: break-word; }
+        .bot-msg { background-color: rgb(184, 41, 255); color: #ffffff; align-self: flex-start; border-bottom-left-radius: 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border: 1px solid #e0e0e0; }
+        .user-msg { background-color:rgb(184, 41, 255); color: #ffffff; align-self: flex-end; border-bottom-right-radius: 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .input-container { background-color: rgb(0, 0, 0); padding: 15px; box-shadow: 0 -2px 10px rgba(255, 255, 255, 0.05); display: flex; justify-content: center; }
+        .input-wrapper { display: flex; max-width: 800px; width: 100%; gap: 10px; }
+        #userInput { flex-grow: 1; padding: 12px 20px; border: 1px solid #ccc; border-radius: 25px; font-size: 1rem; outline: none; transition: border-color 0.3s; }
+        #userInput:focus { border-color: rgb(184, 41, 255); }
+        .send-btn { background-color: rgb(184, 41, 255); color: white; border: none; padding: 10px 25px; border-radius: 25px; cursor: pointer; font-size: 1rem; font-weight: bold; transition: background-color 0.2s; }
+        .send-btn:hover { background-color:rgb(184, 41, 255); }
+       
+        @media screen and (max-width: 600px) {
+            .chat-header {
+                font-size: 1rem; /* ลดขนาดตัวอักษรหัวข้อลง */
+                padding: 10px 15px;
+            }
+            .chat-container {
+                padding: 10px; /* ลดขอบพื้นที่แชทลงให้มีที่ว่างพิมพ์เยอะขึ้น */
+            }
+            .msg-box {
+                max-width: 90%; /* ขยายกล่องข้อความให้ใช้พื้นที่มือถือคุ้มค่าขึ้น */
+                font-size: 0.95rem;
+            }
+            .input-container {
+                padding: 10px;
+            }
+            #userInput {
+                padding: 10px 15px; /* ย่อปุ่มและช่องพิมพ์ลงนิดหน่อย */
+            }
+            .send-btn {
+                padding: 10px 15px;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="chat-header">
+        <a href="sensei.html" class="back-btn">❮ กลับหน้าคณาจารย์</a>
+        <span>ผู้ช่วย AI ประจำภาคไอโอที</span>
+    </div>
+    
+    <div class="chat-container" id="chatBody">
+        <div class="msg-box bot-msg">สวัสดีครับ!  มีอะไรให้ช่วยไหมครับ?</div>
+    </div>
+
+    <div class="input-container">
+        <div class="input-wrapper">
+            <input type="text" id="userInput" placeholder="พิมพ์ข้อความที่นี่..." onkeypress="if(event.key === 'Enter') sendChatMessage()">
+            <button class="send-btn" onclick="sendChatMessage()">ส่ง</button>
+        </div>
+    </div>
+
+    <script>
+        // ---------------------------------------------------------
+        // สคริปต์ใหม่: ติดต่อกับเซิร์ฟเวอร์ Python แทนการติดต่อ Google โดยตรง
+        // ---------------------------------------------------------
+        async function sendChatMessage() {
+            let inputField = document.getElementById("userInput");
+            let message = inputField.value.trim();
+            if (message === "") return;
+
+            let chatBody = document.getElementById("chatBody");
+
+            // 1. นำข้อความผู้ใช้ขึ้นจอ
+            chatBody.innerHTML += `<div class="msg-box user-msg">${message}</div>`;
+            inputField.value = "";
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            // 2. ขึ้นสถานะกำลังโหลด
+            chatBody.innerHTML += `<div class="msg-box bot-msg" id="loadingMsg">กำลังประมวลผล ⏳</div>`;
+            chatBody.scrollTop = chatBody.scrollHeight;
+
+            try {
+                // 3. ยิงคำถามไปที่เซิร์ฟเวอร์ Python ของเรา (Port 5000)
+                const response = await fetch("http://localhost:5000/ask", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ question: message }) // ส่งแค่คำถามไป
+                });
+
+                const data = await response.json();
+                let loadingElement = document.getElementById("loadingMsg");
+
+                // 4. ถ้าเซิร์ฟเวอร์ Python ตอบกลับมาว่ามี Error
+                if (!response.ok || data.error) {
+                    loadingElement.innerText = "เกิดข้อผิดพลาดจากฝั่งเซิร์ฟเวอร์: " + (data.error || "Unknown Error");
+                    loadingElement.removeAttribute("id");
+                    return;
+                }
+
+                // 5. เอาคำตอบจาก Python มาโชว์
+                if (data.answer) {
+                    let aiText = data.answer.replace(/\n/g, "<br>");
+                    loadingElement.innerHTML = aiText;
+                    loadingElement.removeAttribute("id"); 
+                }
+
+            } catch (error) {
+                // Error นี้มักจะเกิดถ้าคุณลืมเปิดไฟล์ app.py ก่อนครับ
+                let loadingElement = document.getElementById("loadingMsg");
+                loadingElement.innerText = "หาเซิร์ฟเวอร์ไม่เจอครับ ลืมรันไฟล์ app.py หรือเปล่า?";
+                loadingElement.removeAttribute("id");
+            }
+            
+            chatBody.scrollTop = chatBody.scrollHeight;
+        }
+    </script>
+
+</body>
+</html>
