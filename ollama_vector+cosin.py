@@ -272,7 +272,7 @@ def ask_ollama():
         session_id = data.get("session_id")
         if not session_id:
             session_id = generate_session_id()
-            return jsonify({"answer": answer,"session_id": session_id})
+           
 
         # 🔒 Hard rule
         if contains_bad_words(user_message):
@@ -315,7 +315,7 @@ def ask_ollama():
     category=category
 )
 
-        return jsonify({"answer": answer})
+        return jsonify({"answer": answer,"session_id": session_id})
 
     except Exception as e:
         return jsonify({"error": f"เซิร์ฟเวอร์มีปัญหา: {str(e)}"}), 500
