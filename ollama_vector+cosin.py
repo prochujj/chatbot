@@ -299,13 +299,10 @@ def ask_ollama():
         )
 
         response = ollama.chat(
-            model='typhoon1.5:latest',
+            model='typhoon2:latest',
             messages=[{'role': 'user', 'content': final_prompt}]
         )
 
-        answer = response['message']['content']
-
-        # บันทึกคำตอบ AI
         answer = response['message']['content']
         save_message_mysql(
     session_id,
