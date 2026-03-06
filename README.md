@@ -15,3 +15,4 @@ Chatbot สำหรับให้ข้อมูลสาขาวิศวก
 - Admission & bad-word handling
 ## api_key hugging face
 -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 
+เวลาใช้ apikey เอาอันนี้ออก -
