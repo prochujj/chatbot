@@ -19,7 +19,7 @@ DB_PASS = ""          # ใส่ Password (ถ้าไม่มีปล่อ
 DB_NAME = "chatbot"
 
 CLEAN_DATA_DIR = r'C:\mobile_app\chatbot\clean_data'
-GEMINI_DATA_FILE = r'C:\mobile_app\chatbot\datasetgemini\train_iot_premium.json'
+GEMINI_DATA_FILE = r'C:\Users\ROG\OneDrive\Documents\GitHub\chatbot\train_iot_premium.json'
 
 def generate_session_id():
     return str(uuid.uuid4())
@@ -234,7 +234,7 @@ def build_instruction_rules():
         "7. ภาษาธรรมชาติ ผิดเล็กน้อยได้ ไม่ต้องเป็นทางการเกินไป\n"
         "8. ตอบเป็นภาษาไทย ห้ามใช้จุด (.) และห้ามเว้นวรรคแปลก ๆ ระหว่างประโยค\n"
         "9.ห้ามใช้คำสรรพนามลอยๆ (เช่น เขา, อาจารย์ท่านนี้, ความเชี่ยวชาญนี้) ให้ระบุ ชื่อ-นามสกุล หรือชื่อวิชา ลงไปในคำถามและคำตอบทุกครั้ง"
-    )
+        "10.ตอบคำถามให้เข้าใจง่าย และถ้าเป็นคำถามเกี่ยวกับอาชีพให้ระบุตำแหน่งงานเป็นรายการ เช่น IoT Engineer,Embedded Engineer,programmer,Data Analyst เป็นต้น")
 def get_semantic_knowledge(user_query):
     if not knowledge_base or knowledge_vectors is None:
         return "ไม่พบข้อมูลในระบบ"
