@@ -13,3 +13,5 @@ Chatbot สำหรับให้ข้อมูลสาขาวิศวก
 - Save user / AI message to MySQL
 - Semantic search ด้วย cosine similarity
 - Admission & bad-word handling
+## api_key hugging face
+-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 
