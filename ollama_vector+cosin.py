@@ -180,7 +180,7 @@ def expand_query_with_llm(user_query):
     ประโยคค้นหา:"""
     
     try:
-        response = ollama.chat(model='local-typhoon2:latest ', messages=[{'role': 'user', 'content': prompt}])
+        response = ollama.chat(model='local-typhoon2:latest', messages=[{'role': 'user', 'content': prompt}])
         expanded = response['message']['content'].strip()
         
         # ลบคำนำหน้าเผื่อ AI พ่นติดมาด้วย
@@ -299,7 +299,7 @@ def ask_ollama():
         )
 
         response = ollama.chat(
-            model='typhoon2:latest',
+            model='local-typhoon2:latest',
             messages=[{'role': 'user', 'content': final_prompt}]
         )
 
