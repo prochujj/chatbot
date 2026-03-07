@@ -98,21 +98,17 @@ def generate_session_id():
     return str(uuid.uuid4())
 
 def init_db():
-    print("🛠️ กำลังตรวจสอบและสร้างฐานข้อมูล MySQL...")
+    print("🛠️ กำลังตรวจสอบและสร้างตารางฐานข้อมูล...")
     try:
-        
+        # เชื่อมต่อครั้งเดียว โดยระบุพอร์ตให้ชัดเจน
         conn = mysql.connector.connect(
             host=DB_HOST,
             user=DB_USER,
             password=DB_PASS,
-            port=DB_PORT
+            database=DB_NAME,
+            port=DB_PORT, 
+            charset="utf8mb4"
         )
-        
-        c = conn.cursor()
-        c.execute(f"CREATE DATABASE IF NOT EXISTS {DB_NAME} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
-        conn.close()
-
-        conn = mysql.connector.connect(host=DB_HOST, user=DB_USER, password=DB_PASS, database=DB_NAME,charset="utf8mb4",collation="utf8mb4_unicode_ci")
         c = conn.cursor()
         c.execute('''CREATE TABLE IF NOT EXISTS chat_history (
                         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -125,9 +121,9 @@ def init_db():
                      )''')
         conn.commit()
         conn.close()
-        print("✅ ฐานข้อมูลพร้อมใช้งาน!")
+        print("✅ ฐานข้อมูลและตารางพร้อมใช้งาน!")
     except Exception as e:
-        print(f"❌ เชื่อมต่อ MySQL ไม่ได้: {e}")
+        print(f"❌ DB Init Failed: {e}")
 
 def categorize_question(user_message):
     categories = {
@@ -366,6 +362,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
