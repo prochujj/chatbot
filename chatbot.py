@@ -24,6 +24,7 @@ DB_PORT = int(os.getenv("MYSQLPORT") or 3306)
 
 print("MYSQLHOST =", DB_HOST)
 print("MYSQLPORT =", DB_PORT)
+print("MYSQLDATABASE =", DB_NAME)
 # ==========================================
 # 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
 # ==========================================
@@ -353,6 +354,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
