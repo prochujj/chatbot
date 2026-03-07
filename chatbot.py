@@ -8,7 +8,8 @@ import numpy as np
 from sentence_transformers import SentenceTransformer 
 from sklearn.metrics.pairwise import cosine_similarity 
 import mysql.connector  
-import json    
+import json   
+from urllib.parse import urlparse
 
 app = Flask(__name__)
 CORS(app)
@@ -16,6 +17,14 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
+url = urlparse(os.getenv("MYSQL_URL"))
+conn = mysql.connector.connect(
+    host=url.hostname,
+    user=url.username,
+    password=url.password,
+    database=url.path[1:],
+    port=url.port
+)
 DB_HOST = os.getenv("MYSQLHOST")
 DB_USER = os.getenv("MYSQLUSER")
 DB_PASS = os.getenv("MYSQLPASSWORD")
@@ -354,6 +363,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
