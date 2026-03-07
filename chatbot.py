@@ -17,9 +17,6 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-# ==========================================
-# ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
-# ==========================================
 DB_HOST = os.getenv("MYSQLHOST", "localhost")
 
 # ดึงค่าพอร์ตมาก่อน ตรวจสอบว่ามีค่าไหม ถ้าไม่มี(หรือเป็นค่าว่าง) ให้ใช้พอร์ตมาตรฐานคือ 3306
@@ -34,7 +31,7 @@ DB_PASS = os.getenv("MYSQLPASSWORD", "")
 
 # *หมายเหตุ: ตรงนี้ในโค้ดเดิมคุณใช้ pymysql แต่ข้างล่างใช้ mysql.connector 
 # แนะนำให้เลือกใช้ตัวใดตัวหนึ่ง แต่ตอนนี้แก้ชื่อตัวแปรรหัสผ่านให้ตรงกันก่อนครับ
-connection = pymysql.connect(
+connection = mysql.connector.connect(
     host=DB_HOST,
     port=DB_PORT,
     user=DB_USER,
@@ -368,6 +365,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
