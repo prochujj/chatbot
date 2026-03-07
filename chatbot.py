@@ -2,12 +2,13 @@ import json
 import os
 import uuid
 import requests # 🔴 ใช้ตัวนี้ยิง API ออกนอกเซิร์ฟเวอร์
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify,send_file
 from flask_cors import CORS
 import numpy as np
 from sentence_transformers import SentenceTransformer 
 from sklearn.metrics.pairwise import cosine_similarity 
-import mysql.connector
+import mysql.connector  
+import json    
 
 app = Flask(__name__)
 CORS(app)
@@ -19,6 +20,7 @@ DB_HOST = os.getenv("MYSQLHOST")
 DB_USER = os.getenv("MYSQLUSER")
 DB_PASS = os.getenv("MYSQLPASSWORD")
 DB_NAME = os.getenv("MYSQLDATABASE")
+DB_PORT = os.getenv("MYSQLPORT")
 
 # ==========================================
 # 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
@@ -72,8 +74,10 @@ def call_huggingface_llm(prompt_text):
 # 📂 3. ตั้งค่า Path ไฟล์ข้อมูลความรู้ (RAG)
 # ==========================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CLEAN_DATA_DIR = os.path.join(BASE_DIR, 'clean_data')
+CLEAN_DATA_DIR = os.path.join(BASE_DIR, "clean_data")
 GEMINI_DATA_FILE = os.path.join(BASE_DIR, "train_iot_premium.json")
+VECTOR_FILE = os.path.join(BASE_DIR, "knowledge_vectors.npy")
+TEXT_FILE = os.path.join(BASE_DIR, "knowledge_texts.json")
 
 def generate_session_id():
     return str(uuid.uuid4())
@@ -81,12 +85,19 @@ def generate_session_id():
 def init_db():
     print("🛠️ กำลังตรวจสอบและสร้างฐานข้อมูล MySQL...")
     try:
-        conn = mysql.connector.connect(host=DB_HOST, user=DB_USER, password=DB_PASS)
+        conn = mysql.connector.connect(
+            host=DB_HOST,
+            user=DB_USER,
+            password=DB_PASS,
+            database=DB_NAME,
+            port=DB_PORT,
+            charset="utf8mb4"
+            )
         c = conn.cursor()
         c.execute(f"CREATE DATABASE IF NOT EXISTS {DB_NAME} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
         conn.close()
 
-        conn = mysql.connector.connect(host=DB_HOST, user=DB_USER, password=DB_PASS, database=DB_NAME)
+        conn = mysql.connector.connect(host=DB_HOST, user=DB_USER, password=DB_PASS, database=DB_NAME,charset="utf8mb4",collation="utf8mb4_unicode_ci")
         c = conn.cursor()
         c.execute('''CREATE TABLE IF NOT EXISTS chat_history (
                         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -119,54 +130,110 @@ def categorize_question(user_message):
 
 def save_message_mysql(session_id, role, source, content, category="-"):
     try:
-        conn = mysql.connector.connect(host=DB_HOST, user=DB_USER, password=DB_PASS, database=DB_NAME)
+
+        conn = mysql.connector.connect(
+            host=DB_HOST,
+            user=DB_USER,
+            password=DB_PASS,
+            port=DB_PORT
+            charset="utf8mb4"
+        )
+
         c = conn.cursor()
+
         c.execute("""
-            INSERT INTO chat_history 
-            (session_id, role, source, content, category) 
-            VALUES (%s, %s, %s, %s, %s)
+        INSERT INTO chat_history 
+        (session_id, role, source, content, category)
+        VALUES (%s,%s,%s,%s,%s)
         """, (session_id, role, source, content, category))
+
         conn.commit()
         conn.close()
+
+        print("💾 Save:", role, content[:50])
+
     except Exception as e:
         print(f"⚠️ บันทึก DB พลาด: {e}")
 
 # ==========================================
 # 📚 4. โหลด Vector Database (RAG) เข้า RAM
 # ==========================================
-print("กำลังโหลดโมเดล Vector ... ⏳")
-embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+print("กำลังโหลดโมเดล Vector (MiniLM)... ⏳")
+embedder = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
 knowledge_base = []
-seen_contents = set() 
+seen_contents = set()
 knowledge_vectors = None
 
-def add_to_knowledge(content):
+VECTOR_FILE = os.path.join(BASE_DIR, "knowledge_vectors.npy")
+TEXT_FILE = os.path.join(BASE_DIR, "knowledge_texts.json")
+
+def add_to_knowledge(question, answer):
+
+    content = f"คำถาม: {question} คำตอบ: {answer}"
     content = content.strip()
+
     if content and content not in seen_contents:
         seen_contents.add(content)
         knowledge_base.append(content)
 
-if os.path.exists(CLEAN_DATA_DIR):
-    for filename in os.listdir(CLEAN_DATA_DIR):
-        if filename.endswith('.json'):
-            with open(os.path.join(CLEAN_DATA_DIR, filename), 'r', encoding='utf-8') as f:
-                for item in json.load(f):
-                    add_to_knowledge(item.get('output', ''))
 
-if os.path.exists(GEMINI_DATA_FILE):
-    print(f"\n📄 กำลังโหลดไฟล์ข้อมูลสังเคราะห์...")
-    with open(GEMINI_DATA_FILE, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        for item in data:
-            if isinstance(item, dict):
-                add_to_knowledge(item.get('output', ''))
+# ======================================
+# ⚡ โหลด Vector DB ถ้ามีอยู่แล้ว
+# ======================================
 
-if len(knowledge_base) > 0:
-    print(f"🎉 รวบรวมข้อมูลเสร็จสิ้น! ได้ความรู้(ที่ไม่ซ้ำกัน) รวม {len(knowledge_base)} ก้อน")
-    print("🧠 กำลังแปลงข้อมูลทั้งหมด เป็นพิกัด Vector... ⏳")
-    knowledge_vectors = embedder.encode(knowledge_base)
-    print("🚀 ระบบ Vector Search พร้อมทำงาน! ✅\n")
+if os.path.exists(VECTOR_FILE) and os.path.exists(TEXT_FILE):
+
+    print("⚡ โหลด Vector Database จากไฟล์ (เร็วมาก)")
+
+    knowledge_vectors = np.load(VECTOR_FILE)
+
+    with open(TEXT_FILE, 'r', encoding='utf-8') as f:
+        knowledge_base = json.load(f)
+
+    print(f"✅ โหลดข้อมูล {len(knowledge_base)} ก้อน")
+
+else:
+
+    print("📄 กำลังโหลดไฟล์ข้อมูล...")
+
+    if os.path.exists(CLEAN_DATA_DIR):
+        for filename in os.listdir(CLEAN_DATA_DIR):
+            if filename.endswith('.json'):
+                with open(os.path.join(CLEAN_DATA_DIR, filename), 'r', encoding='utf-8') as f:
+                    for item in json.load(f):
+                         question = item.get("question", "")
+                         answer = item.get("output", "")
+                         add_to_knowledge(question, answer)
+
+    if os.path.exists(GEMINI_DATA_FILE):
+        print("📄 โหลดไฟล์ข้อมูลสังเคราะห์...")
+        with open(GEMINI_DATA_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            for item in data:
+                if isinstance(item, dict):
+                     question = item.get("question", "")
+                     answer = item.get("output", "")
+                     add_to_knowledge(question, answer)
+
+    print(f"🎉 รวบรวมข้อมูล {len(knowledge_base)} ก้อน")
+
+    print("🧠 กำลังสร้าง Vector Database...")
+
+    knowledge_vectors = embedder.encode(
+        knowledge_base,
+        batch_size=32,
+        show_progress_bar=True
+    )
+
+    np.save(VECTOR_FILE, knowledge_vectors)
+
+    with open(TEXT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(knowledge_base, f, ensure_ascii=False)
+
+    print("💾 บันทึก Vector Database เรียบร้อย")
+
+print("🚀 ระบบ Vector Search พร้อมใช้งาน!\n")
 
 # ==========================================
 # 🤖 5. ฟังก์ชันเตรียม AI & กฎเหล็ก
@@ -232,7 +299,7 @@ def get_semantic_knowledge(user_query):
         return "ไม่พบข้อมูลในระบบ"
     
     smart_query = expand_query_with_llm(user_query)
-    query_vector = embedder.encode([f"query: {smart_query}"])
+    query_vector = embedder.encode([smart_query])
     similarities = cosine_similarity(query_vector, knowledge_vectors)[0]
     
     top_3_indices = np.argsort(similarities)[::-1][:3]
@@ -243,6 +310,10 @@ def get_semantic_knowledge(user_query):
 # ==========================================================
 # 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
 # ==========================================================
+@app.route('/')
+@app.route('/chatbot.html')
+def serve_html():
+    return send_file('chatbot.html')
 @app.route('/ask', methods=['POST'])
 def ask_ollama():
     try:
@@ -279,13 +350,12 @@ def ask_ollama():
 
         save_message_mysql(session_id, "assistant", "ai", answer, category)
         return jsonify({"answer": answer, "session_id": session_id})
-
     except Exception as e:
-        print(f" เจอ Error หลังบ้าน: {e}")
-        return jsonify({"error": f"เซิร์ฟเวอร์มีปัญหา: {str(e)}"}), 500
-init_db()
+        print(f"Server Error: {e}")
+        return jsonify({"error": str(e)}), 500
+
+init_db() 
 
 if __name__ == '__main__':
-    
-
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
