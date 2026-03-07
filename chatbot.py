@@ -18,39 +18,21 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-def connect_to_database():
-    # 1. กวาดข้อมูลจาก Environment Variables
-    db_host = os.getenv("MYSQLHOST")
-    db_port = os.getenv("MYSQLPORT")
-    db_name = os.getenv("MYSQLDATABASE")
-    db_user = os.getenv("MYSQLUSER")
-    db_pass = os.getenv("MYSQLPASSWORD")
+DB_HOST = os.getenv("MYSQLHOST")
+port_env = os.getenv("MYSQLPORT")
+# เพิ่มความปลอดภัย: เช็คว่าเป็นตัวเลขแน่ๆ ก่อนค่อยแปลง (กันเหนียว)
+DB_PORT = int(port_env) if port_env and port_env.isdigit() else 3306 
+DB_NAME = os.getenv("MYSQLDATABASE")
+DB_USER = os.getenv("MYSQLUSER")
+DB_PASS = os.getenv("MYSQLPASSWORD")
 
-    # 2. ดักจับ Error หาก Railway ไม่ส่งข้อมูลมา
-    if not db_host:
-        print("❌ Error: API มองไม่เห็นตัวแปร MYSQLHOST")
-        print("👉 วิธีแก้: ไปที่ Railway -> เลือก Service API -> แท็บ Variables -> โยงตัวแปรจาก MySQL มาใส่")
-        sys.exit(1) # ปิดโปรแกรมทันที
+# 🛑 ดักจับ Error หาก Railway ไม่ส่งข้อมูลมา
+if not DB_HOST:
+    print("❌ Error: API มองไม่เห็นตัวแปร MYSQLHOST")
+    print("👉 วิธีแก้: ไปที่ Railway -> เลือก Service API -> แท็บ Variables -> โยงตัวแปรจาก MySQL มาใส่")
+    sys.exit(1) # ปิดโปรแกรมทันที
 
-    # 3. ลองพยายามเชื่อมต่อ
-    try:
-        conn = mysql.connector.connect(
-            host=db_host,
-            port=int(db_port), # แปลงพอร์ตเป็นตัวเลข
-            user=db_user,
-            password=db_pass,
-            database=db_name
-        )
-        print(f"✅ เชื่อมต่อฐานข้อมูล {db_name} ที่ {db_host} สำเร็จ!")
-        return conn
-        
-    # 4. ดักจับ Error กรณีรหัสผ่านผิด หรือเซิร์ฟเวอร์ Database ล่ม
-    except mysql.connector.Error as err:
-        print(f"❌ เชื่อมต่อ Database ไม่สำเร็จ: {err}")
-        sys.exit(1)
-
-# เรียกใช้งานฟังก์ชันเพื่อสร้าง Connection
-connection = connect_to_database()
+print(f"✅ ข้อมูลฐานข้อมูลพร้อม! เตรียมเชื่อมต่อ {DB_HOST}:{DB_PORT}")
 # ==========================================
 # 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
 # ==========================================
@@ -378,6 +360,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
