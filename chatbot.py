@@ -17,22 +17,7 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-DATABASE_URL = os.getenv("MYSQL_URL")
 
-if DATABASE_URL:
-    url = urlparse(DATABASE_URL)
-
-    DB_HOST = url.hostname
-    DB_USER = url.username
-    DB_PASS = url.password
-    DB_NAME = url.path.replace("/", "")
-    DB_PORT = url.port
-else:
-    DB_HOST = None
-    DB_USER = None
-    DB_PASS = None
-    DB_NAME = None
-    DB_PORT = 3306
 
 print("MYSQLHOST =", DB_HOST)
 print("MYSQLPORT =", DB_PORT)
@@ -43,6 +28,18 @@ print("MYSQLDATABASE =", DB_NAME)
 #  1. เอา API Key จากเว็บ Hugging Face มาใส่ตรงนี้ (ขึ้นต้นด้วย hf_...)
 HF_TOKEN = os.getenv("HF_TOKEN") # ใส่ Hugging Face API Token ของคุณที่นี่
 
+DATABASE_URL = os.getenv("MYSQL_URL")
+
+url = urlparse(DATABASE_URL)
+
+DB_HOST = url.hostname
+DB_USER = url.username
+DB_PASS = url.password
+DB_NAME = url.path.replace("/", "")
+DB_PORT = url.port
+print("DB_HOST =", DB_HOST)
+print("DB_PORT =", DB_PORT)
+print("DB_NAME =", DB_NAME)
 
 HF_API_URL = "https://router.huggingface.co/v1/chat/completions"
 HF_MODEL = "typhoon-ai/llama3.1-typhoon2-8b-instruct:featherless-ai"
@@ -366,6 +363,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
