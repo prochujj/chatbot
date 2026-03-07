@@ -18,19 +18,25 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-DB_HOST = os.getenv("MYSQLHOST")
-port_env = os.getenv("MYSQLPORT")
-# เพิ่มความปลอดภัย: เช็คว่าเป็นตัวเลขแน่ๆ ก่อนค่อยแปลง (กันเหนียว)
-DB_PORT = int(port_env) if port_env and port_env.isdigit() else 3306 
-DB_NAME = os.getenv("MYSQLDATABASE")
-DB_USER = os.getenv("MYSQLUSER")
-DB_PASS = os.getenv("MYSQLPASSWORD")
+print("🔍 [ระบบสืบสวน] กำลังสแกนตัวแปรทั้งหมดที่ Railway ส่งมาให้...")
 
-# 🛑 ดักจับ Error หาก Railway ไม่ส่งข้อมูลมา
+# กวาดชื่อตัวแปรทั้งหมดที่มีคำว่า "MYSQL" หรือ "DB" มาปริ้นต์ดู (เอาแค่ชื่อ ไม่เอารหัสผ่าน เพื่อความปลอดภัย)
+available_vars = [key for key in os.environ.keys() if "MYSQL" in key.upper() or "DB" in key.upper()]
+print(f"📋 รายชื่อตัวแปรที่พบในระบบ: {available_vars}")
+
+# ดึงข้อมูล โดยดักจับทั้งชื่อแบบไม่มีขีด และแบบมีขีด (รองรับหลายมาตรฐาน)
+DB_HOST = os.getenv("MYSQLHOST") or os.getenv("MYSQL_HOST")
+port_env = os.getenv("MYSQLPORT") or os.getenv("MYSQL_PORT")
+DB_PORT = int(port_env) if port_env and port_env.isdigit() else 3306 
+DB_NAME = os.getenv("MYSQLDATABASE") or os.getenv("MYSQL_DATABASE")
+DB_USER = os.getenv("MYSQLUSER") or os.getenv("MYSQL_USER")
+DB_PASS = os.getenv("MYSQLPASSWORD") or os.getenv("MYSQL_ROOT_PASSWORD")
+
+# 🛑 ดักจับ Error หากยังหาไม่เจออีก
 if not DB_HOST:
-    print("❌ Error: API มองไม่เห็นตัวแปร MYSQLHOST")
-    print("👉 วิธีแก้: ไปที่ Railway -> เลือก Service API -> แท็บ Variables -> โยงตัวแปรจาก MySQL มาใส่")
-    sys.exit(1) # ปิดโปรแกรมทันที
+    print("❌ Error: API หาตัวแปร Host ไม่เจอเลย แม้จะลองสแกนดูแล้วก็ตาม!")
+    print("👉 หาก 'รายชื่อตัวแปรที่พบ' ข้างบนว่างเปล่า ([]) แปลว่า Railway ไม่ได้ส่งอะไรมาเลยจริงๆ ต้องเช็คการตั้งค่า Reference ใหม่ครับ")
+    sys.exit(1) 
 
 print(f"✅ ข้อมูลฐานข้อมูลพร้อม! เตรียมเชื่อมต่อ {DB_HOST}:{DB_PORT}")
 # ==========================================
@@ -360,6 +366,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
