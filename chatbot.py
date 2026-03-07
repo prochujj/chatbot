@@ -17,17 +17,28 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-DB_HOST = os.getenv("MYSQLHOST")
-DB_PORT = int(os.getenv("MYSQLPORT"))
-DB_NAME = os.getenv("MYSQLDATABASE")
-DB_USER = os.getenv("MYSQLUSER")
-DB_PASSWORD = os.getenv("MYSQLPASSWORD")
+# ==========================================
+# ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
+# ==========================================
+DB_HOST = os.getenv("MYSQLHOST", "localhost")
 
+# ดึงค่าพอร์ตมาก่อน ตรวจสอบว่ามีค่าไหม ถ้าไม่มี(หรือเป็นค่าว่าง) ให้ใช้พอร์ตมาตรฐานคือ 3306
+port_env = os.getenv("MYSQLPORT")
+DB_PORT = int(port_env) if port_env else 3306
+
+DB_NAME = os.getenv("MYSQLDATABASE", "")
+DB_USER = os.getenv("MYSQLUSER", "")
+
+# แก้ปัญหาชื่อตัวแปร DB_PASSWORD กับ DB_PASS ไม่ตรงกัน
+DB_PASS = os.getenv("MYSQLPASSWORD", "") 
+
+# *หมายเหตุ: ตรงนี้ในโค้ดเดิมคุณใช้ pymysql แต่ข้างล่างใช้ mysql.connector 
+# แนะนำให้เลือกใช้ตัวใดตัวหนึ่ง แต่ตอนนี้แก้ชื่อตัวแปรรหัสผ่านให้ตรงกันก่อนครับ
 connection = pymysql.connect(
     host=DB_HOST,
     port=DB_PORT,
     user=DB_USER,
-    password=DB_PASSWORD,
+    password=DB_PASS,
     database=DB_NAME
 )
 # ==========================================
@@ -357,6 +368,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
