@@ -135,7 +135,7 @@ def save_message_mysql(session_id, role, source, content, category="-"):
             host=DB_HOST,
             user=DB_USER,
             password=DB_PASS,
-            port=DB_PORT
+            port=DB_PORT,
             charset="utf8mb4"
         )
 
@@ -359,4 +359,5 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
