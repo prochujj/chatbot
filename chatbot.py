@@ -20,7 +20,7 @@ DB_HOST = os.getenv("MYSQLHOST")
 DB_USER = os.getenv("MYSQLUSER")
 DB_PASS = os.getenv("MYSQLPASSWORD")
 DB_NAME = os.getenv("MYSQLDATABASE")
-DB_PORT = int(os.getenv("MYSQLPORT"))
+DB_PORT = int(os.getenv("MYSQLPORT") or 3306)
 
 print("MYSQLHOST =", DB_HOST)
 print("MYSQLPORT =", DB_PORT)
@@ -353,6 +353,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
