@@ -24,10 +24,6 @@ print("MYSQLPORT =", DB_PORT)
 print("MYSQLDATABASE =", DB_NAME)
 # ==========================================
 # 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
-# ==========================================
-#  1. เอา API Key จากเว็บ Hugging Face มาใส่ตรงนี้ (ขึ้นต้นด้วย hf_...)
-HF_TOKEN = os.getenv("HF_TOKEN") # ใส่ Hugging Face API Token ของคุณที่นี่
-
 DATABASE_URL = os.getenv("MYSQL_URL")
 
 url = urlparse(DATABASE_URL)
@@ -41,6 +37,9 @@ print("DB_HOST =", DB_HOST)
 print("DB_PORT =", DB_PORT)
 print("DB_NAME =", DB_NAME)
 
+# ==========================================
+#  1. เอา API Key จากเว็บ Hugging Face มาใส่ตรงนี้ (ขึ้นต้นด้วย hf_...)
+HF_TOKEN = os.getenv("HF_TOKEN") # ใส่ Hugging Face API Token ของคุณที่นี่
 HF_API_URL = "https://router.huggingface.co/v1/chat/completions"
 HF_MODEL = "typhoon-ai/llama3.1-typhoon2-8b-instruct:featherless-ai"
 
