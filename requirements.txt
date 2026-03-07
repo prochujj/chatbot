@@ -2,7 +2,7 @@ flask
 flask-cors
 requests
 numpy
-scikit-learn
+scikit-learn==1.5.0
 mysql-connector-python
 gunicorn
 sentence-transformers==2.6.1
