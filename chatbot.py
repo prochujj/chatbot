@@ -100,14 +100,14 @@ def generate_session_id():
 def init_db():
     print("🛠️ กำลังตรวจสอบและสร้างฐานข้อมูล MySQL...")
     try:
+        
         conn = mysql.connector.connect(
             host=DB_HOST,
             user=DB_USER,
             password=DB_PASS,
-            database=DB_NAME,
-            port=DB_PORT,
-            charset="utf8mb4"
-            )
+            port=DB_PORT
+        )
+        
         c = conn.cursor()
         c.execute(f"CREATE DATABASE IF NOT EXISTS {DB_NAME} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
         conn.close()
@@ -366,6 +366,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
