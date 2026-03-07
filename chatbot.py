@@ -17,15 +17,7 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-
-
-print("MYSQLHOST =", DB_HOST)
-print("MYSQLPORT =", DB_PORT)
-print("MYSQLDATABASE =", DB_NAME)
-# ==========================================
-# 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
 DATABASE_URL = os.getenv("MYSQL_URL")
-
 url = urlparse(DATABASE_URL)
 
 DB_HOST = url.hostname
@@ -33,10 +25,13 @@ DB_USER = url.username
 DB_PASS = url.password
 DB_NAME = url.path.replace("/", "")
 DB_PORT = url.port
+
 print("DB_HOST =", DB_HOST)
 print("DB_PORT =", DB_PORT)
 print("DB_NAME =", DB_NAME)
 
+# ==========================================
+# 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
 # ==========================================
 #  1. เอา API Key จากเว็บ Hugging Face มาใส่ตรงนี้ (ขึ้นต้นด้วย hf_...)
 HF_TOKEN = os.getenv("HF_TOKEN") # ใส่ Hugging Face API Token ของคุณที่นี่
@@ -362,6 +357,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
