@@ -6,4 +6,4 @@ scikit-learn
 mysql-connector-python
 gunicorn
 sentence-transformers==2.6.1
-torch==2.2.2
+torch==2.2.2+cpu
