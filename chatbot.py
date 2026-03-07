@@ -20,7 +20,7 @@ DB_HOST = os.getenv("MYSQLHOST")
 DB_USER = os.getenv("MYSQLUSER")
 DB_PASS = os.getenv("MYSQLPASSWORD")
 DB_NAME = os.getenv("MYSQLDATABASE")
-DB_PORT = None
+DB_PORT = int(os.getenv("MYSQLPORT"))
 
 print("MYSQLHOST =", DB_HOST)
 print("MYSQLPORT =", DB_PORT)
@@ -132,15 +132,7 @@ def categorize_question(user_message):
 
 def save_message_mysql(session_id, role, source, content, category="-"):
     try:
-
-        conn = mysql.connector.connect(
-            host=DB_HOST,
-            user=DB_USER,
-            password=DB_PASS,
-            port=DB_PORT,
-            charset="utf8mb4"
-        )
-
+        conn = mysql.connector.connect(host=DB_HOST,user=DB_USER,password=DB_PASS,database=DB_NAME,port=DB_PORT,charset="utf8mb4")
         c = conn.cursor()
 
         c.execute("""
@@ -361,6 +353,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
