@@ -15,10 +15,10 @@ CORS(app)
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
-DB_HOST = "localhost"
-DB_USER = "root"      # ใส่ Username 
-DB_PASS = ""          # ใส่ Password (ถ้ามี)
-DB_NAME = "chatbot"
+DB_HOST = os.getenv("MYSQLHOST")
+DB_USER = os.getenv("MYSQLUSER")
+DB_PASS = os.getenv("MYSQLPASSWORD")
+DB_NAME = os.getenv("MYSQLDATABASE")
 
 # ==========================================
 # 🔑 2. ตั้งค่า Hugging Face API (สมอง AI)
@@ -73,7 +73,7 @@ def call_huggingface_llm(prompt_text):
 # ==========================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CLEAN_DATA_DIR = os.path.join(BASE_DIR, 'clean_data')
-GEMINI_DATA_FILE = r'C:\Users\ROG\OneDrive\Documents\GitHub\chatbot\train_iot_premium.json'
+GEMINI_DATA_FILE = os.path.join(BASE_DIR, "train_iot_premium.json")
 
 def generate_session_id():
     return str(uuid.uuid4())
@@ -134,8 +134,8 @@ def save_message_mysql(session_id, role, source, content, category="-"):
 # ==========================================
 # 📚 4. โหลด Vector Database (RAG) เข้า RAM
 # ==========================================
-print("กำลังโหลดโมเดล Vector (e5-base จะกิน RAM แค่ ~1.5 GB)... ⏳")
-embedder = SentenceTransformer('intfloat/multilingual-e5-base') 
+print("กำลังโหลดโมเดล Vector ... ⏳")
+embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 knowledge_base = []
 seen_contents = set() 
@@ -283,7 +283,9 @@ def ask_ollama():
     except Exception as e:
         print(f" เจอ Error หลังบ้าน: {e}")
         return jsonify({"error": f"เซิร์ฟเวอร์มีปัญหา: {str(e)}"}), 500
+init_db()
 
 if __name__ == '__main__':
-    init_db()  
+    
+
     app.run(host='0.0.0.0', port=5000, debug=False)
