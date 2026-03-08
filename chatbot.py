@@ -15,13 +15,7 @@ from flask_cors import cross_origin
 
 app = Flask(__name__)
 # 1. ใช้ Flask-CORS แบบมาตรฐาน (ตัวเดียวจบ ไม่ต้องมี after_request)
-CORS(app, resources={
-    r"/*": {
-        "origins": ["http://iotekmitl.rf.gd", "https://iotekmitl.rf.gd"],
-        "methods": ["GET", "POST", "OPTIONS"],
-        "allow_headers": ["Content-Type", "Authorization"]
-    }
-})
+
 
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
@@ -322,11 +316,19 @@ def get_semantic_knowledge(user_query):
 # ==========================================================
 # 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
 # ==========================================================
+@app.after_request
+def after_request(response):
+    # ยอมรับจาก http ของคุณ (ถ้าทดสอบแล้วยังติด เปลี่ยนเป็น '*' ได้เลยเพื่อเทส)
+    response.headers.add('Access-Control-Allow-Origin', 'http://iotekmitl.rf.gd')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
 @app.route('/ask', methods=['POST', 'OPTIONS'])
-def ask_ollama():
-    # 1. จัดการ Preflight Request (สำคัญมากสำหรับ CORS)
+def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
+    
+    # 1. รับมือกับ OPTIONS request จากเบราว์เซอร์
     if request.method == "OPTIONS":
-        return "", 204
+        return jsonify({"status": "CORS preflight ok"}), 200
 
     # 2. ทำงานจริง (POST)
     try:
@@ -336,7 +338,6 @@ def ask_ollama():
             
         user_message = data.get("question", "").strip()
         
-        # จัดการ Session ID
         session_id = data.get("session_id")
         if not session_id or session_id == "default":
             session_id = generate_session_id()
@@ -344,30 +345,32 @@ def ask_ollama():
         category = categorize_question(user_message)
         save_message_mysql(session_id, "user", "user", user_message, category)
         
-        # ตรวจสอบคำหยาบและคำถามรับสมัคร
+        answer = ""
+
+        # 🔒 Hard rule
         if contains_bad_words(user_message):
             answer = BAD_WORD_REPLY
         elif is_admission_question(user_message):
             answer = FIXED_ADMISSION_REPLY
         else:
-            # ค้นหาข้อมูลจาก Vector DB และส่งให้ LLM
             knowledge = get_semantic_knowledge(user_message)
             final_prompt = (
                 f"{build_instruction_rules()}\n\n"
                 f"บริบทข้อมูล:\n{knowledge}\n\n"
                 f"คำถามผู้ใช้: {user_message}\nคำตอบ:"
             )
+
+            print("🧠 [API 2] กำลังส่งข้อมูลให้ Hugging Face คิดคำตอบสุดท้าย...")
             ai_response = call_huggingface_llm(final_prompt)
-            answer = ai_response if ai_response else "ขออภัยครับ ตอนนี้เซิร์ฟเวอร์ AI ตอบสนองช้า ลองใหม่อีกครั้งนะครับ"
+            answer = ai_response if ai_response else "ขออภัยครับ ตอนนี้เซิร์ฟเวอร์ AI ของเราตอบสนองช้าชั่วคราว ลองพิมพ์ถามใหม่อีกครั้งนะครับ"
 
         save_message_mysql(session_id, "assistant", "ai", answer, category)
         return jsonify({"answer": answer, "session_id": session_id})
 
     except Exception as e:
         print(f"Server Error: {e}")
-        # ถ้า Error ตรงนี้ Browser อาจจะโชว์เป็น CORS Error แทน 500 ได้ 
-        # ดังนั้นควรเช็ค Log ใน Railway ด้วยครับ
         return jsonify({"error": str(e)}), 500
+
 
 
 
