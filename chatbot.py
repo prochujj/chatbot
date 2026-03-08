@@ -11,6 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import mysql.connector  
 import json   
 from urllib.parse import urlparse
+from flask_cors import cross_origin
 
 app = Flask(__name__)
 # 1. ใช้ Flask-CORS แบบมาตรฐาน (ตัวเดียวจบ ไม่ต้องมี after_request)
@@ -322,7 +323,8 @@ def get_semantic_knowledge(user_query):
 def serve_html():
     return send_file('ai.html')
 
-@app.route('/ask', methods=['POST', 'OPTIONS']) # 🟢 ต้องรับทั้ง 2 methods
+@app.route('/ask', methods=['POST', 'OPTIONS'])
+@cross_origin()
 def ask_ollama():
     # 1. จัดการ OPTIONS (Preflight) ให้เบราว์เซอร์ผ่านด่าน CORS
     if request.method == "OPTIONS":
@@ -377,6 +379,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
