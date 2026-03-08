@@ -380,6 +380,14 @@ def ask_ollama():
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+if __name__ == '__main__':
+    # 🟢 เพิ่มบรรทัดนี้ลงไปครับ เพื่อสั่งให้สร้างตารางทันทีที่รันโค้ด
+    init_db() 
+    
+    # ดึง Port จาก Railway (ถ้าไม่มีให้ใช้ 5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
+
 
 
 
