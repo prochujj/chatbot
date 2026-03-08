@@ -170,8 +170,8 @@ knowledge_base = []
 seen_contents = set()
 knowledge_vectors = None
 
-VECTOR_FILE = os.path.join(BASE_DIR, "knowledge_vectors.npy")
-TEXT_FILE = os.path.join(BASE_DIR, "knowledge_texts.json")
+VECTOR_FILE = os.path.join(BASE_DIR, "knowledge_vectors1.npy")
+TEXT_FILE = os.path.join(BASE_DIR, "knowledge_texts1.json")
 
 def add_to_knowledge(question, answer):
 
@@ -364,6 +364,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
