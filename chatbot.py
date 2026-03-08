@@ -75,7 +75,7 @@ def call_huggingface_llm(prompt_text):
             HF_API_URL,
             headers=headers,
             json=payload,
-            timeout=60
+            timeout=90
         )
 
         print("Status:", response.status_code)
@@ -390,6 +390,7 @@ if __name__ == '__main__':
     # ดึง Port จาก Railway (ถ้าไม่มีให้ใช้ 5000)
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
+
 
 
 
