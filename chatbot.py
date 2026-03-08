@@ -378,8 +378,11 @@ def ask_ollama():
         return jsonify({"answer": answer, "session_id": session_id})
 
     except Exception as e:
-        print(f"Server Error: {e}")
-        return jsonify({"error": str(e)}), 500
+        print(f"❌ Server Error: {e}")
+        # สร้าง Response Error ที่มี CORS Header ติดไปด้วย
+        error_response = jsonify({"error": str(e)})
+        error_response.headers.add('Access-Control-Allow-Origin', '*')
+        return error_response, 500
 if __name__ == '__main__':
     # 🟢 เพิ่มบรรทัดนี้ลงไปครับ เพื่อสั่งให้สร้างตารางทันทีที่รันโค้ด
     init_db() 
@@ -387,6 +390,7 @@ if __name__ == '__main__':
     # ดึง Port จาก Railway (ถ้าไม่มีให้ใช้ 5000)
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
+
 
 
 
