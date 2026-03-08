@@ -13,7 +13,7 @@ import json
 from urllib.parse import urlparse
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "http://iotekmitl.rf.gd"}})
 
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
@@ -362,6 +362,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
