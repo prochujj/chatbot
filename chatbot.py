@@ -13,24 +13,24 @@ import json
 from urllib.parse import urlparse
 
 app = Flask(__name__)
+# 1. ใช้ Flask-CORS แบบมาตรฐาน (ตัวเดียวจบ ไม่ต้องมี after_request)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# 2. เพิ่มฟังก์ชันดักจับทุก Request เพื่อใส่ Header ยืนยัน
-@app.after_request
-def add_cors_headers(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
+# 2. แก้ไข Route /ask ให้รับทั้ง POST และ OPTIONS ในที่เดียว
+@app.route('/ask', methods=['POST', 'OPTIONS'])
+def ask_ollama():
+    # จัดการ OPTIONS (Preflight) แบบ Manual เพื่อความชัวร์
+    if request.method == "OPTIONS":
+        response = make_response()
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
+        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
+        return response, 200
 
-# 3. จัดการ OPTIONS Request สำหรับ /ask โดยเฉพาะ
-@app.route('/ask', methods=['OPTIONS'])
-def handle_options():
-    response = make_response()
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'POST,OPTIONS')
-    return response
+    try:
+        data = request.json
+        if not data:
+            return jsonify({"error": "No data provided"}), 400
 
 
 # ==========================================
@@ -380,6 +380,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
