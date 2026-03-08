@@ -323,6 +323,15 @@ def get_semantic_knowledge(user_query):
 # ==========================================================
 CORS(app, resources={r"/*": {"origins": "*"}})
 @app.route('/ask', methods=['POST', 'OPTIONS'])
+CORS(app, resources={r"/*": {"origins": "*"}}) # ใส่ไว้เป็นยันต์กันผีชั้นแรก
+
+# 🟢 เพิ่มท่าไม้ตายนี้ลงไปครับ: บังคับยัด CORS Header ใส่ทุกแพ็กเกจที่ส่งออกไป
+@app.after_request
+def after_request(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+    return response
 def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     
     # 1. รับมือกับ OPTIONS request จากเบราว์เซอร์
@@ -369,6 +378,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
