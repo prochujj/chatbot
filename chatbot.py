@@ -316,13 +316,7 @@ def get_semantic_knowledge(user_query):
 # ==========================================================
 # 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
 # ==========================================================
-@app.after_request
-def after_request(response):
-    # ยอมรับจาก http ของคุณ (ถ้าทดสอบแล้วยังติด เปลี่ยนเป็น '*' ได้เลยเพื่อเทส)
-    response.headers.add('Access-Control-Allow-Origin', 'http://iotekmitl.rf.gd')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
-    return response
+CORS(app, resources={r"/*": {"origins": "*"}})
 @app.route('/ask', methods=['POST', 'OPTIONS'])
 def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     
@@ -370,6 +364,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
