@@ -332,7 +332,7 @@ def get_semantic_knowledge(user_query):
 # 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
 # ==========================================================
 @app.route('/')
-@app.route('/chatbot.html')
+@app.route('/ai.html')
 def serve_html():
     return send_file('chatbot.html')
 @app.route('/ask', methods=['POST'])
@@ -380,6 +380,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
