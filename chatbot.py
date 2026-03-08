@@ -13,6 +13,13 @@ import json
 from urllib.parse import urlparse
 from flask_cors import cross_origin
 
+# 1. ดึงค่าจาก Railway มาก่อน
+raw_token = os.getenv("HF_TOKEN", "")
+
+# 2. บังคับลบช่องว่าง (strip) และลบเครื่องหมายฟันหนู (" และ ') ออกให้หมด
+HF_TOKEN = raw_token.strip(" \"'")
+
+print(f"🔑 Token ที่คลีนแล้ว: {HF_TOKEN[:10]}... (ความยาว: {len(HF_TOKEN)})")
 app = Flask(__name__)
 # 1. ใช้ Flask-CORS แบบมาตรฐาน (ตัวเดียวจบ ไม่ต้องมี after_request)
 
@@ -364,6 +371,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
