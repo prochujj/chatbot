@@ -15,7 +15,13 @@ from flask_cors import cross_origin
 
 app = Flask(__name__)
 # 1. ใช้ Flask-CORS แบบมาตรฐาน (ตัวเดียวจบ ไม่ต้องมี after_request)
-CORS(app, supports_credentials=True)
+CORS(app, resources={
+    r"/*": {
+        "origins": ["http://iotekmitl.rf.gd", "https://iotekmitl.rf.gd"],
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Authorization"]
+    }
+})
 
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
@@ -326,6 +332,8 @@ def serve_html():
 @app.route('/ask', methods=['POST', 'OPTIONS'])
 @cross_origin()
 def ask_ollama():
+    if request.method == "OPTIONS":
+        return "", 204
     # 2. ทำงานจริง (POST)
     try:
         data = request.json
@@ -371,6 +379,7 @@ init_db()
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
