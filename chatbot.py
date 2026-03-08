@@ -57,12 +57,10 @@ HF_API_URL = "https://router.huggingface.co/v1/chat/completions"
 HF_MODEL = "typhoon-ai/llama3.1-typhoon2-8b-instruct:featherless-ai"
 
 def call_huggingface_llm(prompt_text):
-
     headers = {
-        "Authorization": f"Bearer {HF_TOKEN}",
+        "Authorization": f"Bearer {HF_TOKEN}", # ตรงนี้จะใช้ค่าที่คลีนแล้วจากด้านบนสุด
         "Content-Type": "application/json"
     }
-
     payload = {
         "model": HF_MODEL,
         "messages": [
@@ -371,6 +369,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
