@@ -16,23 +16,6 @@ app = Flask(__name__)
 # 1. ใช้ Flask-CORS แบบมาตรฐาน (ตัวเดียวจบ ไม่ต้องมี after_request)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# 2. แก้ไข Route /ask ให้รับทั้ง POST และ OPTIONS ในที่เดียว
-@app.route('/ask', methods=['POST', 'OPTIONS'])
-def ask_ollama():
-    # จัดการ OPTIONS (Preflight) แบบ Manual เพื่อความชัวร์
-    if request.method == "OPTIONS":
-        response = make_response()
-        response.headers.add("Access-Control-Allow-Origin", "*")
-        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
-        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
-        return response, 200
-
-    try:
-        data = request.json
-        if not data:
-            return jsonify({"error": "No data provided"}), 400
-
-
 # ==========================================
 # ⚙️ 1. ตั้งค่าระบบฐานข้อมูล (XAMPP / MySQL)
 # ==========================================
@@ -331,14 +314,30 @@ def get_semantic_knowledge(user_query):
 # ==========================================================
 # 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
 # ==========================================================
+# ==========================================================
+# 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
+# ==========================================================
 @app.route('/')
 @app.route('/ai.html')
 def serve_html():
-    return send_file('chatbot.html')
-@app.route('/ask', methods=['POST'])
+    return send_file('ai.html')
+
+@app.route('/ask', methods=['POST', 'OPTIONS']) # 🟢 ต้องรับทั้ง 2 methods
 def ask_ollama():
+    # 1. จัดการ OPTIONS (Preflight) ให้เบราว์เซอร์ผ่านด่าน CORS
+    if request.method == "OPTIONS":
+        response = make_response()
+        response.headers.add("Access-Control-Allow-Origin", "*")
+        response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
+        response.headers.add("Access-Control-Allow-Methods", "POST,OPTIONS")
+        return response, 200
+
+    # 2. ทำงานจริง (POST)
     try:
         data = request.json
+        if not data:
+            return jsonify({"error": "No data provided"}), 400
+            
         user_message = data.get("question", "").strip()
         
         session_id = data.get("session_id")
@@ -365,21 +364,20 @@ def ask_ollama():
 
             print("🧠 [API 2] กำลังส่งข้อมูลให้ Hugging Face คิดคำตอบสุดท้าย...")
             ai_response = call_huggingface_llm(final_prompt)
-            
-            # ถ้า API มีปัญหา (เช่น rate limit หรือ timeout) ให้ตอบกลับแบบปลอดภัย
             answer = ai_response if ai_response else "ขออภัยครับ ตอนนี้เซิร์ฟเวอร์ AI ของเราตอบสนองช้าชั่วคราว ลองพิมพ์ถามใหม่อีกครั้งนะครับ"
 
         save_message_mysql(session_id, "assistant", "ai", answer, category)
         return jsonify({"answer": answer, "session_id": session_id})
+
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
-
 init_db() 
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False,threaded=True)
+
 
 
 
