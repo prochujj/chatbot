@@ -317,28 +317,30 @@ def get_semantic_knowledge(user_query):
     
     return "ข้อมูลที่เกี่ยวข้องพบดังนี้:\n" + "\n---\n".join(knowledge_pieces) if knowledge_pieces else "ไม่พบข้อมูลที่เกี่ยวข้อง"
 
-
 # ==========================================================
 # 🌐 6. จุดรับคำสั่งจากผู้ใช้ (Flask API)
 # ==========================================================
-CORS(app, resources={r"/*": {"origins": "*"}})
-@app.route('/ask', methods=['POST', 'OPTIONS'])
-CORS(app, resources={r"/*": {"origins": "*"}}) # ใส่ไว้เป็นยันต์กันผีชั้นแรก
 
-# 🟢 เพิ่มท่าไม้ตายนี้ลงไปครับ: บังคับยัด CORS Header ใส่ทุกแพ็กเกจที่ส่งออกไป
+# 1. ใส่ยันต์กันผีชั้นแรก (เปิดประตูรับทุกเว็บ)
+CORS(app, resources={r"/*": {"origins": "*"}})
+
+# 2. ท่าไม้ตาย: บังคับยัด CORS Header ใส่ทุกแพ็กเกจที่ส่งออกไป
 @app.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
     return response
-def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
+
+# 3. จุดรับคำสั่ง (สังเกตว่า @app.route อยู่ติดกับ def เสมอ!)
+@app.route('/ask', methods=['POST', 'OPTIONS'])
+def ask_ollama(): 
     
-    # 1. รับมือกับ OPTIONS request จากเบราว์เซอร์
+    # รับมือกับ OPTIONS request จากเบราว์เซอร์
     if request.method == "OPTIONS":
         return jsonify({"status": "CORS preflight ok"}), 200
 
-    # 2. ทำงานจริง (POST)
+    # ทำงานจริง (POST)
     try:
         data = request.json
         if not data:
@@ -378,6 +380,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
