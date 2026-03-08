@@ -93,8 +93,8 @@ def call_huggingface_llm(prompt_text):
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CLEAN_DATA_DIR = os.path.join(BASE_DIR, "clean_data")
 GEMINI_DATA_FILE = os.path.join(BASE_DIR, "train_iot_premium.json")
-VECTOR_FILE = os.path.join(BASE_DIR, "knowledge_vectors.npy")
-TEXT_FILE = os.path.join(BASE_DIR, "knowledge_texts.json")
+VECTOR_FILE = os.path.join(BASE_DIR, "knowledge_vectors1.npy")
+TEXT_FILE = os.path.join(BASE_DIR, "knowledge_texts1.json")
 
 def generate_session_id():
     return str(uuid.uuid4())
@@ -364,6 +364,7 @@ def ask_ollama(): # ลบ @cross_origin() ออกได้เลย
     except Exception as e:
         print(f"Server Error: {e}")
         return jsonify({"error": str(e)}), 500
+
 
 
 
